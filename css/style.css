@@ -1,0 +1,144 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* a:link {
+  color: blue;
+}
+a:visited{
+  color: blue;
+} */
+a:hover {
+  color: #e65100;
+}
+
+.sidenav-trigger {
+  color: #e65100;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+i.menu {
+  padding: 0px;
+  color: inherit;
+  text-align: center; }
+
+i.footer {
+  padding-top: 0px; }
+
+/* Tool icons show/hide style */
+  .showtext li {
+    display: inline-block;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    letter-spacing: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    padding: 10px;
+    vertical-align: middle; }
+    .showtext li i {
+      padding: 10px; }
+    .showtext li b {
+      padding: 10px;
+      display: none; }
+    .showtext li:hover i {
+      display: none; }
+    .showtext li:hover b {
+      display: block; }
+
+    @media screen and (min-width: 801px) {
+      #language-icons-replacement {
+        display: none; } }
+    @media screen and (max-width: 800px) {
+          #icons, #toggleList, .switch {
+            display: none; } }
+    /* end of show/hide section */
+
+      i {
+        font-size: 50px;
+        letter-spacing: 30px;
+        color: #e65100;  }
+
+      i.none {
+        letter-spacing: 0px;
+        text-align: center; }
+
+#show-list {
+  display: none;
+}
+
+.switch label .lever:after {
+    background-color: #e65100 !important;
+}
+
+#btn-floating {
+  text-align: center;
+}
+
+.sticky-info {
+  font-size: 10px !important;
+}
+
+.modal {
+  outline: none;
+}
+
+.modal i.modal-close {
+  position: absolute;
+right: 0;
+}
+
+.modal a {
+  color: #e65100;
+}
+
+.modal a:hover, i:hover {
+  color: white;
+}
+
+#modal-close-button.btn-flat i {
+font-size: 3rem;
+float: right;
+}

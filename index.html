@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</head>
+
+<body>
+  <header>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <a href="#top" class="brand-logo">Portfolio</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#top"><i class="material-icons menu">arrow_upward</i></a></li>
+      </ul>
+    </nav>
+  </div>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#tools">Tools</a></li>
+    <li><a href="#about">About me</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
+
+<!-- fixed action button -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">contact_mail</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating orange" href='https://github.com/sajaas' target='_blank'><i class='fab fa-github'></i></a></li>
+      <li><a class="btn-floating orange darken-2" href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i class='fab fa-linkedin'></i></a></li>
+      <li><a href="mailto:amanda@alling.org?subject=Hello!" class="btn-floating orange darken-4" target="_blank"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+  </div>
+
+  <!-- sticky info -->
+  <div id="modal" class="modal orange">
+    <div class="modal-content white-text">
+      <a href="#!" style="float:right;" class="modal-close waves-effect waves-yellow btn-flat" id="modal-close-button"><i class='white-text material-icons'>close</i></a>
+      <h3 class="center">I'm a WIP!</h3>
+      <p class="flow-text">I'm currently studying to become an UX designer. <br><br>Feel free to look around, but if you want updated information, please visit my <a id="sticky" href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'>LinkedIn</a> or <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'>email</i></a> me any questions!</p>
+      <div class="center">
+      <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
+      <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
+      </div>
+    </div>
+  </div>
+
+<!-- welcome -->
+  <div id="index-banner" class="parallax-container" id="top">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center orange-text text-lighten-2">I'm Amanda</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A professional nerd and UX designer</h5>
+        </div>
+        <div class="row center">
+          <a href="#projects" class="btn-large waves-effect waves-light orange lighten-1">See what I can do</a>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <!--   welcome icon section   -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="fas fa-user-friends none"></i></h2>
+            <h5 class="center">User Focused</h5>
+            <p class="light">I create solutions that fit your target audience</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="fas fa-swords none"></i></h2>
+            <h5 class="center">Challenge Me</h5>
+            <p class="light">I love to learn and explore new solutions and tools, and I’m not afraid of a challenge</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="fas fa-gamepad none"></i></h2>
+            <h5 class="center">Gamification</h5>
+            <p class="light">As a lifelong gamer, and due to the program I’ve attended, I can provide insights on how to make your products engaging</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- projects section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+      <div class="row center">
+        <h4 class="header col s12 light">Projects</h4>
+      </div>
+      <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="images/web-design.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h5 class="header orange-text">UX Portfolio</h5>
+              <p class="black-text"><br>This portfolio... I know, it's like Inception! <br><br>
+                I used Figma to design the prototyp portfolio website, and then implemented it using the skills I picked up during an intense programming bootcamp a while ago.</p>
+            </div>
+            <div class="card-action center">
+              <a href="projects.html" class="btn-large waves-effect waves-light orange lighten-1" >Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+<!-- tools section -->
+<div class="row container center section" id="tools">
+  <br>
+  <h4>Tools</h4>
+  <br>
+
+  <!-- Switch -->
+  <div class="switch">
+    <label>
+      Icons
+      <input type="checkbox"  id="toggleList" onclick="showList()">
+      <span class="lever grey"></span>
+      List
+    </label>
+  </div>
+
+  <div id="show-list">
+    <div class="col s12 m6 l6 center">
+      <p>Ruby</p>
+      <p>Javascript</p>
+      <p>CSS3</p>
+      <p>HTML5</p>
+      <p>jQuery</p>
+      <p>Foundation</p>
+      <p>Bootstrap</p>
+      <p>Cucumber</p>
+      <p>Jasmine</p>
+      <p>Rails</p>
+      <p>Postgres</p>
+      <p>Protractor</p>
+      <p>Angular</p>
+      </div>
+    <div class="col s12 m6 l6 center">
+      <p>Figma</p>
+      <p>Atom</p>
+      <p>Photoshop</p>
+      <p>Slack</p>
+      <p>Github</p>
+      <p>Git</p>
+      <p>Heroku</p>
+    </div>
+  </div>
+</div>
+  <div class="row container center section" id="icons-list">
+    <div class="col s12 m6 l6 center">
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-ruby-plain none'></i>
+              <b>Ruby</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Ruby
+      </div>
+      <div id='icons'>
+      <div class='showtext'>
+        <ul>
+          <li>
+            <i class='devicon-javascript-plain none'></i>
+            <b>Javascript</b>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Javascript
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-css3-plain none'></i>
+              <b>CSS3</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      CSS3
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-html5-plain none'></i>
+              <b>HTML5</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      HTML5
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-jquery-plain none'></i>
+              <b>jQuery</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      jQuery
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-foundation-plain none'></i>
+              <b>Foundation</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Foundation
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-bootstrap-plain none'></i>
+              <b>Bootstrap</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Bootstrap
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-cucumber-plain none'></i>
+              <b>Cucumber</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Cucumber
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-jasmine-plain none'></i>
+              <b>Jasmine</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Jasmine
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-rails-plain none'></i>
+              <b>Rails</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Rails
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-postgresql-plain none'></i>
+              <b>Postgres</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Postgres
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-protractor-plain none'></i>
+              <b>Protractor</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Protractor
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-angularjs-plain none'></i>
+              <b>Angular</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Angular
+      </div>
+    </div>
+    <div class="col s12 m6 l6 center">
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class="fab fa-figma none"></i>
+              <b>Figma</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Figma
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-atom-plain none'></i>
+              <b>Atom</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Atom
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-photoshop-plain none'></i>
+              <b>Photoshop</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Photoshop
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-slack-plain none'></i>
+              <b>Slack</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Slack
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-github-plain none'></i>
+              <b>Github</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Github
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-git-plain none'></i>
+              <b>Git</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Git
+      </div>
+      <div id='icons'>
+        <div class='showtext'>
+          <ul>
+            <li>
+              <i class='devicon-heroku-plain none'></i>
+              <b>Heroku</b>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='language-icons-replacement'>
+      Heroku
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+<!-- about me section -->
+  <div class="container" id="about">
+    <div class="section">
+      <div class="row">
+        <br>
+        <div class="col s12 m6 l3">
+          <img id="my-photo" src="images/amanda.jpg" alt="" class="circle responsive-img materialboxed">
+        </div>
+        <div class="col s12 m6 l9 center">
+          <br>
+          <h4>About me</h4>
+          <br>
+          <h5 class="orange-text">I'm an avid gamer, reader and planner</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <p class="left-align light">
+            I’ve worked 8 years at a nerdy store, where it’s part of my job to always help the customer to find what they want - even though they might not know what they’re looking for.
+            <br>
+            <br>
+            I’m passionate about improving and exploring my job, which is why I’ve ended up hosting signings and themed evenings, created different spotlight promotions and overall trying to optimize the store.
+            <br>
+            <br>
+            I’m always eager to learn which is why I’ve attended several interesting courses and a programming bootcamp. I love a challenge!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer & contact section -->
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Are you my next challenge?</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer orange" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 center">
+          <h5 class="white-text">Connect with me</h5>
+          <p class="grey-text text-lighten-4">Feel free to contact me if you have any questions (or if you want to play some games).</p>
+          <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
+          <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
+          <a href='https://github.com/sajaas' target='_blank'><i aria-hidden='true' class='footer fab fa-github'></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
