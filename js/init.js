@@ -5,11 +5,22 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
+//modal show only during first session
+if(!sessionStorage.getItem('firstVisit')){
+  sessionStorage.setItem('firstVisit','1'); }
+  else{
+    sessionStorage.setItem('firstVisit', '0'); }
+$(function(){
+  if (sessionStorage.getItem('firstVisit') ==="1"){
+    $('#modal').modal();
+    $('#modal').modal('open');
+    $(".modal").css('display', 'inline') }
+$("#modal").click(function(){ $(".modal").hide(); }); });
 
 $(document).ready(function(){
   $('.materialboxed').materialbox();
-  $('#modal').modal();
-  $('#modal').modal('open'); 
+  // $('#modal').modal();
+  // $('#modal').modal('open');
   $('.fixed-action-btn').floatingActionButton();
   $('.hover').mouseout(function() {
     $('.text').css("visibility","hidden");
