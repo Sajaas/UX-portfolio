@@ -93,7 +93,11 @@ i.footer {
         display: none; } }
     @media screen and (max-width: 800px) {
           #icons, #toggleList, .switch {
-            display: none; } }
+            display: none; }
+          a.brand-logo {
+            font-size: 20px;
+            }
+          }
     /* end of show/hide section */
 
       i {
