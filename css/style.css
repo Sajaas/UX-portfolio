@@ -42,6 +42,10 @@ a#navbarlinks:hover {
   color: #e65100;
 }
 
+#show-list {
+  display: none;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -121,8 +125,11 @@ i.footer:hover {
       #language-icons-replacement {
         display: none; } }
     @media screen and (max-width: 800px) {
-          #icons, #toggleList, .switch {
+          #icons, #toggleList, #icons-list, .switch {
             display: none; }
+          #show-list {
+            display: block;
+          }
           a.brand-logo {
             font-size: 15px;
             }
@@ -143,10 +150,6 @@ i.none {
   letter-spacing: 0px;
   color: #FFA726;
   text-align: center; }
-
-#show-list {
-  display: none;
-}
 
 .switch label .lever:after {
     background-color: #e65100 !important;
