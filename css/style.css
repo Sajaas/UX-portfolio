@@ -1,15 +1,10 @@
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color:#e65100;
 }
 
 p {
   line-height: 2rem;
-}
-
-h6 {
-  padding-top: 10px;
-  color: #e65100;
 }
 
 h1 {
@@ -17,19 +12,31 @@ h1 {
   padding-top: 10px;
 }
 
+h4 {
+  color:#e65100;
+  margin-top: 60px;
+}
+
 h5#tagline {
   padding-top: 40px;
   padding-bottom: 10px;
 }
 
-/* a:link {
-  color: blue;
+h6 {
+  padding-top: 10px;
+  color: #e65100;
 }
-a:visited{
-  color: blue;
-} */
+
 a:hover {
   color: #e65100;
+}
+
+a#navbarlinks {
+  color: #e65100;
+}
+
+a#navbarlinks:hover {
+  color: #FFA726;
 }
 
 .sidenav-trigger {
@@ -119,14 +126,20 @@ i.footer:hover {
           }
     /* end of show/hide section */
 
-      i {
-        font-size: 50px;
-        letter-spacing: 30px;
-        color: #e65100;  }
+i {
+  font-size: 50px;
+  letter-spacing: 30px;
+  text-align: center;
+  color: #e65100;  }
 
-      i.none {
-        letter-spacing: 0px;
-        text-align: center; }
+i.welcome-icons {
+  letter-spacing: 0px;
+  text-align: center; }
+
+i.none {
+  letter-spacing: 0px;
+  color: #FFA726;
+  text-align: center; }
 
 #show-list {
   display: none;
