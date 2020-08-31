@@ -49,6 +49,7 @@ a:hover {
 
 .icon-block {
   padding: 0 15px;
+  text-align: center;
 }
 .icon-block .material-icons {
   font-size: inherit;
