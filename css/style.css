@@ -79,9 +79,12 @@ i.menu {
   color: inherit;
   text-align: center; }
 
-i.footer {
+i.footer, {
   padding-top: 0px; }
 
+i.footer:hover {
+  color:white;
+}
 /* Tool icons show/hide style */
   .showtext li {
     display: inline-block;
