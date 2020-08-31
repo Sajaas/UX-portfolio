@@ -17,24 +17,26 @@
 
 <body>
   <header>
-  <div class="navbar-fixed">
+  <div class="navbar-fixed" id="top">
     <nav class="white" role="navigation">
-      <a href="index.html#top" style="padding-left: 10px" class="brand-logo">Portfolio</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#top" id="navbarlinks" style="padding-left: 10px" class="brand-logo">Amanda Alling Andrén</a>
+      <a href="#" id="navbarlinks" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.html#projects">Projects</a></li>
-        <li><a href="index.html#tools">Tools</a></li>
-        <li><a href="index.html#about">About me</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-        <li><a href="index.html#top"><i class="material-icons menu">arrow_upward</i></a></li>
+        <li><a id="navbarlinks" href="#projects">Projects</a></li>
+        <li><a id="navbarlinks" href="#tools">Tools</a></li>
+        <li><a id="navbarlinks" href="#about">About me</a></li>
+        <li><a id="navbarlinks" href="#contact">Contact</a></li>
+        <li><a id="navbarlinks" href="#top"><i class="material-icons menu">arrow_upward</i></a></li>
       </ul>
     </nav>
   </div>
-  <ul class="sidenav" id="mobile-demo">
-    <li><a href="index.html#projects">Projects</a></li>
-    <li><a href="index.html#tools">Tools</a></li>
-    <li><a href="index.html#about">About me</a></li>
-    <li><a href="index.html#contact">Contact</a></li>
+  <ul class="sidenav sidenav-close" id="mobile-demo">
+    <li><a id="navbarlinks" href="#projects">Projects</a></li>
+    <li><a id="navbarlinks" href="#tools">Tools</a></li>
+    <li><a id="navbarlinks" href="#about">About me</a></li>
+    <li><a id="navbarlinks" href="#contact">Contact</a></li>
+    <li><a id="navbarlinks" href="#contact">Top</a></li>
+    <li><a id="navbarlinks" href="#top"><i class="material-icons menu">arrow_upward</i></a></li>
   </ul>
 </header>
 
@@ -52,13 +54,13 @@
 
   <!-- Project section -->
     <div class="container">
-      <div class="row">
+      <div class="row" style="margin-top:20px;">
         <div class="image col s12 m6 l3">
           <img class="responsive-img" src="images/web-design.jpg">
         </div>
         <div class="col s12 m6 l9">
           <br>
-        <h5 class="header orange-text">UX Portfolio</h5>
+        <h4 class="header orange-text text-darken-4" style="margin-top:0px;">UX Portfolio</h4>
         <p> I used Figma to design the prototyp portfolio website, and then implemented it using the skills I picked up during the programming bootcamp I attended for three intense months.
         </p>
         </div>
@@ -112,7 +114,7 @@
           <h5>Figma Prototype</h5>
           <img class="materialboxed responsive-img" src="images/figma.jpg">
           <br>
-          <a href="index.html#projects" class="btn-large waves-effect waves-light orange lighten-1">Back to projects</a>
+          <a style="margin:20px;" href="index.html#projects" class="btn-large waves-effect waves-light orange lighten-1">Back to projects</a>
         </div>
       </div>
     </div>
@@ -123,7 +125,7 @@
     <div class="container">
       <div class="row">
         <div class="col l12 s12 center">
-          <h5 class="white-text">Connect with me</h5>
+          <h4 style="margin-top:0px;" class="white-text">Connect with me</h4>
           <p class="grey-text text-lighten-4">Feel free to contact me if you have any questions (or if you want to play some games).</p>
           <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
           <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
