@@ -12,17 +12,16 @@ h1 {
   padding-top: 10px;
 }
 
-h4 {
+h2 {
   color:#e65100;
-  margin-top: 60px;
 }
 
-h5#tagline {
+h4#tagline {
   padding-top: 40px;
   padding-bottom: 10px;
 }
 
-h6 {
+h5 {
   padding-top: 10px;
   color: #e65100;
 }
