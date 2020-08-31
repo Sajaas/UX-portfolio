@@ -30,12 +30,13 @@ a:hover {
   color: #e65100;
 }
 
-a#navbarlinks {
-  color: #e65100;
+a#navbarlinks, #navbarlinks i.material-icons.menu {
+  color:black;
 }
 
-a#navbarlinks:hover {
-  color: #FFA726;
+a#navbarlinks:hover, #navbarlinks i.material-icons.menu:hover {
+  color: #e65100;
+  background-color: #FFA726;
 }
 
 .sidenav-trigger {
@@ -73,7 +74,6 @@ a#navbarlinks:hover {
 }
 
 .icon-block {
-  padding: 0 15px;
   text-align: center;
 }
 .icon-block .material-icons {
@@ -84,10 +84,6 @@ footer.page-footer {
   margin: 0;
 }
 
-i.menu {
-  padding: 0px;
-  color: inherit;
-  text-align: center; }
 
 i.material-icons.menu {
   color: #e65100;

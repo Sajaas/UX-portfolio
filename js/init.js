@@ -19,8 +19,6 @@ $("#modal").click(function(){ $(".modal").hide(); }); });
 
 $(document).ready(function(){
   $('.materialboxed').materialbox();
-  // $('#modal').modal();
-  // $('#modal').modal('open');
   $('.fixed-action-btn').floatingActionButton();
   $('.hover').mouseout(function() {
     $('.text').css("visibility","hidden");
@@ -30,9 +28,6 @@ $(document).ready(function(){
   });
   $('.collapsible').collapsible();
   $('.parallax').parallax();
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  });
 });
 
 function copyToClipboard(element) {
