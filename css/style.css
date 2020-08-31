@@ -12,6 +12,15 @@ h6 {
   color: #e65100;
 }
 
+h1 {
+  margin-bottom:0px;
+}
+
+h5#tagline {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
 /* a:link {
   color: blue;
 }
