@@ -26,6 +26,11 @@ h5 {
   color: #e65100;
 }
 
+h6 {
+  color: #e65100;
+  font-size: 30px;
+}
+
 a:hover {
   color: #e65100;
 }
@@ -195,4 +200,23 @@ float: right;
 
 .collapsible {
   border:0px;
+}
+
+.divider {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.videoContainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
