@@ -28,7 +28,10 @@ $(document).ready(function(){
   });
   $('.collapsible').collapsible();
   $('.parallax').parallax();
+  $('.collapsible').collapsible();
 });
+
+
 
 function copyToClipboard(element) {
   var $temp = $("<input>");
