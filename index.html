@@ -56,7 +56,7 @@
     <div class="modal-content white-text">
       <a href="#!" style="float:right;" class="modal-close waves-effect waves-yellow btn-flat" id="modal-close-button"><i class='white-text material-icons'>close</i></a>
       <h3 class="center">I'm a Work In Progress!</h3>
-      <p class="flow-text">I'm currently studying to become an UX designer. <br><br>Feel free to look around, but if you want updated information, please visit my <a id="sticky" href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'>LinkedIn</a> or <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'>email</i></a> me any questions!</p>
+      <p class="light flow-text">I'm currently studying to become an UX designer. <br><br>Feel free to look around, but if you want updated information, please visit my <a id="sticky" href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'>LinkedIn</a> or <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'>email</i></a> me any questions!</p>
       <div class="center">
       <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
       <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
@@ -88,21 +88,21 @@
           <div class="icon-block">
             <h2 class="center"><i class="fas fa-user-friends welcome-icons"></i></h2>
             <h4 class="center">User Focused</h4>
-            <p class="light">I create solutions that fit your target audience, making your products accessible and appealing</p>
+            <p class="light flow-text">I create solutions that fit your target audience, making your products accessible and appealing</p>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center"><i class="fas fa-gamepad welcome-icons"></i></h2>
             <h4 class="center">Gamification</h4>
-            <p class="light">As a lifelong gamer, and due to the program I’ve attended, I can provide insights on how to make your products engaging</p>
+            <p class="light flow-text">As a lifelong gamer, and due to the program I’ve attended, I can provide insights on how to make your products engaging</p>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center"><i class="fas fa-swords welcome-icons"></i></h2>
             <h4 class="center">Challenge Me</h4>
-            <p class="light">I love to learn and explore new solutions and tools, and I thrive on challenge - there's always room for improvement</p>
+            <p class="light flow-text">I love to learn and explore new solutions and tools, and I thrive on challenge - there's always room for improvement</p>
           </div>
         </div>
       </div>
@@ -117,9 +117,9 @@
         <div class="col s12 m6 l5">
           <img style="padding:30px" class="responsive-img materialboxed" src="images/projects/check.png">
         </div>
-        <div class="center col s12 m6 l7" style="padding:80px">
+        <div class="col s12 m6 l7" style="padding:80px">
           <h4 class="header orange-text">CheckM8TS</h4>
-          <p class="black-text"><br>Our first school project, 2 weeks in!<br><br>
+          <p class="light flow-text black-text"><br>Our first school project, 2 weeks in!<br><br>
             Brief:
             <br>
             a web platform or Mobile app that will improve learning and add value for students between 9-25, and can compete with existing apps.
@@ -470,15 +470,126 @@
   <div class="container" id="about">
     <div class="section">
       <h2 class="center light">About me</h2>
-      <br>
       <div class="row">
-        <div class="col s12 m4 l6">
+        <div class="col s12 m12 l6 offset-l3">
+          <p class="light flow-text">
+            I think that one of the best ways to get to know someone is to have a look at their bookshelf, talk with them about their hobbies, or ask them about their favorite games!
+            <br>
+            <br>
+            I look forward to having that conversation with you, but in the meantime you can press the button to show my toplist!
+            <span id="dots">
+            </span>
+            </div>
+          </p>
+        </div>
+
+      <!-- top 5 -->
+      <div class="row">
+        <div class="col s12 m12 l12 center">
+          <button onclick="readMore()" id="myBtn" class="btn-large waves-effect waves-light orange lighten-1">
+            show my toplist
+          </button>
+        </div>
+        <div class="col s12 m12 l12">
+            <div id="more" class="center">
+              <div class="col s12 m6 l6">
+                <ul>
+                  <i class="fas fa-smile about-icons"></i>
+                  <li class="bullet">Learn new tech skills</li>
+                  <li class="bullet">Read and sip some tea</li>
+                  <li class="bullet">Drinking & gaming with friends</li>
+                  <li class="bullet">Research smart home products</li>
+                  <li class="bullet">Organize stuff (anything really)</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 l6">
+                <ul >
+                  <i class="fas fa-gamepad about-icons"></i>
+                  <li class="bullet">DoTA2</li>
+                  <li class="bullet">Journey</li>
+                  <li class="bullet">Amnesia</li>
+                  <li class="bullet">Spiritfarer</li>
+                  <li class="bullet">Life is Strange</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 l6">
+                <ul >
+                  <i class="fas fa-chess-pawn about-icons"></i>
+                  <li class="bullet">Coup</li>
+                  <li class="bullet">Zombicide</li>
+                  <li class="bullet">Star Realms</li>
+                  <li class="bullet">Dungeons & Dragons</li>
+                  <li class="bullet">Betrayal at the House on the Hill</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 l6">
+                <ul >
+                  <i class="fas fa-tv about-icons"></i>
+                  <li class="bullet">RWBY</li>
+                  <li class="bullet">Black Mirror</li>
+                  <li class="bullet">Buffy the Vampire Slayer</li>
+                  <li class="bullet">Miss Fisher's Murder Mysteries</li>
+                  <li class="bullet">She-Ra & the Princesses or Power</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 l6">
+                <ul >
+                  <i class="fas fa-film about-icons"></i>
+                  <li class="bullet">Donnie Darko</li>
+                  <li class="bullet">Perfect Blue</li>
+                  <li class="bullet">Spirited Away</li>
+                  <li class="bullet">Close to Heaven</li>
+                  <li class="bullet">Pirates of the Caribbean</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 l6">
+                <ul >
+                  <i class="fas fa-book about-icons"></i>
+                  <li class="bullet">Harry Potter - Rowling</li>
+                  <li class="bullet">Liveship Traders - Hobb</li>
+                  <li class="bullet">Anaché - Turtschaninoff</li>
+                  <li class="bullet">The Song of the Lioness - Pierce</li>
+                  <li class="bullet">The Master and Margarita - Bulgakov</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 l6">
+                <ul >
+                  <i class="fas fa-book-open about-icons"></i>
+                  <li class="bullet">Saga - Vaughan</li>
+                  <li class="bullet">Nimona - Stevenson</li>
+                  <li class="bullet">Princeless - Whitley</li>
+                  <li class="bullet">The Unbeatable Squirrel Girl - North</li>
+                  <li class="bullet">Princess Princess Ever After - O'Neill</li>
+                </ul>
+              </div>
+              <div class="col s12 m6 l6">
+                <ul >
+                  <i class="fas fa-music about-icons"></i>
+                  <li class="bullet">Eminem</li>
+                  <li class="bullet">David Bowie</li>
+                  <li class="bullet">Peter Gabriel</li>
+                  <li class="bullet">Imagine Dragons</li>
+                  <li class="bullet">Flight of the Conchords</li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l12 center">
+                <button onclick="readMore()" id="myBtn" style="margin-top:10px" class="btn-large waves-effect waves-light orange lighten-1">
+                  hide my toplist
+                </button>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <!-- END top 5 -->
+      <div class="row">
+        <div class="col s12 m4 l4">
           <br>
           <img id="my-photo" src="images/amanda-color.jpg" class="circle responsive-img materialboxed">
         </div>
-        <div class="col s12 m8 l6">
-          <h4 class="orange-text">I'm an avid gamer, reader and planner</h4>
-          <p class="light">
+        <div class="col s12 m8 l8">
+          <h4 class="orange-text" style="margin-top:40px;">I'm an avid gamer, reader and planner</h4>
+          <p class="light flow-text">
             I’ve worked 8 years at a nerdy store, where it’s part of my job to always help the customer to find what they want - even though they might not know what they’re looking for.
             <br>
             <br>
@@ -489,155 +600,6 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <ul class="collapsible z-depth-0">
-        <li>
-          <div class="collapsible-header btn-large waves-effect waves-light orange lighten-1 z-depth-0">My top 5</div>
-          <div class="collapsible-body">
-            <div class="row">
-                I think that one of the best ways to get to know someone is to have a look at their bookshelf, talk with them about their hobbies, or ask them about their favorite games!
-                <br><br>
-                I look forward to having that conversation with you, but in the meantime I have listed some of my favorite things.
-            </div>
-              <ul class="collapsible z-depth-0" style="margin-top:40px;margin-bottom:40px;">
-                <li class="active">
-                  <div class="collapsible-header center"><i class="fas fa-smile about-icons"></i></div>
-                  <div class="collapsible-body"><span>
-                    <ul class="browser-default">
-                      <li class="bullet">Play games with friends (& drink beer)</li>
-                      <li class="bullet">Setup and research smart home products</li>
-                      <li class="bullet">Read (& drink tea or rum)</li>
-                      <li class="bullet">Learn new tech skills</li>
-                      <li class="bullet">Organize stuff (anything really)</li>
-                    </ul>
-                  </span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header center"><i class="fas fa-gamepad about-icons"></i></div>
-                  <div class="collapsible-body"><span>
-                    <div class="row">
-                      <div class="col s12 m12 l6">
-                          <p class="center"><i class="fas fa-gamepad welcome-icons"></i></p>
-                          <ul class="browser-default">
-                            <li class="bullet">DoTA2</li>
-                            <li class="bullet">Spiritfarer</li>
-                            <li class="bullet">Amnesia</li>
-                            <li class="bullet">Life is Strange</li>
-                            <li class="bullet">Journey</li>
-                          </ul>
-                      </div>
-                      <div class="col s12 m12 l6">
-                          <p class="center"><i class="fas fa-chess-pawn welcome-icons"></i></p>
-                          <ul class="browser-default">
-                            <li class="bullet">Coup</li>
-                            <li class="bullet">Dungeons & Dragons</li>
-                            <li class="bullet">Star Realms</li>
-                            <li class="bullet">Betrayal at the House on the Hill</li>
-                            <li class="bullet">Zombicide</li>
-                          </ul>
-                      </div>
-                    </div>
-                    <ul class="collapsible z-depth-0">
-                    <li>
-                      <div class="collapsible-header btn-large waves-effect waves-light orange lighten-1 z-depth-0">Read more</div>
-                      <div class="collapsible-body">
-                        <span>
-                          My main genre is storytelling games. But for some reason I also fell in love with DoTA2. I'd never played such an intriguing, complicated, frustrating game! I was used to being fairly good at a game 50 hours in, but when it came to DoTA2 everyone just laughed at how few games I had at that point. I was a noob for SO long.  Still am, according to most of my friends, who have played more than 10 000 hours. When it comes to tabletop games I love co-op games or betrayal games.
-                          <br>
-                          <br>
-                          <b> Honorable mentions:</b>
-                          <br>
-                          What Remains of Edith Finch, Spiritfarer, Last of Us, Uncharted, Animal Crossing, Cat Quest, Prince of Persia, Hellblade: Senua's Sacrifice, Stardew Valley, Life is Strange, The Walking Dead, Journey, Child of Light, Ori and the Blind Forest, Alan Wake, Undertale, Horizon: Zero Dawn, Sword & Sworcery EP, Call of Cthulhu (2018), Tomb Raider, The Wolf Among Us, Broken Age, L4D2, Amnesia, Never Alone, Space Pirate Trainer, Beat Saber, Rock Band, Far Cry 3, Shadow of the Colossus, Path of Exile, Portal, Limbo, Minecraft, The Elder Scrolls IV: Oblivion, Bioshock, Heroes of Might and Magic III, Sushi Go, Avalon, Once Upon a Time
-                        </span>
-                      </div>
-                    </li>
-                  </ul>
-                  </span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header center"><i class="fas fa-tv about-icons"></i></div>
-                  <div class="collapsible-body"><span>
-                    <div class="row">
-                      <div class="col s12 m12 l6">
-                        <p class="center"><i class="fas fa-tv welcome-icons"></i></p>
-                        <ul class="browser-default">
-                          <li class="bullet">Black Mirror</li>
-                          <li class="bullet">RWBY</li>
-                          <li class="bullet">Buffy the Vampire Slayer</li>
-                          <li class="bullet">She-Ra & the Princesses or Power</li>
-                          <li class="bullet">Miss Fisher's Murder Mysteries</li>
-                        </ul>
-                      </div>
-                      <div class="col s12 m12 l6">
-                        <p class="center"><i class="fas fa-film welcome-icons"></i></p>
-                        <ul class="browser-default">
-                          <li class="bullet">Donnie Darko</li>
-                          <li class="bullet">Spirited Away</li>
-                          <li class="bullet">Close to Heaven</li>
-                          <li class="bullet">Perfect Blue</li>
-                          <li class="bullet">Pirates of the Caribbean</li>
-                        </ul>
-                     </div>
-                    </div>
-                  </span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header center"><i class="fas fa-book about-icons"></i></div>
-                  <div class="collapsible-body"><span>
-                    <div class="row">
-                      <div class="col s12 m12 l6">
-                        <p class="center"><i class="fas fa-book welcome-icons"></i></p>
-                        <ul class="browser-default">
-                          <li class="bullet">The Song of the Lioness - Pierce</li>
-                          <li class="bullet">Harry Potter - Rowling</li>
-                          <li class="bullet">The Master and Margarita - Bulgakov</li>
-                          <li class="bullet">Anaché - Turtschaninoff</li>
-                          <li class="bullet">Liveship Traders - Hobb</li>
-                        </ul>
-                      </div>
-                      <div class="col s12 m12 l6">
-                        <p class="center"><i class="fas fa-book-open welcome-icons"></i></p>
-                        <ul class="browser-default">
-                          <li class="bullet">Nimona - Stevenson</li>
-                          <li class="bullet">Princeless - Whitley</li>
-                          <li class="bullet">Princess Princess Ever After - O'Neill</li>
-                          <li class="bullet">Saga - Vaughan</li>
-                          <li class="bullet">The Unbeatable Squirrel Girl - North</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <ul class="collapsible z-depth-0">
-                    <li>
-                      <div class="collapsible-header btn-large waves-effect waves-light orange lighten-1 z-depth-0">Read more</div>
-                      <div class="collapsible-body">
-                        <span>
-                          <b> Honorable mentions: </b>
-                          <br>
-                          The Gentlemen Bastard Sequence - Lynch, The Kingkiller Chronicles - Rothfuss, The Stormlight Archive - Sanderson, Winternight trilogy - Arden, Riverside - Kushner, The Enchanted Forest Chronicles - Wrede, Ancillary Justice - Leckie, Uprooted - Novik, The Tamír Triad - Flewelling, The Night Circus - Morgenstein, Otherland - Williams, The Ocean at the End of the Lane - Gaiman, Carnival - Bear, Artemis Fowl - Colfer, Binti - Okorafor, The Hobbit - Tolkien, The Hunger Games - Collins, The Strange Case of Dr. Jekyll & Mr. Hyde - Stevenson, Lord of the Flies - Golding
-                        </span>
-                      </div>
-                    </li>
-                  </ul>
-                  </span></div>
-                </li>
-                <li>
-                  <div class="collapsible-header center"><i class="fas fa-music about-icons"></i></div>
-                  <div class="collapsible-body"><span>
-                    <ul class="browser-default">
-                      <li class="bullet">David Bowie</li>
-                      <li class="bullet">Imagine Dragons</li>
-                      <li class="bullet">Peter Gabriel</li>
-                      <li class="bullet">Flight of the Conchords</li>
-                      <li class="bullet">Eminem</li>
-                    </ul>
-                  </span></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
     </div>
   </div>
 
@@ -648,7 +610,7 @@
       <div class="row">
         <div class="col l12 s12 center">
           <h2 style="margin-top:0px;" class="white-text">Connect with me</h2>
-          <p class="grey-text text-lighten-4">Feel free to contact me if you have any questions (or if you want to play some games).</p>
+          <p class="light flow-text grey-text text-lighten-4">Feel free to contact me if you have any questions (or if you want to play some games).</p>
           <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
           <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
           <a href='https://github.com/sajaas' target='_blank'><i aria-hidden='true' class='footer fab fa-github'></i></a>
