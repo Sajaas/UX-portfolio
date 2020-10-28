@@ -29,6 +29,7 @@ $(document).ready(function(){
   $('.collapsible').collapsible();
   $('.parallax').parallax();
   $('.collapsible').collapsible();
+  $('.tabs').tabs();
 });
 
 function readMore() {
