@@ -233,3 +233,25 @@ float: right;
 }
 
 #more {display: none;}
+
+.tabs .tab a{
+    color:#FFA726;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color:#FFA726;
+    color:white;
+} /*Text color on hover*/
+
+.tabs .tab a:focus.active {
+    background-color:#FFA726;
+    color:white;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color:#e65100;
+} /*Color of underline*/
+
+.projects {
+  margin-top: 40px;
+}

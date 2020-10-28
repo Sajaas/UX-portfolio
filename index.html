@@ -45,9 +45,10 @@
       <i class="large material-icons">contact_mail</i>
     </a>
     <ul>
-      <li><a class="btn-floating orange" href='https://github.com/sajaas' target='_blank'><i class='fab fa-github'></i></a></li>
+      <li><a class="btn-floating orange darken-1" href='https://github.com/sajaas' target='_blank'><i class='fab fa-github'></i></a></li>
       <li><a class="btn-floating orange darken-2" href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i class='fab fa-linkedin'></i></a></li>
-      <li><a href="mailto:amanda@alling.org?subject=Hello!" class="btn-floating orange darken-4" target="_blank"><i class="fas fa-envelope"></i></a></li>
+      <li><a href="mailto:amanda@alling.org?subject=Hello!" class="btn-floating orange darken-3" target="_blank"><i class="fas fa-envelope"></i></a></li>
+      <li><a href="tel:46709982282" class="btn-floating orange darken-4"><i aria-hidden='true' class='footer fas fa-mobile-alt'></i></a></li>
     </ul>
   </div>
 
@@ -69,7 +70,7 @@
     <div class="container">
       <div class="row center">
         <div class="col s6 offset-s3 m4 l4">
-          <img id="my-photo" src="images/amanda1.jpg" style="margin:10px" class="circle responsive-img materialboxed">
+          <img id="my-photo" src="images/amanda1.jpg" style="padding-top:30px" class="circle responsive-img materialboxed">
         </div>
         <div class="col s12 m8 l8 center">
           <h1 class="orange-text text-darken-4">I'm Amanda</h1>
@@ -486,25 +487,27 @@
     <div class="section">
       <h2 class="center light">About me</h2>
       <div class="row">
-        <div class="col s12 m12 l10 offset-l1">
-          <p class="light flow-text">
-            I think that one of the best ways to get to know someone is to have a look at their bookshelf, talk with them about their hobbies, or ask them about their favorite games!
-            <br>
-            <br>
-            I look forward to having that conversation with you, but in the meantime you can press the button to show my toplist!
-            <span id="dots">
-            </span>
-            </div>
-          </p>
+        <div class="col s12 m4 l4">
+          <img id="my-photo" style="padding-bottom:20px;" src="images/amanda2.jpeg" class="circle responsive-img materialboxed">
         </div>
-
-      <!-- top 5 -->
-      <div class="row">
-        <div class="col s12 m12 l12 center">
+        <h4 class="orange-text" style="margin-top:40px;">I'm an avid gamer, reader and planner</h4>
+        <div class="col s12 m12 l8">
+          <p class="light flow-text">
+          I think that one of the best ways to get to know someone is to have a look at their bookshelf, talk with them about their hobbies, or ask them about their favorite games!
+          <br>
+          <br>
+          I look forward to having that conversation with you, but in the meantime you can press the button to see my toplist!
+          </p>
           <button onclick="readMore()" id="myBtn" class="btn-large waves-effect waves-light orange lighten-1">
             show my toplist
           </button>
+          <span id="dots">
+          </span>
         </div>
+      </div>
+
+      <!-- top 5 -->
+      <div class="row">
         <div class="col s12 m12 l12">
             <div id="more" class="center">
               <div class="col s12 m6 l6">
@@ -597,43 +600,96 @@
       </div>
 
     <!-- END top 5 -->
+
       <div class="row">
-        <div class="col s12 m4 l4">
-          <br>
-          <img id="my-photo" src="images/amanda2.jpeg" class="circle responsive-img materialboxed">
-        </div>
-        <div class="col s12 m8 l8">
-          <h4 class="orange-text" style="margin-top:40px;">I'm an avid gamer, reader and planner</h4>
-          <p class="light flow-text">
-            I’ve worked 8 years at a nerdy store, where it’s part of my job to always help the customer to find what they want - even though they might not know what they’re looking for.
-            <br>
-            <br>
-            I’m passionate about improving and exploring my job, which is why I’ve ended up hosting signings and themed evenings, created different spotlight promotions and overall trying to optimize the store.
-            <br>
-            <br>
-            I’m always eager to learn which is why I’ve attended several interesting courses and a programming bootcamp. I love a challenge!
-          </p>
+        <div class="col s12 m8 offset-m2 l10 offset-l1">
+          <div class="card">
+            <div class="card-content orange">
+              <p class="light flow-text white-text">
+                Want to know more?
+              </p>
+            </div>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a class="active" href="#info">Info</a></li>
+                <li class="tab"><a href="#jobs">Other jobs</a></li>
+                <li class="tab"><a href="#education">Education</a></li>
+              </ul>
+            </div>
+            <div class="card-content">
+              <div id="info">
+                <p class="light flow-text">
+                  I’ve worked 8 years at the
+                  <a href="https://sfbok.se" target="_blank">Science Fiction Bookstore</a>
+                   where it’s part of my job to always help the customer to find what they want - even if they don't know what they’re looking for.
+                  <br>
+                  <br>
+                  The store focus on fantasy/sf/horror books, tabletop & rpg games, comics & manga, and merch.
+                  <br>
+                  <br>
+                  I’m passionate about improving and exploring my job, which is why I’ve ended up hosting signings and themed evenings, created different spotlight promotions and overall trying to optimize the store.
+                </p>
+              </div>
+              <div id="jobs">
+                <p class="light flow-text">
+                  I’ve worked for a production company, proofreading and writing, making posters and creating/managing their website.
+                  <br>Other jobs I've had when I was younger include:
+                </p>
+                <ul class="light flow-text center">
+                  <li class="bullet">Cleaning</li>
+                  <li class="bullet">Doing polls</li>
+                  <li class="bullet">Doing inventory</li>
+                  <li class="bullet">Distributing flyers</li>
+                  <li class="bullet">Working at kiosks</li>
+                  <li class="bullet">Caretaker/gardener</li>
+                  <li class="bullet">Au pair & babysitting</li>
+                  <li class="bullet">Sellings books at fairs</li>
+                  <li class="bullet">Selling Christmas trees</li>
+                  <li class="bullet">Logistics during camps</li>
+                  <li class="bullet">Instructor during events</li>
+                </ul>
+              </div>
+              <div id="education">
+                <p class="light flow-text">
+                  I’m always eager to learn which is why I’ve attended several interesting courses and a programming bootcamp.
+                </p>
+                <ul class="light flow-text center">
+                  <li class="bullet">Experience Designer - Changemaker Educations</li>
+                  <li class="bullet">Programming Bootcamp - Craft Academy</li>
+                  <li class="bullet">Fantasy - Stockholm University</li>
+                  <li class="bullet">Workplace Writing - Stockholm University</li>
+                  <li class="bullet">Beer Brewing & Fermentation - University of Borås</li>
+                  <li class="bullet">Technical Preparotory Year - KTH Royal Institute of Technology</li>
+                  <li class="bullet">Basic Course in the History of Literature - Stockholm University</li>
+                  <li class="bullet">Harry Potter from an Intermedial Perspective - Linneaus University</li>
+                  <li class="bullet">Comparative Literature: Contemporary Dystopias - Lund University</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <!-- footer & contact section -->
-
   <footer class="page-footer orange" id="contact">
     <div class="container">
       <div class="row">
         <div class="col l12 s12 center">
-          <h2 style="margin-top:0px;" class="white-text">Connect with me</h2>
+          <h4 style="margin-top:0px;" class="white-text">Connect with me</h4>
           <p class="light flow-text grey-text text-lighten-4">
-            +46 70-998 22 82
+            <a class="white-text" style="text-decoration:underline;" href="tel:46709982282">+46 70-998 22 82</a>
             <br>
-            amanda@alling.org
+            <a class="white-text" style="text-decoration:underline;" href="mailto:amanda@alling.org?subject=Hello!" target='_blank'>amanda@alling.org</a>
             <br><br>
-            Feel free to contact me if you have any questions (or if you want to play some games).
+            Feel free to contact me if you have any questions
+            <br>
+            (or if you want to play some games)
           </p>
-          <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
+          <a href="tel:46709982282"><i aria-hidden='true' class='footer fas fa-mobile-alt'></i></a>
           <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
+          <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
           <a href='https://github.com/sajaas' target='_blank'><i aria-hidden='true' class='footer fab fa-github'></i></a>
         </div>
       </div>
@@ -645,4 +701,4 @@
     </div>
   </footer>
   </body>
-</html>
+  </html>
