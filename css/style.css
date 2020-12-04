@@ -39,15 +39,22 @@ h6 {
 a:hover {
   color: #e65100;
 }
+a {
+  color: #FFA726;
+  text-decoration: underline;
+}
 
 a#navbarlinks, #navbarlinks i.material-icons.menu {
   color:black;
+  text-decoration: none;
 }
 
 a#navbarlinks:hover, #navbarlinks i.material-icons.menu:hover {
   color: #e65100;
   background-color: #FFA726;
 }
+
+
 
 .sidenav-trigger {
   color: #e65100;
@@ -255,3 +262,51 @@ float: right;
 .projects {
   margin-top: 40px;
 }
+
+/* bubbles */
+
+.chatbox {
+    width: 400px;
+    margin: 0 auto;
+}
+.bubble{
+    background-color: #FFA726;
+    border-radius: 5px;
+    /* box-shadow: 0 0 6px #B2B2B2; */
+    display: block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+.bubble::before {
+    background-color: #FFA726;
+    content: "";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:         rotate( 29deg ) skew( -35deg );
+    -moz-transform:    rotate( 29deg ) skew( -35deg );
+    -ms-transform:     rotate( 29deg ) skew( -35deg );
+    -o-transform:      rotate( 29deg ) skew( -35deg );
+    -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+.me {
+    float: left;
+    margin: 5px 45px 5px 20px;
+}
+.me::before {
+    /* box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 ); */
+    left: -9px;
+}
+.you {
+    float: right;
+    margin: 5px 20px 5px 45px;
+}
+.you::before {
+    /* box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 ); */
+    right: -9px;
+}
+
+/* bubbles end */
