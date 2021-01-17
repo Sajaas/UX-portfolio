@@ -106,11 +106,15 @@ i.material-icons.menu {
   color: #e65100;
 }
 
-i.footer, {
+i.footer {
+  font-size: 50px;
+  letter-spacing: 30px;
+  text-align: center;
+  color: white;
   padding-top: 0px; }
 
 i.footer:hover {
-  color:white;
+  color:#e65100;
 }
 /* Tool icons show/hide style */
   .showtext li {
@@ -149,7 +153,7 @@ i.footer:hover {
           }
     /* end of show/hide section */
 
-i {
+i.none {
   font-size: 50px;
   letter-spacing: 30px;
   text-align: center;
@@ -160,9 +164,11 @@ i.welcome-icons {
   text-align: center; }
 
 i.about-icons {
+  font-size: 50px;
   letter-spacing: 0px;
   margin-bottom: 10px;
   margin-top: 10px;
+  text-align: center;
   color: #e65100;
 }
 
