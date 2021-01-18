@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   color:#e65100;
+  margin-top:60px;
 }
 
 h4#tagline {
@@ -358,4 +359,40 @@ float: right;
 
 i.valign-wrapper.material-icons-menu{
   font-size: 100px;
+}
+
+/* game fonts */
+/* .gamefont{
+  animation: blinker 1s steps(4, start) 3;
+} */
+
+@keyframes blinker {
+           from {
+              visibility:hidden;
+           }
+       50% {
+              visibility:hidden;
+           }
+       to {
+              visibility:visible;
+        }
+   }
+}
+
+@keyframes blinking {
+    0% {
+        background-color: transparent;
+    }
+    49% {
+        background-color: transparent
+    }
+    50% {
+        background-color: rgba(116,127,224,.65);
+    }
+}
+
+.blinking-cursor {
+  font-weight: bolder;
+  font-size: 75px;
+  animation: blinker 1s steps(4, start) infinite;
 }
