@@ -18,6 +18,10 @@ h1 {
   padding-top: 10px;
 }
 
+h1#smaller-header {
+  font-size: 30px;
+}
+
 h2 {
   color:#e65100;
   margin-top:60px;
@@ -354,17 +358,12 @@ float: right;
   }
 }
 
-/* game pics */
+/* game pics end*/
 
 
 i.valign-wrapper.material-icons-menu{
   font-size: 100px;
 }
-
-/* game fonts */
-/* .gamefont{
-  animation: blinker 1s steps(4, start) 3;
-} */
 
 @keyframes blinker {
            from {
@@ -396,3 +395,19 @@ i.valign-wrapper.material-icons-menu{
   font-size: 75px;
   animation: blinker 1s steps(4, start) infinite;
 }
+
+.game-header {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  vertical-align: middle; }
+
+  @media screen and (min-width: 801px) {
+    #smaller-header {
+      display: none; }
+    }
+  @media screen and (max-width: 800px) {
+        #normal-header {
+          display: none; }
+        #smaller-header {
+          display: block;
+        }
