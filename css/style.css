@@ -49,6 +49,14 @@ a {
   text-decoration: underline;
 }
 
+a:hover#project-button {
+  color: #e65100;
+}
+
+a#project-button {
+  color: #FFA726;
+}
+
 a#navbarlinks, #navbarlinks i.material-icons.menu {
   color:black;
   text-decoration: none;
