@@ -279,7 +279,9 @@ float: right;
 } /*Color of underline*/
 
 .projects {
-  margin-top: 40px;
+  padding-top: 20px;
+  padding-right:20px;
+  padding-left:20px;
 }
 
 /* bubbles */
@@ -311,21 +313,26 @@ float: right;
     -webkit-transform: rotate( 29deg ) skew( -35deg );
     width:  20px;
 }
-.me {
+.you {
     float: left;
     margin: 5px 45px 5px 20px;
 }
-.me::before {
+.you::before {
     /* box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 ); */
     left: -9px;
 }
-.you {
+.me {
     float: right;
     margin: 5px 20px 5px 45px;
 }
-.you::before {
+.me::before {
     /* box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 ); */
     right: -9px;
+}
+
+.flow-text {
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 /* bubbles end */
