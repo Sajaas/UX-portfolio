@@ -34,9 +34,9 @@ $(document).ready(function(){
 });
 
 function readMore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var dots = document.getElementById("placeholder");
+  var moreText = document.getElementById("readMore");
+  var btnText = document.getElementById("readBtn");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";

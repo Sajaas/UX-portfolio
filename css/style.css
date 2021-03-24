@@ -27,7 +27,7 @@ h2 {
   margin-top:60px;
 }
 
-h4#tagline {
+h4.tagline {
   padding-top: 40px;
   padding-bottom: 10px;
 }
@@ -57,12 +57,12 @@ a#project-button {
   color: #FFA726;
 }
 
-a#navbarlinks, #navbarlinks i.material-icons.menu {
+.navbarlinks a, .navbarlinks i.material-icons.menu {
   color:black;
   text-decoration: none;
 }
 
-a#navbarlinks:hover, #navbarlinks i.material-icons.menu:hover {
+.navbarlinks a:hover, .navbarlinks i.material-icons.menu:hover {
   color: #e65100;
   background-color: #FFA726;
 }
@@ -258,7 +258,7 @@ float: right;
     color: #e65100;
 }
 
-#more {display: none;}
+#readMore {display: none;}
 
 .tabs .tab a{
     color:#FFA726;
