@@ -3,11 +3,6 @@ nav .brand-logo {
   color:#e65100;
 }
 
-.button_with_icon {
-  display: inline-flex;
-  vertical-align: middle;
-} 
-
 p {
   line-height: 2rem;
   padding:10px;
@@ -396,7 +391,6 @@ i.valign-wrapper.material-icons-menu{
               visibility:visible;
         }
    }
-}
 
 @keyframes blinking {
     0% {
@@ -421,13 +415,19 @@ i.valign-wrapper.material-icons-menu{
   transition: all 0.2s ease-in-out;
   vertical-align: middle; }
 
-  @media screen and (min-width: 801px) {
-    #smaller-header {
-      display: none; }
+@media screen and (min-width: 801px) {
+  #smaller-header {
+    display: none; }
+  }
+@media screen and (max-width: 800px) {
+      #normal-header {
+        display: none; }
+      #smaller-header {
+        display: block;
+      }
     }
-  @media screen and (max-width: 800px) {
-        #normal-header {
-          display: none; }
-        #smaller-header {
-          display: block;
-        }
+
+.button_with_icon {
+  display: inline-flex;
+  vertical-align: middle;
+} 
