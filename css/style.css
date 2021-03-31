@@ -425,6 +425,8 @@ i.valign-wrapper.material-icons-menu{
       #smaller-header {
         display: block;
       }
+      #embedded_prototype {
+        display: none; }
     }
 
 .button_with_icon {
