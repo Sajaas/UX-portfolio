@@ -1,3 +1,8 @@
+*
+{
+   font-family: 'Montserrat', sans-serif,courier,arial,helvetica; 
+}
+
 nav ul a,
 nav .brand-logo {
   color:#e65100;
@@ -6,6 +11,7 @@ nav .brand-logo {
 p {
   line-height: 2rem;
   padding:10px;
+  font-weight: 50;
 }
 
 body {
@@ -16,6 +22,7 @@ body {
 h1 {
   margin-bottom:0px;
   padding-top: 10px;
+  font-family: 'Press Start 2P', cursive, courier,arial,helvetica;
 }
 
 h1#smaller-header {
@@ -25,6 +32,10 @@ h1#smaller-header {
 h2 {
   color:#e65100;
   margin-top:60px;
+  font-size: 40px;
+  /* font-family: 'DotGothic16', sans-serif; */
+  font-family: 'Press Start 2P', courier,arial,helvetica;
+  /* font-family: 'VT323', monospace, courier,arial,helvetica; */
 }
 
 h4.tagline {
@@ -135,7 +146,6 @@ i.footer:hover {
 }
 /* Tool icons show/hide style */
   .showtext li {
-    display: inline-block;
     float: left;
     height: 100px;
     width: 100px;
@@ -159,7 +169,7 @@ i.footer:hover {
       #language-icons-replacement {
         display: none; } }
     @media screen and (max-width: 800px) {
-          #icons, #toggleList, #icons-list, .switch {
+          #icons, #toggleList, #icons-list, .switch, .tabs {
             display: none; }
           #show-list {
             display: block;
@@ -179,6 +189,7 @@ i.none {
 
 i.welcome-icons {
   letter-spacing: 0px;
+  font-size: 60px;
   text-align: center; }
 
 i.about-icons {
@@ -302,7 +313,6 @@ float: right;
     display: block;
     padding: 10px 18px;
     position: relative;
-    vertical-align: top;
 }
 .bubble::before {
     background-color: #FFA726;
@@ -442,3 +452,4 @@ i.valign-wrapper.material-icons-menu{
 .rounded_corners {
   border-radius : 10px;
 }
+
