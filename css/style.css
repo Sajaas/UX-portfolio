@@ -80,6 +80,9 @@ a {
   text-decoration: underline;
 }
 
+#link_text, #link_btn {
+  color: white;
+}
 
 
 .btn-large {
