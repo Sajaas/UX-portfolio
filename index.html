@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  <script> 
+  $(function(){
+    $("#header").load("partials/header.html"); 
+    $("#footer").load("partials/footer.html"); 
+  });
+  </script>
+   
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
@@ -17,33 +26,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+
 </head>
 <body>
   <header>
-    <div class="navbar-fixed navbarlinks">
-      <nav class="white" role="navigation">
-        <div class="container">
-        <a href="#top" style="padding-left: 10px; padding-right: 10px;" class="brand-logo">Amanda Alling Andrén</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#tools">Tools</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#top"><i class="valign-wrapper material-icons menu" style="font-size:35px; height:64px;">arrow_upward</i></a></li>
-        </ul>
-      </div>
-      </nav>
-    </div>
-    <ul class="sidenav sidenav-close" id="mobile-demo">
-      <li><a  href="#projects">Projects</a></li>
-      <li><a  href="#tools">Tools</a></li>
-      <li><a  href="#education">Education</a></li>
-      <li><a  href="#about">About me</a></li>
-      <li><a  href="#contact">Contact</a></li>
-      <li><a  href="#top"><i class="material-icons menu">arrow_upward</i></a></li>
-    </ul>
+     <div id="header"></div>
   </header>
 
 <!-- fixed action button -->
@@ -59,19 +48,6 @@
     </ul>
   </div>
 
-  <!-- sticky info -->
-  <!-- <div id="modal" class="modal orange">
-    <div class="modal-content white-text">
-      <a href="#!" style="float:right;" class="modal-close waves-effect waves-yellow btn-flat" id="modal-close-button"><i class='white-text material-icons'>close</i></a>
-      <h3 class="center">I'm a Work In Progress!</h3>
-      <p class="light flow-text">I'm currently studying to become an UX designer. <br><br>Feel free to look around, but if you want updated information, please visit my <a id="sticky" href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'>LinkedIn</a> or <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'>email</i></a> me any questions!</p>
-      <div class="center">
-      <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
-      <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
-      </div>
-    </div>
-  </div> -->
-
 <!-- welcome -->
   <div id="index-banner" class="parallax-container" id="top">
     <div class="container">
@@ -83,8 +59,8 @@
           <h1 id="smaller-header" class="game-header white-text text-darken-4" >I'm Amanda<span class="blinking-cursor" style="font-size:40px;">|</span></h1>
           <h1 id="normal-header" class="game-header white-text text-darken-4" style="margin-top:50px;">I'm Amanda<span class="blinking-cursor">|</span></h1>
           <h4 class="tagline light" style="padding-top:0px;margin-top:20px;">A professional nerd and UX designer</h4>
-          <a href="#projects"><h6 class="light white-text" style="margin-top:40px; margin-bottom:0px;">See What I Can Do</h6></a>
-          <br><a href="#projects" ><i class="large white-text material-icons">keyboard_arrow_down</i></a>
+          <a href="#projects"><p id="link_text" class="light" style="margin-top:40px; margin-bottom:0px;">See What I Can Do</p></a>
+          <br><a href="#projects" ><i class="large material-icons">keyboard_arrow_down</i></a>
         </div>
       </div>
     </div>
@@ -138,7 +114,7 @@
             <br><br><b>Roles:</b> Project managing, interviewing, prototyping, gamification & visual design
             <br><br><b>Tools:</b> Figma, Miro, Design Sprint
           </p>
-          <a href="project_4" class="btn-large waves-effect waves-light orange lighten-1" style="margin-bottom:20px;">Read case study</a>
+          <a href="project_4" class="btn-large waves-effect waves-light" style="margin-bottom:20px;">Read case study</a>
         </div>
       </div>
       <div style="padding-bottom:20px;" class="row white hoverable rounded_corners">
@@ -155,7 +131,7 @@
             <br><br><b>Roles:</b> Facilitating, interviewing, prototyping, gamification & visual design
             <br><br><b>Tools:</b> Figma, Miro, Design Sprint
           </p>
-          <a href="project_3" class="btn-large waves-effect waves-light orange lighten-1" style="margin-bottom:20px;">Read case study</a>
+          <a href="project_3" class="btn-large waves-effect waves-light" style="margin-bottom:20px;">Read case study</a>
         </div>
       </div>
       <div style="padding-bottom:20px;" class="row white hoverable rounded_corners">
@@ -171,28 +147,15 @@
           <br><br><b>Roles:</b> Facilitating, documenting, prototyping, testing, game & visual design
           <br><br><b>Tools:</b> Tabletop Simulator, Miro, Design Thinking, Photoshop, Illustrator
         </p>
-          <a href="project_2" class="btn-large waves-effect waves-light orange lighten-1" style="margin-bottom:20px;">Read case study</a>
+          <a href="project_2" class="btn-large waves-effect waves-light" style="margin-bottom:20px;">Read case study</a>
         </div>
       </div>
-      <!-- <div style="padding-bottom:20px;margin-bottom:40px;" class="row white hoverable">
-        <div class="col s12 m6 l4 offset-l1">
-          <img style="padding:40px" class="responsive-img materialboxed" src="images/projects/project_1/check.png">
-        </div>
-        <div class="col s12 m6 l5">
-          <h4 class="orange-text" style="padding-top:20px;padding-bottom:20px;">CheckMate</h4>
-          <p class="light flow-text black-text"><b>Background:</b> Our first school project
-          <br><br><b>Brief:</b> Design an app that will improve learning and add value for students between 9-25
-          <br><br><b>Time:</b> 3 days</p>
-          <br><br><a href="project_1" class="btn-large waves-effect waves-light orange lighten-1" >Read case study</a>
-        </div>
-      </div> -->
     </div>
     <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <!-- tools section -->
   <div class="row container center" id="tools">
-    <br>
     <h2>Tools</h2>
     <div id="show-list">
       <div class="col s12 m12 l6 center">
@@ -226,6 +189,7 @@
           <li class="tab col s6"><a href="#list">List</a></li>
         </ul>
       </div>
+
       <div id="icons" class="col s12">
         <div class="row center" id="icons-list">
     <!-- UX tools -->
@@ -389,7 +353,6 @@
             </div>
           </div>
     <!-- Programs and tools -->
-    <!-- Often used -->
             <div class="row">
               <div class="col s12 m12 l6">
                 <h4 class="center light" style="padding-top:10px;">Programs & Tools</h4>
@@ -511,282 +474,12 @@
                 Microsoft Office
                 </div>
               </div>
-    <!-- Sometimes used -->
-              <!-- <div class="col s12 m12 l12 center">
-                <button onclick="seeMore()" id="seeBtn" class="center btn-large waves-effect waves-light orange lighten-1">
-                  More tools
-                </button>
-                <span id="placeholderSometimes">
-                </span>
-              </div>
-            </div> -->
-    
-    <!-- more skills -->
-                    <!-- <div id="seeMore" class="center">
-                      <div class="col s12 m12 l6">
-                        <h4 class="light">Sometimes used</h4>
-                        <div id='icons'>
-                          <div class='showtext'>
-                            <ul>
-                              <li>
-                                <i class='fab fa-jira none' style="padding-top:0;"></i>
-                                <b>Jira</b>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id='language-icons-replacement'>
-                        Jira
-                        </div>
-                        <div id='icons'>
-                          <div class='showtext'>
-                            <ul>
-                              <li>
-                                <i class='fab fa-confluence none' style="padding-top:0;"></i>
-                                <b>Confluence</b>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id='language-icons-replacement'>
-                          Confluence
-                        </div>
-                        <div id='icons'>
-                          <div class='showtext'>
-                            <ul>
-                              <li>
-                                <i class='devicon-github-plain none'></i>
-                                <b>Github</b>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id='language-icons-replacement'>
-                        Github
-                        </div>
-                        <div id='icons'>
-                          <div class='showtext'>
-                            <ul>
-                              <li>
-                                <i class='devicon-git-plain none'></i>
-                                <b>Git</b>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id='language-icons-replacement'>
-                        Git
-                        </div>
-                        <div id='icons'>
-                          <div class='showtext'>
-                            <ul>
-                              <li>
-                                <i class='devicon-javascript-plain none'></i>
-                                <b>JavaScript</b>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id='language-icons-replacement'>
-                        JavaScript
-                        </div>
-                        <div id='icons'>
-                          <div class='showtext'>
-                            <ul>
-                              <li>
-                                <i class="fas fa-project-diagram none" style="padding-top:0;"></i>
-                                <b>Flowcharts
-                                </b>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id='language-icons-replacement'>
-                          Flowcharts
-                        </div>
-                        <div id='icons'>
-                          <div class='showtext'>
-                            <ul>
-                              <li>
-                                <i class="fas fa-file-alt none" style="padding-top:0;"></i>
-                                <b>Pseudocode
-                                </b>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div id='language-icons-replacement'>
-                          Pseudocode
-                        </div>
-                      </div> -->
-    <!-- Dabbled with -->        
-                    <!-- <div class="col s12 m12 l6">
-                      <h4 class="light">Dabbled with</h4>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-xd-plain none'></i>
-                              <b>Adobe XD</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Adobe XD
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='fab fa-unity none' style="padding-top:0;"></i>
-                              <b>Unity</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Unity
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-illustrator-plain none'></i>
-                              <b>Illustrator</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Illustrator
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-csharp-plain none'></i>
-                              <b>C#</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      C#
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-ruby-plain none'></i>
-                              <b>Ruby</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Ruby
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-angularjs-plain none'></i>
-                              <b>Angular</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Angular
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-jquery-plain none'></i>
-                              <b>jQuery</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      jQuery
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-rails-plain none'></i>
-                              <b>Rails</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Rails
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-postgresql-plain none'></i>
-                              <b>Postgres</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Postgres
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-cucumber-plain none'></i>
-                              <b>Cucumber</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Cucumber
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-jasmine-plain none'></i>
-                              <b>Jasmine</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Jasmine
-                      </div>
-                      <div id='icons'>
-                        <div class='showtext'>
-                          <ul>
-                            <li>
-                              <i class='devicon-protractor-plain none'></i>
-                              <b>Protractor</b>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div id='language-icons-replacement'>
-                      Protractor
-                      </div>
-                    </div>
-                    </div> -->
-    <!-- END more skills -->
           </div>
         </div>
       </div>
       <div id="list" class="col s12">
         <div class="col s12 m12 l6 center">
-          <h5 style="padding-top:10px;">UX Methods</h5>
+          <h4 class="center light" style="padding-top:10px;">UX Methods</h4>
           <p class="light flow-text" style="margin:0px;;padding:0px;">
             Design Thinking
           <br>Design Sprints
@@ -799,7 +492,7 @@
           </p>
         </div>
         <div class="col s12 m12 l6 center">
-          <h5 style="padding-top:10px">Tools & Programs</h5>
+          <h4 class="center light" style="padding-top:10px;">Programs & Tools</h4>
           <p class="light flow-text" style="margin:0px;;padding:0px;">
           Figma
           <br>Miro, Trello
@@ -812,8 +505,6 @@
         </div>
       </div>
     </div> 
-
-    
   </div>
 
   <!-- education section -->
@@ -825,11 +516,6 @@
             <h5 class="header orange-text" style="margin-top:20px;margin-bottom:0px">
               2020-2022
             </h5>
-            <!-- <h5 class="header" style="margin-top:0px;">
-              <a href='https://cmeducations.se/utbildningar/program/experience-designer' class="orange-text text-darken-2" target='_blank'>
-                Changemaker Educations
-              </a>
-            </h5> -->
             <h4 class="header orange-text text-darken-4" style="margin-top:0px;">
               Experience Designer
             </h4>
@@ -869,11 +555,6 @@
             <h5 class="header orange-text" style="margin-top:20px;margin-bottom:0px">
               2017
             </h5>
-            <!-- <h5 class="header" style="margin-top:0px;">
-              <a href='https://craftacademy.se/english/curriculum/' class="orange-text text-darken-2" target='_blank'>
-                Craft Academy
-              </a>
-            </h5> -->
             <h4 class="header orange-text text-darken-4" style="margin-top:0px;">
               Certified Full Stack Web Developer
             </h4>
@@ -930,11 +611,8 @@
           </p>
         </div>
         <div class="col s12 m12 l12 center">
-          <a onclick="readMore()"><h6 class="light" id="readBtn" style="margin-bottom:0px;">Show favorites</h6></a>
+          <a onclick="readMore()"><p class="light flow-text" id="readBtn" style="margin-bottom:0px;">Show favorites</p></a>
           <a onclick="readMore()"><i class="large material-icons" id="arrowBtn">keyboard_arrow_down</i></a>
-          <!-- <button onclick="readMore()" id="readBtn" class="center btn-large waves-effect waves-light orange lighten-1">
-            Show favorites
-          </button> -->
           <span id="placeholder">
           </span>
         </div>
@@ -964,16 +642,6 @@
                   <li class="bullet">The Master and Margarita - Bulgakov</li>
                 </ul>
               </div>
-              <!-- <div class="col s12 m6 l6">
-                <ul class="light flow-text">
-                  <i class="fas fa-music about-icons"></i>
-                  <li class="bullet">Eminem</li>
-                  <li class="bullet">David Bowie</li>
-                  <li class="bullet">Peter Gabriel</li>
-                  <li class="bullet">Imagine Dragons</li>
-                  <li class="bullet">Flight of the Conchords</li>
-                </ul>
-              </div> -->
               <div class="col s12 m6 l6">
                 <ul class="light flow-text">
                   <i class="fas fa-gamepad about-icons"></i>
@@ -994,81 +662,15 @@
                   <li class="bullet">Betrayal at the House on the Hill</li>
                 </ul>
               </div>
-              <!-- <div class="col s12 m6 l6">
-                <ul class="light flow-text">
-                  <i class="fas fa-tv about-icons"></i>
-                  <li class="bullet">RWBY</li>
-                  <li class="bullet">Black Mirror</li>
-                  <li class="bullet">Buffy the Vampire Slayer</li>
-                  <li class="bullet">Miss Fisher's Murder Mysteries</li>
-                  <li class="bullet">She-Ra & the Princesses of Power</li>
-                </ul>
-              </div>
-              <div class="col s12 m6 l6">
-                <ul class="light flow-text">
-                  <i class="fas fa-film about-icons"></i>
-                  <li class="bullet">Donnie Darko</li>
-                  <li class="bullet">Perfect Blue</li>
-                  <li class="bullet">Spirited Away</li>
-                  <li class="bullet">Close to Heaven</li>
-                  <li class="bullet">Pirates of the Caribbean</li>
-                </ul>
-              </div> -->
-              <!-- <div class="col s12 m6 l6">
-                <ul class="light flow-text">
-                  <i class="fas fa-book-open about-icons"></i>
-                  <li class="bullet">Saga - Vaughan</li>
-                  <li class="bullet">Nimona - Stevenson</li>
-                  <li class="bullet">Princeless - Whitley</li>
-                  <li class="bullet">The Unbeatable Squirrel Girl - North</li>
-                  <li class="bullet">Princess Princess Ever After - O'Neill</li>
-                </ul>
-              </div> -->
             </div>
         </div>
       </div>
     <!-- END top 5 -->
   </div>
 
-  <!-- Are you my next challenge? -->
-  <!-- <div class="parallax-container valign-wrapper">
-    <div class="section ">
-      <div class="container">
-        <div class="row center">
-          <h4 style="margin-top:0px;" class="col s12 orange-text text-darken-4 light">Are you my next challenge?</h4>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
-  </div> -->
-
   <!-- footer & contact section -->
   <footer class="page-footer orange" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col l12 s12 center">
-          <h4 style="margin-top:0px;" class="white-text">Connect with me</h4>
-          <p class="light flow-text grey-text text-lighten-4">
-            <a class="white-text" style="text-decoration:underline;" href="tel:46709982282">+46 70-998 22 82</a>
-            <br>
-            <a class="white-text" style="text-decoration:underline;" href="mailto:amanda@alling.org?subject=Hello!" target='_blank'>amanda@alling.org</a>
-            <br><br>
-            Feel free to contact me if you have any questions
-            <br>
-            (or if you want to play some games)
-          </p>
-          <a href="tel:46709982282"><i aria-hidden='true' class='footer fas fa-mobile-alt'></i></a>
-          <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
-          <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
-          <a href='https://github.com/sajaas' target='_blank'><i aria-hidden='true' class='footer fab fa-github' style="letter-spacing:0;"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2020
-      </div>
-    </div>
+    <div id="footer"></div>
   </footer>
   </body>
   </html>

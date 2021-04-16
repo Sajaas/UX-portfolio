@@ -3,6 +3,20 @@
    font-family: 'Montserrat', sans-serif,courier,arial,helvetica; 
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+
 nav ul a,
 nav .brand-logo {
   color:#e65100;
@@ -33,7 +47,8 @@ h2 {
   color:#e65100;
   margin-top:60px;
   font-size: 40px;
-  /* font-family: 'DotGothic16', sans-serif; */
+  -webkit-text-stroke: 0.7px white;
+    /* font-family: 'DotGothic16', sans-serif; */
   font-family: 'Press Start 2P', courier,arial,helvetica;
   /* font-family: 'VT323', monospace, courier,arial,helvetica; */
 }
@@ -59,18 +74,35 @@ h6 {
 a:hover {
   color: #e65100;
 }
+
 a {
   color: #FFA726;
   text-decoration: underline;
 }
 
-a:hover#project-button {
-  color: #e65100;
+
+
+.btn-large {
+  background-color: #FFA726
 }
 
-a#project-button {
-  color: #FFA726;
+.btn-large:hover {
+  background-color: #e65100;
+  color: white;
 }
+
+/* a:hover#project-button {
+  color: #e65100;
+} */
+
+/* a#project-button {
+  color: #FFA726;
+} */
+/* 
+b {
+  font-family: 'Montserrat', sans-serif,courier,arial,helvetica; 
+  font-weight: 600;
+} */
 
 .navbarlinks a, .navbarlinks i.material-icons.menu {
   color:black;
@@ -451,5 +483,9 @@ i.valign-wrapper.material-icons-menu{
 
 .rounded_corners {
   border-radius : 10px;
+}
+
+#link_text {
+  font-size: 30px;
 }
 

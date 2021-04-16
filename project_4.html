@@ -8,6 +8,17 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("partials/header.html"); 
+      $("#footer").load("partials/footer.html"); 
+    });
+  </script> 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
@@ -17,34 +28,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
 </head>
 
 <body>
   <header>
-  <div class="navbar-fixed navbarlinks" id="top">
-    <nav class="white" role="navigation">
-      <div class="container">
-      <a href="index#top"  style="padding-left: 10px; padding-right: 10px;" class="brand-logo">Amanda Alling Andrén</a>
-      <a href="#"  data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a  href="index#projects">Projects</a></li>
-        <li><a  href="index#tools">Tools</a></li>
-        <li><a  href="index#education">Education</a></li>
-        <li><a  href="index#about">About me</a></li>
-        <li><a  href="index#contact">Contact</a></li>
-        <li><a  href="#top"><i class="valign-wrapper material-icons menu" style="font-size:35px; height:64px;">arrow_upward</i></a></li>
-      </ul>
-    </div>
-    </nav>
-  </div>
-  <ul class="sidenav sidenav-close" id="mobile-demo">
-    <li><a  href="index#projects">Projects</a></li>
-    <li><a  href="index#tools">Tools</a></li>
-    <li><a  href="education">Education</a></li>
-    <li><a  href="index#about">About me</a></li>
-    <li><a  href="index#contact">Contact</a></li>
-    <li><a  href="#top"><i class="material-icons menu">arrow_upward</i></a></li>
-  </ul>
+    <div id="header"></div>
 </header>
 
 <!-- fixed action button -->
@@ -79,7 +69,7 @@
           </p>
         </div>
         <div class="col s12 m12 l12 center">
-          <a href="https://www.figma.com/proto/JF2clYkiuSwRYFOOvUkSVj/Project-1-Get-Dreams?node-id=264%3A1849&viewport=1944%2C537%2C0.9511101245880127&scaling=scale-down" style="margin-bottom:20px;" target="_blank" class="btn-large waves-effect waves-light orange lighten-1">try the prototype</a>
+          <a href="https://www.figma.com/proto/JF2clYkiuSwRYFOOvUkSVj/Project-1-Get-Dreams?node-id=264%3A1849&viewport=1944%2C537%2C0.9511101245880127&scaling=scale-down" style="margin-bottom:20px;" target="_blank" class="btn-large waves-effect waves-light">try the prototype</a>
         </div>
       </div>
       <div class="row black-text" style="margin: 0rem;line-height: 2rem;">
@@ -508,8 +498,8 @@
         </div>
         <div class="col s12 m12 l12 center">
           <div class="divider"></div>
-          <a style="margin:20px;" href="project_3" class="button_with_icon btn-large waves-effect waves-light orange lighten-1"><i class="material-icons">keyboard_arrow_left</i>To Swing Speed Radar Case Study</a>
-          <a style="margin:40px;" href="index#projects" class="btn-large waves-effect waves-light orange lighten-1">Back to projects</a>
+          <a style="margin:20px;" href="project_3" class="button_with_icon btn-large waves-effect waves-light"><i class="material-icons">keyboard_arrow_left</i>To Swing Speed Radar Case Study</a>
+          <a style="margin:40px;" href="index#projects" class="btn-large waves-effect waves-light">Back to projects</a>
         </div>
       </div>
     </div>
@@ -517,31 +507,7 @@
 
   <!-- footer & contact section -->
   <footer class="page-footer orange" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col l12 s12 center">
-          <h4 style="margin-top:0px;" class="white-text">Connect with me</h4>
-          <p class="light flow-text grey-text text-lighten-4">
-            <a class="white-text" style="text-decoration:underline;" href="tel:46709982282">+46 70-998 22 82</a>
-            <br>
-            <a class="white-text" style="text-decoration:underline;" href="mailto:amanda@alling.org?subject=Hello!" target='_blank'>amanda@alling.org</a>
-            <br><br>
-            Feel free to contact me if you have any questions
-            <br>
-            (or if you want to play some games)
-          </p>
-          <a href="tel:46709982282"><i aria-hidden='true' class='footer fas fa-mobile-alt'></i></a>
-          <a href="mailto:amanda@alling.org?subject=Hello!" target='_blank'><i aria-hidden='true' class='footer fas fa-envelope'></i></a>
-          <a href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i aria-hidden='true' class='footer fab fa-linkedin'></i></a>
-          <a href='https://github.com/sajaas' target='_blank'><i aria-hidden='true' class='footer fab fa-github' style="letter-spacing:0;"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      © 2020
-      </div>
-    </div>
+    <div id="footer"></div>
   </footer>
   </body>
 </html>
