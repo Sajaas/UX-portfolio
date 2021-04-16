@@ -37,14 +37,17 @@ function readMore() {
   var placeholder = document.getElementById("placeholder");
   var moreText = document.getElementById("readMore");
   var btnText = document.getElementById("readBtn");
+  var arrowBtn = document.getElementById("arrowBtn")
 
   if (placeholder.style.display === "none") {
     placeholder.style.display = "inline";
-    btnText.innerHTML = "show favorites";
+    btnText.innerHTML = "Show favorites";
+    arrowBtn.innerHTML = "keyboard_arrow_down";
     moreText.style.display = "none";
   } else {
     placeholder.style.display = "none";
-    btnText.innerHTML = "hide favorites";
+    btnText.innerHTML = "Hide favorites";
+    arrowBtn.innerHTML = "keyboard_arrow_up";
     moreText.style.display = "inline";
   }
 }
