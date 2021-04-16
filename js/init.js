@@ -40,11 +40,11 @@ function readMore() {
 
   if (placeholder.style.display === "none") {
     placeholder.style.display = "inline";
-    btnText.innerHTML = "show my top list";
+    btnText.innerHTML = "show favorites";
     moreText.style.display = "none";
   } else {
     placeholder.style.display = "none";
-    btnText.innerHTML = "hide my top list";
+    btnText.innerHTML = "hide favorites";
     moreText.style.display = "inline";
   }
 }
