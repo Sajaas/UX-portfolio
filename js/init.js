@@ -34,17 +34,33 @@ $(document).ready(function(){
 });
 
 function readMore() {
-  var dots = document.getElementById("placeholder");
+  var placeholder = document.getElementById("placeholder");
   var moreText = document.getElementById("readMore");
   var btnText = document.getElementById("readBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
+  if (placeholder.style.display === "none") {
+    placeholder.style.display = "inline";
     btnText.innerHTML = "show my top list";
     moreText.style.display = "none";
   } else {
-    dots.style.display = "none";
+    placeholder.style.display = "none";
     btnText.innerHTML = "hide my top list";
+    moreText.style.display = "inline";
+  }
+}
+
+function seeMore() {
+  var placeholderSometimes = document.getElementById("placeholderSometimes");
+  var moreText = document.getElementById("seeMore");
+  var btnText = document.getElementById("seeBtn");
+
+  if (placeholderSometimes.style.display === "none") {
+    placeholderSometimes.style.display = "inline";
+    btnText.innerHTML = "More tools";
+    moreText.style.display = "none";
+  } else {
+    placeholderSometimes.style.display = "none";
+    btnText.innerHTML = "Hide more tools";
     moreText.style.display = "inline";
   }
 }
