@@ -14,10 +14,15 @@
     crossorigin="anonymous">
     </script>
     <script> 
-    $(function(){
-      $("#header").load("partials/header.html"); 
-      $("#footer").load("partials/footer.html"); 
-    });
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
   </script> 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
@@ -35,20 +40,10 @@
 <body>
   <header>
     <div id="header"></div>
-</header>
-
-<!-- fixed action button -->
-<div class="fixed-action-btn">
-  <a class="btn-floating btn-large orange">
-    <i class="large material-icons">contact_mail</i>
-  </a>
-  <ul>
-    <li><a class="btn-floating orange darken-1" href='https://github.com/sajaas' target='_blank'><i class='fab fa-github'></i></a></li>
-    <li><a class="btn-floating orange darken-2" href='https://www.linkedin.com/in/amanda-alling-andr%C3%A9n/' target='_blank'><i class='fab fa-linkedin'></i></a></li>
-    <li><a href="mailto:amanda@alling.org?subject=Hello!" class="btn-floating orange darken-3" target="_blank"><i class="fas fa-envelope"></i></a></li>
-    <li><a href="tel:46709982282" class="btn-floating orange darken-4"><i aria-hidden='true' class='fas fa-mobile-alt'></i></a></li>
-  </ul>
-</div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
 
   <!-- Project section -->
   <div class="parallax-container valign-wrapper" id="projects">
