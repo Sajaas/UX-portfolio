@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>M-icon</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Brand-Campaign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="M-icon" fill="#ffa726" fill-rule="nonzero">
-            <polygon id="M-Copy" points="138.356703 0 110.563682 0 144.313709 30.6480993 83.0748623 0 55.2818408 0 89.0310036 41.8293866 27.7921573 0 0 0 33.3447121 54.8203129 0 200 27.7921573 200 89.0310036 47.046356 55.2818408 200 83.0748623 200 144.313709 35.8650687 110.563682 200 138.356703 200 200 22.8264755"></polygon>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F88727;}
+</style>
+<desc>Created with Sketch.</desc>
+<g id="Brand-Campaign">
+	<g id="M-icon">
+		<polygon id="M-Copy" class="st0" points="138.4,0 110.6,0 144.3,30.6 83.1,0 55.3,0 89,41.8 27.8,0 0,0 33.3,54.8 0,200 27.8,200 
+			89,47 55.3,200 83.1,200 144.3,35.9 110.6,200 138.4,200 200,22.8 		"/>
+	</g>
+</g>
 </svg>
