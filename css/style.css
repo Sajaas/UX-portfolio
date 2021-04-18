@@ -91,6 +91,8 @@ a, #readBtn, #link_text {
 .btn-large {
   background-color: #f9ae50;
   color: black;
+  font-size:larger;
+  font-weight:700;
 }
 
 .btn-large:hover {
@@ -208,6 +210,9 @@ i.footer:hover, .footer-white-link:hover {
             margin: auto;
             width: 70%;
           }
+          .btn-large {
+            font-size: medium;
+          }
           a.brand-logo {
             font-size: 14px;
             }
@@ -295,6 +300,7 @@ i.none {
 .tabs .tab a{
   background-color: black;
     color:#f9ae50;
+    font-size: larger;
 } /*color to the text*/
 
 .tabs .tab a:hover {
