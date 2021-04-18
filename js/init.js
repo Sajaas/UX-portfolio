@@ -30,8 +30,15 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.collapsible').collapsible();
   $('.tabs').tabs();
-  $('.carousel').carousel();
-});
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true,
+  });});
+  autoplay();
+    function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 10000);
+    }
 
 function readMore() {
   var placeholder = document.getElementById("placeholder");

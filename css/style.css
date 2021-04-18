@@ -219,7 +219,10 @@ i.footer:hover, .footer-white-link:hover {
           h2 {
             font-size: 30px;
           }
+          .carousel {
+            display: none;
           }
+      }
     /* end of show/hide section */
 
 i.none {
@@ -500,4 +503,10 @@ i.valign-wrapper.material-icons-menu{
 
 #materialbox-overlay {
   opacity: 0.8 !important;
+}
+
+blockquote{
+  /* background-color: black; */
+  border-left: 5px solid #f88727; 
+  border-radius : 10px;
 }
