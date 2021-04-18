@@ -365,6 +365,7 @@ i.none {
 }
 .bubble{
     background-color: #f28125;
+    color: black;
     border-radius: 5px;
     /* box-shadow: 0 0 6px #B2B2B2; */
     display: block;
