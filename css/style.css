@@ -20,7 +20,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color:#f88727;
+  color:#f28125;
 }
 
 p {
@@ -63,33 +63,33 @@ h4.tagline {
 
 h4 {
   padding-left: 10px;
-  color:#f88727
+  color:#f28125
 }
 
 h5 {
-  color: #f88727;
+  color: #f28125;
 }
 
 h6 {
-  color: #f88727;
+  color: #f28125;
   font-size: 30px;
 }
 
-a:hover, #readBtn:hover, #arrowBtn:hover, #link_btn:hover, #link_text:hover {
+a:hover, #readBtn:hover, #arrowBtn:hover, #link_btn:hover, h4#link_text:hover {
   color: white;
 }
 
-a, #readBtn, #link_text {
-  color: #f9ae50;
+a, #readBtn, h4#link_text {
+  color: #f7c880;
   text-decoration: underline;
 }
 
 #arrowBtn, #link_btn {
-  color: #f9ae50;
+  color: #f7c880;
 }
 
 .btn-large {
-  background-color: #f9ae50;
+  background-color: #f7c880;
   color: black;
   font-size:larger;
   font-weight:700;
@@ -97,7 +97,7 @@ a, #readBtn, #link_text {
 
 .btn-large:hover {
   background-color: white;
-  color: #f88727;
+  color: #f28125;
 }
 
 .navbarlinks a, .navbarlinks i.material-icons.menu {
@@ -106,14 +106,14 @@ a, #readBtn, #link_text {
 }
 
 .navbarlinks a:hover, .navbarlinks i.material-icons.menu:hover {
-  color: #f88727;
+  color: #f28125;
   background-color: white;
 }
 
 
 
 .sidenav-trigger {
-  color: #f88727;
+  color: #f28125;
 }
 
 #show-list {
@@ -159,7 +159,7 @@ footer.page-footer {
 
 
 i.material-icons.menu {
-  color: #f88727;
+  color: #f28125;
 }
 
 i.footer {
@@ -174,7 +174,7 @@ i.footer {
 }
 
 i.footer:hover, .footer-white-link:hover {
-  color:#f88727;
+  color:#f28125;
 }
 /* Tool icons show/hide style */
   .showtext li {
@@ -256,11 +256,11 @@ i.none {
   letter-spacing: 30px;
   text-align: center;
   padding-top: 0;
-  color: #f88727;  }
+  color: #f28125;  }
 
 i.welcome-icons {
   letter-spacing: 0px;
-  color:#f88727;
+  color:#f28125;
   font-size: 60px;
   text-align: center; }
 
@@ -270,16 +270,16 @@ i.about-icons {
   margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
-  color: #f88727;
+  color: #f28125;
 }
 
 i.none {
   letter-spacing: 0px;
-  color: #f88727;
+  color: #f28125;
   text-align: center; }
 
 .switch label .lever:after {
-    background-color: #f88727 !important;
+    background-color: #f28125 !important;
 }
 
 .sticky-info {
@@ -287,13 +287,13 @@ i.none {
 }
 
 .collapsible-header:hover {
-  background-color: #f88727;
-  color: #f88727;
+  background-color: #f28125;
+  color: #f28125;
 }
 
 .collapsible-header {
   display:block;
-  background-color:#f88727;
+  background-color:#f28125;
   color: white;
 }
 
@@ -321,34 +321,34 @@ i.none {
 }
 
 #myBtn:hover {
-    color: #f88727;
+    color: #f28125;
 }
 
 #readMore, #seeMore {display: none;}
 
 .tabs .tab a{
   background-color: black;
-    color:#f9ae50;
+    color:#f7c880;
     font-size: larger;
 } /*color to the text*/
 
 .tabs .tab a:hover {
-    background-color:#f9ae50;
+    background-color:#f7c880;
     color:black;
 } /*Text color on hover*/
 
 .tabs .tab a:focus.active {
-    background-color:#f9ae50;
+    background-color:#f7c880;
     color:black;
 } /*Background and text color when a tab is active*/
 
 .tabs .tab a.active {
     background-color:black;
-    color:#f9ae50;
+    color:#f7c880;
 } /*Background and text color when a tab is active*/
 
 .tabs .indicator {
-    background-color:#f9ae50;
+    background-color:#f7c880;
 } /*Color of underline*/
 
 .projects {
@@ -364,7 +364,7 @@ i.none {
     margin: 0 auto;
 }
 .bubble{
-    background-color: #f88727;
+    background-color: #f28125;
     border-radius: 5px;
     /* box-shadow: 0 0 6px #B2B2B2; */
     display: block;
@@ -372,7 +372,7 @@ i.none {
     position: relative;
 }
 .bubble::before {
-    background-color: #f88727;
+    background-color: #f28125;
     content: "";
     display: block;
     height: 16px;
@@ -511,8 +511,9 @@ i.valign-wrapper.material-icons-menu{
   border-radius : 10px;
 }
 
-#link_text {
+h4#link_text {
   font-size: 30px;
+  color: f7c880;
 }
 
 .fixed-action-btn{
@@ -520,7 +521,7 @@ i.valign-wrapper.material-icons-menu{
   }
 
   .btn-floating.btn-large {
-    background-color: #f88727;
+    background-color: #f28125;
   }
 
 .tool-icons{
@@ -533,6 +534,6 @@ i.valign-wrapper.material-icons-menu{
 
 blockquote{
   /* background-color: black; */
-  border-left: 5px solid #f88727; 
+  border-left: 5px solid #f28125; 
   border-radius : 10px;
 }
