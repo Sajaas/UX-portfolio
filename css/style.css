@@ -205,7 +205,7 @@ i.footer:hover, .footer-white-link:hover {
             display: block;
           }
           a.brand-logo {
-            font-size: 15px;
+            font-size: 14px;
             }
           }
     /* end of show/hide section */
@@ -483,4 +483,8 @@ i.valign-wrapper.material-icons-menu{
 
 .tool-icons{
   font-size: 16px;
+}
+
+#materialbox-overlay {
+  opacity: 0.8 !important;
 }
