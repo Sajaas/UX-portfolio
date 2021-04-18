@@ -204,9 +204,16 @@ i.footer:hover, .footer-white-link:hover {
           #show-list {
             display: block;
           }
+          .center-btn {
+            margin: auto;
+            width: 70%;
+          }
           a.brand-logo {
             font-size: 14px;
             }
+          h2 {
+            font-size: 30px;
+          }
           }
     /* end of show/hide section */
 
