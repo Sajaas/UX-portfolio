@@ -24,14 +24,14 @@ nav .brand-logo {
 }
 
 p {
-  line-height: 2rem;
+  /* line-height: 2rem; */
   padding:10px;
   font-weight: 50;
   color:white;
 }
 
 body {
-  line-height: 2rem;
+  /* line-height: 2rem; */
   font-weight:normal;
   background-color: #131315;
 }
@@ -318,7 +318,7 @@ i.none {
 /* bubbles */
 
 .chatbox {
-    width: 400px;
+    min-width: 500px;
     margin: 0 auto;
 }
 .bubble{
@@ -345,7 +345,8 @@ i.none {
 }
 .you {
     float: left;
-    margin: 5px 45px 5px 20px;
+    margin: 10px 20px 10px 20px;
+    width: 500px;
 }
 .you::before {
     /* box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 ); */
