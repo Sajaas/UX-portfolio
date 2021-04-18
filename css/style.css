@@ -186,7 +186,9 @@ i.footer:hover, .footer-white-link:hover {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     padding: 10px;
-    vertical-align: middle; }
+    vertical-align: middle; 
+  }
+
     .showtext li i {
       padding: 10px; }
     .showtext li b {
@@ -196,6 +198,30 @@ i.footer:hover, .footer-white-link:hover {
       display: none; }
     .showtext li:hover b {
       display: block; }
+
+/* Tool UX icons show/hide style */
+  .showtext-ux li {
+    float: left;
+    /* height: 100px;
+    width: 100px; */
+    letter-spacing: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    vertical-align: middle; 
+    min-width: 200px;
+  }
+
+    .showtext-ux li i {
+      padding: 10px; 
+      font-size: 25px;
+    }
+
+    .showtext-ux li b {
+      vertical-align: middle;
+      padding-bottom: 10px; 
+    }
+
+
 
     @media screen and (min-width: 801px) {
       #language-icons-replacement {
