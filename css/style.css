@@ -566,3 +566,9 @@ blockquote{
 .carousel-item {
   min-width: 550px !important;
 }
+
+p.img-caption {
+  padding-top: 0px;
+  margin-top: 5px;
+  font-style: italic;
+}
