@@ -263,8 +263,15 @@ i.footer:hover, .footer-white-link:hover {
           .carousel {
             display: none;
           }
+          .bubble.you {
+            width: 260px;
+        }
       }
     /* end of show/hide section */
+
+figure {
+  margin: 0px;
+}
 
 i.none {
   font-size: 50px;
