@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
 }
 
@@ -26,8 +26,12 @@ nav .brand-logo {
 p {
   /* line-height: 2rem; */
   padding:10px;
-  font-weight: 50;
+  font-weight: 300;
   color:white;
+}
+
+li {
+  font-weight: 300;
 }
 
 body {
@@ -36,10 +40,15 @@ body {
   background-color: #131315;
 }
 
+b {
+  font-weight: 700;
+}
+
 h1 {
   margin-bottom:0px;
   padding-top: 10px;
   font-family: 'Press Start 2P', cursive, courier,arial,helvetica;
+  font-weight: 700;
 }
 
 h1#smaller-header {
@@ -54,6 +63,7 @@ h2 {
     /* font-family: 'DotGothic16', sans-serif; */
   font-family: 'Press Start 2P', courier,arial,helvetica;
   /* font-family: 'VT323', monospace, courier,arial,helvetica; */
+  font-weight: 700;
 }
 
 h4.tagline {
@@ -62,17 +72,22 @@ h4.tagline {
 }
 
 h4 {
+  font-weight: 700;
   padding-left: 10px;
   color:#f28125
 }
 
 h5 {
   color: #f28125;
+  font-weight: 700;
+  padding-left: 10px;
 }
 
 h6 {
   color: #f28125;
   font-size: 30px;
+  font-weight: 700;
+  padding-left: 10px;
 }
 
 a:hover, #readBtn:hover, #arrowBtn:hover, #link_btn:hover, h4#link_text:hover {
@@ -534,7 +549,14 @@ h4#link_text {
 }
 
 blockquote{
-  /* background-color: black; */
   border-left: 5px solid #f28125; 
   border-radius : 10px;
+}
+
+.carousel#more_projects {
+  min-height: 500px;
+}
+
+.carousel-item {
+  min-width: 400px !important;
 }

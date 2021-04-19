@@ -30,6 +30,7 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.collapsible').collapsible();
   $('.tabs').tabs();
+  $('.carousel').carousel();
   $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true,
