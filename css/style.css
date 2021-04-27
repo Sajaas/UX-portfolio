@@ -564,6 +564,10 @@ blockquote{
   min-height: 350px;
   padding-top: 0;
 }
+.carousel#reviews{
+  min-height: 600px;
+  padding-top: 0;
+}
 
 .carousel#more_projects .carousel-item {
   min-height: 350px;
