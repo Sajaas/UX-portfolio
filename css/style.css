@@ -112,7 +112,7 @@ a, #readBtn, h4#link_text {
 
 .btn-large:hover {
   background-color: white;
-  color: #f28125;
+  color: black;
 }
 
 .navbarlinks a, .navbarlinks i.material-icons.menu {
@@ -125,6 +125,10 @@ a, #readBtn, h4#link_text {
   background-color: white;
 }
 
+.btn-large:active, .btn-large:focus {
+  color:black;
+  background-color: #f7c880;
+}
 
 
 .sidenav-trigger {
@@ -543,9 +547,9 @@ h4#link_text {
   right:10%;
   }
 
-  .btn-floating.btn-large {
-    background-color: #f28125;
-  }
+.btn-floating.btn-large {
+  background-color: #f28125;
+}
 
 .tool-icons{
   font-size: 16px;

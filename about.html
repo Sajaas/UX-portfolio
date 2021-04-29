@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  <script> 
+  $(function(){
+    $("#header").load("partials/header.html", function onclick(){
+      $('.sidenav').sidenav();
+    }); 
+    $("#fab").load("partials/fab.html", function onclick(){
+      $('.fixed-action-btn').floatingActionButton();
+    }); 
+    $("#footer").load("partials/footer.html"); 
+  });
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+    <body>
+        <header>
+            <div id="header"></div>
+        </header>
+        <!-- fixed action button FAB-->
+        <div id="fab"></div>
+
+        <div class="container" id="about">
+            <!-- <div class="section"> -->
+              <div class="col s12 m12 l12 center">
+                <h2 class="center">About me</h2>
+              </div>
+              <div class="row">
+                <div class="col s10 offset-s1 m6 offset-m3 l4">
+                  <img alt="A picture of me! Red hair, black glasses, big smile :)" id="my-photo" src="images/amanda1.jpg" class="circle responsive-img materialboxed">
+                </div>
+                <div class="col s12 m12 l8">
+                  <h4 style="margin-top:40px;">I'm an avid gamer, reader, and planner</h4>
+                  <p class="light flow-text">
+                    I'm a Swedish nerd who loves to learn and get challenged.
+                    <br>
+                    <br>
+                    I believe that one of the best ways to get to know someone is to have a look at their bookshelf, talk with them about their hobbies, or ask them about their favorite games!
+                    <br>
+                    <br>
+                    I look forward to having that conversation with you, but in the meantime, you can check out my favorite things below!
+                  </p>
+                </div>
+              </div>
+              <!-- top 5 -->
+              <div class="row">
+                <div class="col s12 m12 l12 center">
+                      <div class="col s12 m6 l6">
+                        <ul class="light flow-text">
+                          <i class="fas fa-smile about-icons"></i>
+                          <li class="bullet">Gaming with friends</li>
+                          <li class="bullet">Learn new tech skills</li>
+                          <li class="bullet">Read and sip some tea</li>
+                          <li class="bullet">Organize stuff (anything really)</li>
+                          <li class="bullet">Research smart home products</li>
+                        </ul>
+                      </div>
+                      <div class="col s12 m6 l6">
+                        <ul class="light flow-text">
+                          <i class="fas fa-book about-icons"></i>
+                          <li class="bullet">Harry Potter - Rowling</li>
+                          <li class="bullet">Liveship Traders - Hobb</li>
+                          <li class="bullet">Anaché - Turtschaninoff</li>
+                          <li class="bullet">The Song of the Lioness - Pierce</li>
+                          <li class="bullet">The Master and Margarita - Bulgakov</li>
+                        </ul>
+                      </div>
+                      <div class="col s12 m6 l6">
+                        <ul class="light flow-text">
+                          <i class="fas fa-chess-pawn about-icons"></i>
+                          <li class="bullet">Coup</li>
+                          <li class="bullet">Zombicide</li>
+                          <li class="bullet">Star Realms</li>
+                          <li class="bullet">Dungeons & Dragons</li>
+                          <li class="bullet">Betrayal at the House on the Hill</li>
+                        </ul>
+                      </div>
+                      <div class="col s12 m6 l6">
+                        <ul class="light flow-text">
+                          <i class="fas fa-gamepad about-icons"></i>
+                          <li class="bullet">DotA2</li>
+                          <li class="bullet">Journey</li>
+                          <li class="bullet">Amnesia</li>
+                          <li class="bullet">Spiritfarer</li>
+                          <li class="bullet"><a href="games">More favorite games</a></li>
+                        </ul>
+                      </div>
+                </div>
+              </div>
+            <!-- END top 5 -->
+
+            <div class="row">
+              <div class="col s12 m12 l10 offset-l1">
+                <h4 style="margin-top:40px;">Said about me</h4>
+                <div class="carousel carousel-slider" id="reviews">
+                  <p class="carousel-item flow-text">
+                    "Amanda has exceptional Self Leadership and Team Leadership skills<br> and is an emphatical super talent."
+                    <br><span style="float: right">- <a href="https://www.linkedin.com/in/anna-von-walzel/" target="_blank">Anna Von Walzel</a><br>Mentor & teacher at <a href="https://cmeducations.se/" target="_blank">Changemaker Educations</a></span>
+                  </p>
+                  <p class="carousel-item flow-text">
+                    "Amanda is a dedicated and extremely meticulous person.
+                    <br><br>She has been in charge of the design and design/layout of the website, poster and text material.
+                    She has a sense of language and an eye for the aesthetic. 
+                    In addition to the great skill when it comes to technology and the digital. 
+                    She is proactive and responsive to opportunities for change."
+                    <br><span style="float: right">- <a href="https://www.linkedin.com/in/christina-olofson-183b0b26/" target="_blank">Christina Olofson</a><br>Founder of <a href="http://www.co-film.se/" target="_blank">CO Film</a></span>
+                  </p>
+                  <p class="carousel-item flow-text">
+                    "Amanda has a personality that makes her an excellent team member and a great collaborator.
+                    <br><br>
+                    Amanda often demonstrated an ability to break down complex problems into small parts when faced with challenges and work through them in an organized fashion.
+                    She has a great passion for how technology can be used to transform business. I highly recommend her.
+                    <br><span style="float: right">- <a href="https://www.linkedin.com/in/thomasochman/" target="_blank">Thomas Ochman</a><br>Founder of <a href="https://www.craftacademy.se/english/" target="_blank">Craft Academy</a></span>
+                  </p>
+                  <p class="carousel-item flow-text">
+                    "A great team player that is both good at listening and giving clear feedback, and on top of that, always full of good ideas.
+                    <br><br>She has always been meticulous in her work, has a great way of dealing with both customers and colleagues, is quick to learn new things and has a broad knowledge that’s been a big asset to all her colleagues and the company.
+                    I strongly recommend Amanda, and I would be happy to work with her again."
+                    <br><span style="float: right">- <a href="https://www.linkedin.com/in/nina-l-16a921168/" target="_blank">Nina Lindström</a><br>Purchaser at <a href="https://www.sfbok.se/" target="_blank">Science Fiction Bokhandeln</a></span>
+                  </p>
+                  <p class="carousel-item flow-text">
+                    "Amanda is structured, extremely meticulous, and has a great ability to lead both large and small projects.
+                    <br><br>She is responsive and has the ability to delegate.
+                    Amanda is extremely good at embrace new knowledge and gains insight into complicated technical solutions.
+                    I give her my very best recommendations."
+                    <br><span style="float: right">- Ann Carlberger<br>HR Manager at <a href="https://www.sfbok.se/" target="_blank">Science Fiction Bokhandeln</a></span>
+                  </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        <!-- footer & contact section -->
+        <footer class="page-footer black" id="contact">
+            <div id="footer"></div>
+        </footer>
+    </body>
+</html>
