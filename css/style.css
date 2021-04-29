@@ -267,6 +267,9 @@ i.footer:hover, .footer-white-link:hover {
           .carousel {
             display: none;
           }
+          .hide-on-small-screen {
+            display:none;
+          }
           .bubble.you {
             width: 260px;
         }
