@@ -38,7 +38,7 @@ $(document).ready(function(){
   autoplay();
     function autoplay() {
         $('.carousel').carousel('next');
-        setTimeout(autoplay, 10000);
+        setTimeout(autoplay, 15000);
     }
 
 function readMore() {
