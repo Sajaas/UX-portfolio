@@ -386,10 +386,15 @@ i.none {
   padding-left:20px;
 }
 
+.flow-text {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
 /* bubbles */
 
 .chatbox {
-    min-width: 500px;
+    min-width: 100%;
     margin: 0 auto;
 }
 .bubble{
@@ -416,9 +421,9 @@ i.none {
     width:  20px;
 }
 .you {
-    float: left;
+    /* float: left; */
     margin: 10px 20px 10px 20px;
-    width: 500px;
+    max-width: 100%;
 }
 .you::before {
     /* box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 ); */
@@ -433,9 +438,9 @@ i.none {
     right: -9px;
 }
 
-.flow-text {
-  margin-top: 0px;
-  margin-bottom: 40px;
+.bubble-figcaption {
+  margin-top: 5px;
+  padding-top: 0px;
 }
 
 /* bubbles end */
