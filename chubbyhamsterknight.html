@@ -9,20 +9,20 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous">
-  </script>
-  <script> 
-    $(function(){
-      $("#header").load("partials/header.html", function onclick(){
-        $('.sidenav').sidenav();
-      }); 
-      $("#fab").load("partials/fab.html", function onclick(){
-        $('.fixed-action-btn').floatingActionButton();
-      }); 
-      $("#footer").load("partials/footer.html"); 
-    });
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
   </script> 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
@@ -34,6 +34,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 
+
 </head>
 
 <body>
@@ -44,25 +45,159 @@
   <!-- fixed action button -->
   <div id="fab"></div>
 
-
   <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
     <div class="container">
-      <div class="row" style="margin-top:40px;">
-        <div class="col s12 m12 l12 center">
-          <h4 class="orange-text text-darken-2">
-            Chubby Hamster Knight
-          </h4>
-          <h5>
-            Made with Unity Engine
-          </h5>
+      <div class="row black rounded_corners black" style="margin-top:40px;">
+        <div class="image col s12 m12 l6">
+          <img alt="Game picture" class="materialboxed responsive-img" src="images/projects/game_1/intro_square.png" style="padding: 40px;">
         </div>
+        <div class="col s12 m12 l6" style="padding-left:20px;padding-right:20px;padding-top:0px;margin-top:40px;">
+          <h5 class="header" style="padding-left:10px;">Case Study</h5>
+          <h4 class="header" style="margin-top:0px;">Chubby Hamster Knight</h4>
+          <p class="light flow-text ">
+            Hobby project to learn Unity and C#
+          </p>
+        </div>
+        <div class="col s12 m12 l12 center">
+          <a href="https://play.unity.com/mg/other/webgl-builds-15534" style="margin-bottom:20px;" target="_blank" class="btn-large waves-effect waves-light">try the game</a>
+        </div>
+      </div>
+      <div class="row " style="margin: 0rem;line-height: 2rem;">
+      </div>
+    </div>
+  </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6 center">
+          <figure>
+            <img alt="Character" class="responsive-img projects" src="images/projects/game_1/chubby.png">
+            <figcaption>
+              <p class="img-caption center">
+                The main character
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="Villain" class="responsive-img projects" src="images/projects/game_1/racoon.png">
+            <figcaption>
+              <p class="img-caption center">
+                The evil food-stealing raccoon
+              </p>
+            </figcaption>
+          </figure>
+        </div>    
+        <div class="col s12 m12 l6">
+          <h5 class="header">Reason</h5>
+            <p class=" flow-text">
+              <b>To learn Unity</b> I decided to create a short 2D pixel platformer, with support from a friend.
+            </p>
+            <h5 class="header">My roles</h5>
+              <p class=" flow-text">
+                <b>A bit of everything</b>. I set the up the project, programmed, designed levels, enemies, obstacles, goals, story, UI... I created the pixel art and animations for the character and the villain.
+              </p>
+          <h5 class="header">Setting</h5>
+            <p class=" flow-text">
+              <b>Platformer</b> in a fantasy world where each level has new enviroment and interactions.
+            </p>
+        </div>    
+      </div>
+
+      <div class="divider"></div>
+      <div class="row " style="margin: 0rem;line-height: 2rem;">
+        <div class="col s12 m12 l6">
+          <div class="card-panel hoverable rounded_corners black">
+            <h5 class="center ">Team</h5>
+            <ul class="browser-default light flow-text">
+              <li class="bullet">Amanda Alling Andrén</li>
+              <li class="bullet">André Stenlund</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m12 l6">
+          <div class="card-panel hoverable rounded_corners black">
+            <h5 class="center ">Thanks to</h5>
+            <ul class="browser-default light flow-text">
+              <li class="bullet"><a href="https://assetstore.unity.com/publishers/18720" target="_blank">Ansimuz</a></li>
+              <li class="bullet"><a href="https://www.youtube.com/user/Brackeys" target="_blank">Brackeys</a></li>
+              <li class="bullet"><a href="https://www.youtube.com/channel/UCYgUFrFyfr5IyL8HfTTiWhA" target="_blank">Alexander Zotov</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <div class="col s12 m12 l12 center">
+          <div class="divider"></div>
+          <a style="margin:40px;" href="index#projects" class="btn-large waves-effect waves-light">Back to projects</a>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="carousel" id="more_projects">
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Swing Speed Radar</h5>
+                    <p class="flow-text">
+                      Increase the paying customer base & explore the possibility to incorporate gamification.
+                    </p>
+                    <div class="center">
+                      <a href="project_3" class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Dreams Academy</h5>
+                    <p class="flow-text">
+                     Incorporate education about economics, so that their customers can learn in a pain free way. 
+                    </p>
+                    <div class="center">
+                      <a href="project_5"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Construct & Combat</h5>
+                    <p class="flow-text">
+                      Designing a game that will teach about the consequences of war, with several game modes. 
+                    </p>
+                    <div class="center">
+                      <a href="project_2"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">ARcade</h5>
+                    <p class="flow-text">
+                      Create an engaging AR game filter that enhances the experience of the exhibition Play Beyond Play.
+                    </p>
+                    <div class="center">
+                      <a href="project_5"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   <!-- Project section end -->
 
   <!-- footer & contact section -->
-  <footer class="page-footer orange" id="contact">
+  <footer class="page-footer black" id="contact">
     <div id="footer"></div>
   </footer>
   </body>
