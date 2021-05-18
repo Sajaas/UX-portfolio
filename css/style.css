@@ -595,3 +595,12 @@ p.img-caption {
   margin-top: 5px;
   font-style: italic;
 }
+
+.collapsible-header {
+  border-bottom: 0px;
+}
+
+.collapsible-body {
+  padding: 0px;
+  border-bottom: 0px;
+}
