@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
+  </script> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="header"></div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
+
+  <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+
+      <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="image col s12 m12 l4 offset-l1 center" style="margin-top:40px;">
+          <img alt="Game picture" class="materialboxed responsive-img materialboxed" src="images/projects/game_2/cryptids.png" style="margin-top: 1rem; margin-bottom:20px;">
+          <a href="https://gamejolt.com/games/Cryptids/637147"target="_blank" class="btn-large waves-effect waves-light" style="margin-bottom:20px;">Try the game</a>
+        </div>
+        <div class="col s12 m12 l6" style="padding-top:0px;margin-top:40px;">
+            <h5 class="header white-text" style="padding-left:10px;">In Progress</h5>
+            <h4 class="header" style="margin-top:0px;">Cryptids</h4>
+            <ul class=" flow-text" style="padding-left: 10px;">
+              <li class="bullet"><a href="#concept" >1. Concept</a></li>
+              <li class="bullet"><a href="#prototyping" >2. Prototyping & Testing</a></li>
+              <li class="bullet"><a href="#testing" >3. Playtesting</a></li>
+              <li class="bullet"><a href="#takeaways" >4. Key Takeaways</a></li>
+            </ul>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header black flow-text" style="margin-bottom: 0px;"><a>Case Study Summary</a></div>
+                <div class="collapsible-body"><span>
+                    <p class=" flow-text">
+                        Originally created for IGDA's Summer Game Jam 2021, Cryptids is a first person horror survival game created by 5 rookies in the Game On Skill Up mentorship program. 
+                        <!-- <br><br>
+                        3 of us decided to keep developing the game during our time in the mentorship program.  -->
+                      </p>
+                  </span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col s12 m12 l12" id="concept">
+            <div class="divider"></div>
+        </div>
+          <div class="col s12 m12 l6">
+            <figure>
+                <img alt="Character" class="responsive-img materialboxed projects" src="images/projects/game_2/hub.png">
+                <figcaption>
+                  <p class="img-caption center">
+                    The main hub where you report proof
+                  </p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img alt="Villain" class="responsive-img materialboxed projects" src="images/projects/game_2/shed.png">
+                <figcaption>
+                  <p class="img-caption center">
+                    Low poly 3D enviroment
+                  </p>
+                </figcaption>
+              </figure>
+          </div>
+          <div class="col s12 m12 l6">
+            <h6>1. CONCEPT</h6>   
+            <p class="light flow-text">
+                IGDA Summer Game Jam 2021 had the theme "Summer Dreams". We brainstormed ideas and settled on a horror aspect of the theme: 
+                <br><br>                
+                The player takes the role as "Professor Z", whose goal is to prove the existance of monsters. The setting is a closed camp area, during a dark summer night.
+            </p>
+            
+            <h5 class="header">My roles</h5>
+                <ul class="browser-default light flow-text">
+                  <li class="bullet">UX & UI design</li>
+                  <li class="bullet">Prototyping & testing</li>
+                  <li class="bullet">Game & level design</li>
+                  <li class="bullet">Concept ideas</li>
+                  <li class="bullet">GDD documentation</li>
+                  <li class="bullet">Story & game writer</li>
+                </ul>
+            </div>
+
+            <div class="col s12 m12 l12" id="prototyping">
+                <div class="divider"></div>
+            </div>
+              <div class="col s12 m12 l6">
+                <figure>
+                    <img alt="Lo-fi prototype in figma" class="responsive-img materialboxed projects" src="images/projects/game_2/lo-fi.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        <a href="https://www.figma.com/proto/HETfzOBtE9Qpp28H3leQn9/SummerGameJam?page-id=0%3A1&node-id=1%3A2&viewport=548%2C129%2C0.2024908810853958&scaling=scale-down&starting-point-node-id=1%3A2" target="_blank">Low-fi prototype</a>
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="mid-fi prototype in figma" class="responsive-img materialboxed projects" src="images/projects/game_2/mid-fi.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        <a href="https://www.figma.com/proto/HETfzOBtE9Qpp28H3leQn9/SummerGameJam?page-id=1%3A765&node-id=1%3A766&viewport=119%2C348%2C0.1303294599056244&scaling=scale-down&starting-point-node-id=1%3A766" target="_blank">Mid-fi prototype</a>
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="Stylesheet mid-fi" class="responsive-img materialboxed projects" src="images/projects/game_2/stylesheet_mid.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Stylesheet mid-fi
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="hi-fi prototype in figma" class="responsive-img materialboxed projects" src="images/projects/game_2/hi-fi1.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        <a href="https://www.figma.com/proto/HETfzOBtE9Qpp28H3leQn9/SummerGameJam?page-id=70%3A2&node-id=83%3A2&viewport=299%2C-127%2C0.057803113013505936&scaling=scale-down&starting-point-node-id=83%3A2" target="_blank">Hi-fi v1 prototype</a>
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="hi-fi prototype in figma" class="responsive-img materialboxed projects" src="images/projects/game_2/hi-fi2.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        <a href="https://www.figma.com/proto/HETfzOBtE9Qpp28H3leQn9/SummerGameJam?page-id=124%3A334&node-id=124%3A525&viewport=462%2C-2395%2C0.19515226781368256&scaling=scale-down&starting-point-node-id=124%3A525" target="_blank">Hi-fi v2 prototype</a>
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="Stylesheet hi-fi" class="responsive-img materialboxed projects" src="images/projects/game_2/stylesheet_high.png">
+                    <figcaption>
+                        <p class="img-caption center">
+                          Stylesheet hi-fi
+                        </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="UI button versions" class="responsive-img materialboxed projects" src="images/projects/game_2/ui_variants.png">
+                    <figcaption>
+                        <p class="img-caption center">
+                          Different highlighted buttons
+                        </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="Logo options" class="responsive-img materialboxed projects" src="images/projects/game_2/logos.png">
+                    <figcaption>
+                        <p class="img-caption center">
+                          Logo options
+                        </p>
+                    </figcaption>
+                  </figure>
+              </div>
+              <div class="col s12 m12 l6">
+                <h6>2. PROTOTYPING & TESTING</h6>   
+                <p class="light flow-text">
+                    During this project I had the possibility to focus on UX & UI design, as well as game and level design, which allowed me to test the concept and interface before implementation.
+                </p>
+                <h5 class="header">4 iterations</h5>
+                <p class=" flow-text">
+                    During the summer jam I created a lo-fi, mid-fi, and hi-fi version 1 & 2. I interviewed and tested on 6 people after each iteration, which led to the changes in the UI.
+                    <br><br>
+                    I tested the concept, UI, logo, story, writing, and controls.  
+                </p>
+                <h5 class="header">Test result highligts</h5>
+                <p class=" flow-text">
+                    <b>lo-fi</b>
+                </p>
+                    <ul class="nobullet browser-default light flow-text">
+                        <li>+ 6/6 thought the controls were natural</li>
+                        <li>+ 6/6 could navigate the menus</li>
+                        <br>
+                        <li>- Some thought the items were abilities</li>
+                      </ul>
+                <p class=" flow-text">
+                    <b>Mid-fi</b>
+                </p>
+                    <ul class="nobullet browser-default light flow-text">
+                        <li>+ 6/6 navigated menus with no problem</li>
+                        <li>+ 6/6 liked the story</li>
+                        <li>+ 6/6 understood the goal of the game</li>
+                        <li>+ 6/6 could switch between items</li>
+                        <li>+ 6/6 thought the game atmosphere was horror/scary/mystery</li>
+                        <br>
+                        <li>* Most thought the story was scarier than the intro screen</li>
+                        <br>
+                        <li>- Some wanted to change to next intro scene themselves, instead of after delay</li>
+                        <li>- One person accidentally skipped the intro by pressing ESC</li>
+                        <li>- Most thought the game would be a cute game when they saw the font, the working title "monster snap", and the main menu graphics</li>
+                      </ul>
+               <p class=" flow-text">
+                    <b>Hi-fi v.1</b>
+                </p>
+                    <ul class="nobullet browser-default light flow-text">
+                        <li>+ Most understood the controls</li>
+                        <li>+ 6/6 enjoyed the journal</li>
+                        <li>+ 6/6 liked the menu options</li>
+                        <li>+ 6/6 preferred the same logo, nr 11</li>
+                        <br>
+                        <li>- Confusing night vision control</li>
+                        <li>- Some didn't know how to change between items (we had removed UI symbols)</li>
+                        <li>- Some didn't know the journal existed</li>
+                        <li>- Some could not find the objective</li>
+                        <li>- Some didn't understand "LMB" in the controls (meaning "Left Mouse Button")</li>
+                      </ul>
+                <p class=" flow-text">
+                    <b>Hi-fi v.2</b>
+                </p>
+                <ul class="nobullet browser-default light flow-text">
+                    <li>+ 6/6 could easily interact with the controls</li>
+                    <li>+ 6/6 could change between items (we added UI symbols)</li>
+                    <li>+ 6/6 understood the tutorial</li>
+                    <li>+ 6/6 could navigate the menus</li>
+                    <li>+ 6/6 preferred these UI buttons</li>
+                    <li>+ 6/6 understood the objective of the game</li>
+                    <li>+ 6/6 remembered that the journal existed and used it</li>
+                    <br>
+                    <li>* Most voted for the name "Cryptids", "In Testimonio", and "CryptoPhoto"</li>
+                    <br>
+                    <li>- Some thought the journal ended at "more coming soon"-text</li>
+                    <li>- Most thought the flower tape in the journal was too cute</li>
+                    <li>- Some didn't see the navigation arrows in the journal Immediately</li>
+                    <li>- Some tried "F" for flashlight before "1"</li>
+                </ul>
+                <h5 class="header">Solutions</h5>
+                    <ul class="browser-default light flow-text">
+                      <li class="bullet">Rearranged the journal content</li>
+                      <li class="bullet">Changed the tape in the journal</li>
+                      <li class="bullet">Made the arrows more visible in the journal</li>
+                      <li class="bullet">Added alternative bindings</li>
+                    </ul>
+              </div>
+    
+            <div class="col s12 m12 l12" id="takeaways">
+                <div class="divider"></div>
+            </div>
+              <div class="col s12 m12 l6">
+                <figure>
+                    <img alt="Character" class="responsive-img materialboxed projects" src="images/projects/game_2/house.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Enviroment
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <!-- <figure>
+                    <img alt="Villain" class="responsive-img materialboxed projects" src="images/projects/game_2/cryptids.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Mid-fi
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="Villain" class="responsive-img materialboxed projects" src="images/projects/game_2/cryptids.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Hi-fi
+                      </p>
+                    </figcaption>
+                  </figure> -->
+              </div>
+              <div class="col s12 m12 l6">
+                <h6>3. PLAYTESTING</h6>   
+                    <p class=" flow-text">
+                        Currently ongoing!
+                    </p>              
+                <!-- <h5 class="header">...</h5>
+                <p class=" flow-text">
+                    ...
+                </p> -->
+              </div>
+
+            <div class="col s12 m12 l12" id="takaways">
+                <div class="divider"></div>
+            </div>
+              <div class="col s12 m12 l6">
+                <figure>
+                    <img alt="Character" class="responsive-img materialboxed projects" src="images/projects/game_2/camp.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Enviroment
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <!-- <figure>
+                    <img alt="Villain" class="responsive-img materialboxed projects" src="images/projects/game_2/cryptids.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Mid-fi
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="Villain" class="responsive-img materialboxed projects" src="images/projects/game_2/cryptids.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Hi-fi
+                      </p>
+                    </figcaption>
+                  </figure> -->
+              </div>
+              <div class="col s12 m12 l6">
+                <h6>4. KEY TAKEAWAYS</h6>   
+                <ul class="browser-default light flow-text">
+                    <br><b>During Game Jam:</b><br>
+                    <li class="bullet">Tell the team about the meaning of UX</li>
+                    <li class="bullet">Communicate how much time you can give</li>
+                    <li class="bullet">Decide way of working principles</li>
+                  <li class="bullet">Keep the GDD updated</li>
+                    <!-- <br><b>After Game Jam:</b><br>
+                  <li class="bullet"></li> -->
+                </ul>
+                <!-- <h5 class="header">...</h5>
+                <p class=" flow-text">
+                    ...
+                </p> -->
+              
+            </div>
+
+            <div class="col s12 m12 l12">
+                <div class="divider"></div>
+            </div>
+      <div class="row " style="margin: 0rem;line-height: 2rem;">
+        <div class="col s12 m12 l6">
+          <div class="card-panel hoverable rounded_corners black">
+            <h5 class="center ">Team</h5>
+            <ul class="browser-default light flow-text">
+                <!-- <br><b>Current team:</b><br>
+              <li class="bullet">Amanda Alling Andrén</li>
+              <li class="bullet">Yousra Ramdhana Jlali (programmer)</li>
+              <li class="bullet">Laura Marian (logo & level design)</li> -->
+                <br><b>Game Jam team:</b><br>
+              <li class="bullet">Amanda Alling Andrén</li>
+              <li class="bullet">Yousra Ramdhana Jlali (programmer)</li>
+              <li class="bullet">Laura Marian (logo & level design)</li>
+              <li class="bullet">Sol Barreto (Nessie animations)</li>
+              <li class="bullet">Peter N Rieseng</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m12 l6">
+          <div class="card-panel hoverable rounded_corners black">
+            <h5 class="center ">Thanks to</h5>
+            <ul class="browser-default light flow-text">
+              <li class="bullet"><a href="https://igda.org/chapters/sweden/" target="_blank">IGDA Sweden</a></li>
+              <li class="bullet"><a href="https://www.gameonmidsweden.com/" target="_blank">Game On Mid Sweden</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <div class="col s12 m12 l12 center">
+          <div class="divider"></div>
+          <a style="margin:40px;" href="index#projects" class="btn-large waves-effect waves-light">Back to projects</a>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="carousel" id="more_projects">
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Swing Speed Radar</h5>
+                    <p class="flow-text">
+                      Increase the paying customer base & explore the possibility to incorporate gamification.
+                    </p>
+                    <div class="center">
+                      <a href="project_3" class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Dreams Academy</h5>
+                    <p class="flow-text">
+                     Incorporate education about economics, so that their customers can learn in a pain free way. 
+                    </p>
+                    <div class="center">
+                      <a href="project_5"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Construct & Combat</h5>
+                    <p class="flow-text">
+                      Designing a game that will teach about the consequences of war, with several game modes. 
+                    </p>
+                    <div class="center">
+                      <a href="project_2"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">ARcade</h5>
+                    <p class="flow-text">
+                      Create an engaging AR game filter that enhances the experience of the exhibition Play Beyond Play.
+                    </p>
+                    <div class="center">
+                      <a href="project_5"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Project section end -->
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+</html>

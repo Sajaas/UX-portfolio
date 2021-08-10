@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  <script> 
+  $(function(){
+    $("#header").load("partials/header.html", function onclick(){
+      $('.sidenav').sidenav();
+    }); 
+    $("#fab").load("partials/fab.html", function onclick(){
+      $('.fixed-action-btn').floatingActionButton();
+    }); 
+    $("#footer").load("partials/footer.html"); 
+  });
+  </script>
+   
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+
+</head>
+<body>
+  <header>
+     <div id="header"></div>
+  </header>
+<!-- fixed action button FAB-->
+<div id="fab"></div>
+
+<!-- projects section -->
+  <div class="parallax-container" id="projects">
+    <div class="container">
+      <h2 class="center">Other Projects</h2>
+      
+      <div style="padding-bottom:20px;" class="row black hoverable rounded_corners">
+        <div class="col s10 offset-s1 m6 l4 offset-l1">
+          <img alt="Chubby Hamster Knight game" style="padding:30px;margin-top:20px;" class="responsive-img materialboxed center" src="images/projects/game_1/game_logo_square.png">
+        </div>
+        <div class="col s12 m6 l5">
+          <h4 style="padding-top:20px;">Chubby Hamster Knight</h4>
+          <p class="light flow-text ">
+            <b>Hobby Project:</b> My first video game! I created a 2D platformer in order to learn how Unity works. It was fun to create 2D art, code, and design levels and the story! 
+            <br><br><b>Tools:</b> Unity, Adobe Photoshop, C#
+          </p>
+          <div class="center-btn">
+            <a href="chubbyhamsterknight" class="btn-large waves-effect waves-light" style="margin-bottom:20px;">Read case study</a>
+            <a href="https://gamejolt.com/games/ChubbyHamsterKnight/637232" style="margin-bottom:20px;" target="_blank" class="btn-large waves-effect waves-light">Try the game</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="parallax"><img src="images/background.png" alt="background image, pretty much just pixelated gray"></div>
+  </div>
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+  </html>

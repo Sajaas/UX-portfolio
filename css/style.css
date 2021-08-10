@@ -23,6 +23,10 @@ nav .brand-logo {
   color:#f28125;
 }
 
+ul.nobullet {
+  list-style-type:none;
+}
+
 p {
   /* line-height: 2rem; */
   padding:10px;
