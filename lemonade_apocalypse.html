@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
+  </script> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="header"></div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
+
+  <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+
+      <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="image col s12 m12 l4 offset-l1 center" style="margin-top:40px;">
+          <img alt="Game logo" class="materialboxed responsive-img materialboxed" src="images/projects/lemonadeapocalypse/logo.png" style="margin-top: 1rem; margin-bottom:20px;">
+          <a href="https://gamejolt.com/games/lemonadeapocalypse/637077"target="_blank" class="btn-large waves-effect waves-light" style="margin-bottom:20px;">Try the game</a>
+        </div>
+        <div class="col s12 m12 l6" style="padding-top:0px;margin-top:40px;">
+            <h5 class="header white-text" style="padding-left:10px;">In Progress</h5>
+            <h4 class="header" style="margin-top:0px;">Lemonade Apocalypse</h4>
+            <ul class=" flow-text" style="padding-left: 10px;">
+              <li class="bullet"><a href="#backstory" >1. Backstory</a></li>
+              <li class="bullet"><a href="#testing" >2. Playtesting</a></li>
+              <li class="bullet"><a href="#prototyping" >3. UI prototyping & Testing</a></li>
+              <li class="bullet"><a href="#takeaways" >4. Key Takeaways</a></li>
+            </ul>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header black flow-text" style="margin-bottom: 0px;"><a>Case Study Summary</a></div>
+                <div class="collapsible-body"><span>
+                    <p class=" flow-text">
+                        Originally created for IGDA's Summer Game Jam 2021, Lemonade Apocalypse is a cozy management clicker where play as a kid who aim to get rich by selling lemonade. 
+                        <br><br>
+                        I joined the team after the summer game jam ended, since I really enjoyed the game but saw potential to remove pain points and improve the experience. 
+                      </p>
+                  </span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col s12 m12 l12" id="backstory">
+            <div class="divider"></div>
+        </div>
+          <div class="col s12 m12 l6">
+            <figure>
+                <img alt="" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse">
+                <figcaption>
+                  <p class="img-caption center">
+                  </p>
+                </figcaption>
+              </figure>
+          </div>
+          <div class="col s12 m12 l6">
+            <h6>1. Backstory</h6>   
+            <p class="light flow-text">
+              Since I joined the team after the month long summer game jam, I could jump right in to playtesting! 
+            </p>
+            
+            <h5 class="header">My roles</h5>
+                <ul class="browser-default light flow-text">
+                  <li class="bullet">UX & UI design</li>
+                  <li class="bullet">Prototyping & testing</li>
+                </ul>
+            </div>
+
+            <div class="col s12 m12 l12" id="testing">
+              <div class="divider"></div>
+          </div>
+            <div class="col s12 m12 l6">
+              <figure>
+                  <img alt="" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse/original_scene1.png">
+                  <figcaption>
+                    <p class="img-caption center">
+                      Level 1
+                    </p>
+                  </figcaption>
+                </figure>
+              <figure>
+                  <img alt="" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse/original_upgrades.png">
+                  <figcaption>
+                    <p class="img-caption center">
+                      Upgrades menu
+                    </p>
+                  </figcaption>
+                </figure>
+              <figure>
+                  <img alt="" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse/original_make_lemonade.png">
+                  <figcaption>
+                    <p class="img-caption center">
+                      Make lemonade menu
+                    </p>
+                  </figcaption>
+                </figure>
+            </div>
+            <div class="col s12 m12 l6">
+              <h6>2. PLAYTESTING</h6>   
+                  <p class=" flow-text">
+                      ...
+                  </p>  
+                  <h5 class="header">Test result highligts</h5>
+                <p class=" flow-text">
+                    <b>UI</b>
+                </p>
+                <ul class="nobullet browser-default light flow-text">
+                    <li>+ </li>
+                    <br>
+                    <li>* </li>
+                    <br>
+                    <li>- </li>
+                </ul>
+                <h5 class="header">Solutions</h5>
+                    <ul class="browser-default light flow-text">
+                      <li class="bullet">...</li>
+                    </ul>            
+              <!-- <h5 class="header">...</h5>
+              <p class=" flow-text">
+                  ...
+              </p> -->
+            </div>
+
+            <div class="col s12 m12 l12" id="prototyping">
+                <div class="divider"></div>
+            </div>
+              <div class="col s12 m12 l6">
+                  <figure>
+                    <img alt="Level 1 suggestions" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse/yard_suggestions.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Suggestions for level 1
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="Level 1 suggestions" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse/upgrades_suggestions.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Suggestions for upgrades menu
+                      </p>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img alt="Level 1 suggestions" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse/make_lemonade_suggestions.png">
+                    <figcaption>
+                      <p class="img-caption center">
+                        Suggestions for making lemonade menu
+                      </p>
+                    </figcaption>
+                  </figure>
+              </div>
+              <div class="col s12 m12 l6">
+                <h6>3. UI PROTOTYPING & TESTING</h6>   
+                <p class="light flow-text">
+                </p>
+                <h5 class="header">Test result highligts</h5>
+                <p class=" flow-text">
+                    <b>UI</b>
+                </p>
+                <ul class="nobullet browser-default light flow-text">
+                    <li>+ </li>
+                    <br>
+                    <li>* </li>
+                    <br>
+                    <li>- </li>
+                </ul>
+                <h5 class="header">Solutions</h5>
+                    <ul class="browser-default light flow-text">
+                      <li class="bullet">...</li>
+                    </ul>
+              </div>
+
+            <div class="col s12 m12 l12" id="takeways">
+                <div class="divider"></div>
+            </div>
+              <div class="col s12 m12 l6">
+                <figure>
+                    <img alt="" class="responsive-img materialboxed projects" src="images/projects/lemonadeapocalypse/">
+                    <figcaption>
+                      <p class="img-caption center">
+                        
+                      </p>
+                    </figcaption>
+                  </figure>
+              </div>
+              <div class="col s12 m12 l6">
+                <h6>4. KEY TAKEAWAYS</h6>   
+                <ul class="browser-default light flow-text">
+                  <li class="bullet"></li>
+                </ul>
+                <!-- <h5 class="header">...</h5>
+                <p class=" flow-text">
+                    ...
+                </p> -->
+              
+            </div>
+            <div class="col s12 m12 l12">
+                <div class="divider"></div>
+            </div>
+      <div class="row " style="margin: 0rem;line-height: 2rem;">
+        <div class="col s12 m12 l6">
+          <div class="card-panel hoverable rounded_corners black">
+            <h5 class="center ">Team</h5>
+            <ul class="browser-default light flow-text">
+              <li class="bullet">Amanda Alling Andrén (UX/UI & testing)</li>
+              <li class="bullet">Laura Marian (artist)</li>
+              <li class="bullet">Geir Fjermestad Rolandsen (programmer)</li>
+              <li class="bullet">Hind Toufga (UI/UX & logo design)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col s12 m12 l6">
+          <div class="card-panel hoverable rounded_corners black">
+            <h5 class="center ">Thanks to</h5>
+            <ul class="browser-default light flow-text">
+              <li class="bullet"><a href="https://igda.org/chapters/sweden/" target="_blank">IGDA Sweden</a></li>
+              <li class="bullet"><a href="https://www.gameonmidsweden.com/" target="_blank">Game On Mid Sweden</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <div class="col s12 m12 l12 center">
+          <div class="divider"></div>
+          <a style="margin:40px;" href="index#projects" class="btn-large waves-effect waves-light">Back to projects</a>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="carousel" id="more_projects">
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Swing Speed Radar</h5>
+                    <p class="flow-text">
+                      Increase the paying customer base & explore the possibility to incorporate gamification.
+                    </p>
+                    <div class="center">
+                      <a href="swingspeedradar" class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Dreams Academy</h5>
+                    <p class="flow-text">
+                     Incorporate education about economics, so that their customers can learn in a pain free way. 
+                    </p>
+                    <div class="center">
+                      <a href="arcade"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Construct & Combat</h5>
+                    <p class="flow-text">
+                      Designing a game that will teach about the consequences of war, with several game modes. 
+                    </p>
+                    <div class="center">
+                      <a href="construct&combat"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">ARcade</h5>
+                    <p class="flow-text">
+                      Create an engaging AR game filter that enhances the experience of the exhibition Play Beyond Play.
+                    </p>
+                    <div class="center">
+                      <a href="arcade"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Project section end -->
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+</html>
