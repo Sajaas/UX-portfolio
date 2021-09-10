@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
+  </script> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="header"></div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
+
+  <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+
+      <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="image col s12 m12 l4 offset-l1 center" style="margin-top:40px;">
+          <!-- <img alt="AR game picture" class="materialboxed responsive-img" src="images/projects/arcade/final_game2.PNG" style="padding-top: 1rem;max-width: 80%;padding-bottom: 20px;margin: 0 auto;"> -->
+          <img alt="Poster" class="materialboxed responsive-img projects" src="images/projects/unravelarg/SubwayAd.png" style="max-width:60%;margin: 0 auto;padding-bottom: 20px;">
+          <a href="" style="margin-bottom:20px;" target="_blank" class="btn-large waves-effect waves-light">watch trailer</a>
+        </div>
+        <div class="col s12 m12 l6" style="padding-top:0px;margin-top:40px;">
+          <h5 class="header white-text" style="padding-left:10px;">Case Study</h5>
+          <h4 class="header" style="margin-top:0px;">Unravel - the Alternate Reality Game</h4>
+          <!-- <h5 class="header" style="margin-top:0px;">Table of Content</h5> -->
+          <ul class=" flow-text" style="padding-left: 10px;">
+            <li class="bullet"><a href="#defining" >1. Defining the Problem</a></li>
+            <li class="bullet"><a href="#researching" >2. Research</a></li>
+            <li class="bullet"><a href="#developing" >3. Development</a></li>
+            <li class="bullet"><a href="#delivering" >4. Delivery</a></li>
+            <li class="bullet"><a href="#takeaways" >5. Key takeaways</a></li>
+          </ul>
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header black flow-text" style="margin-bottom: 0px;"><a>Case Study Summary</a></div>
+              <div class="collapsible-body"><span>
+                <p class="light flow-text ">
+                  We designed fake ARG experience, connecting the game <a href='https://www.ea.com/games/unravel' target='_blank'>Unravel</a> with the craft store <a href='https://panduro.com' target='_blank'>Panduro</a>, to create a puzzle crafting adventure where participants bond to each other.
+                  <br><br>My role was to structure the project, facilitate, direct the trailer, and designing the game and visuals.
+                  <br>I collaborated with four other students.
+                </p>
+                </span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12" id="defining">
+          <div class="divider"></div>
+        </div>
+
+        <div class="col s12 m12 l6">
+          <h6>1. DEFINING THE PROBLEM</h6>
+          <p class="light flow-text">
+          </p>
+          <h5>The Brief</h5>
+          <p class="light flow-text">
+            Design a commercial ARG, which contains meaningful activities and some form of payment transaction designed into structure. 
+          </p>
+          <h5>Target Group</h5>
+          <p class="light flow-text">
+            Players of the game Unravel, and people who like crafting.
+          </p>
+          <h5 class="header">Concept</h5>
+          <p class="light flow-text">
+            <b>We knew that we wanted to base the ARG on a video game</b> but decided to brainstorm on which game could create fun activities. Each member presented 1-3 games, and then we voted to crown the winner: Unravel 2!
+          </p>
+          <h5 class="header">Business Model</h5>
+          <p class="light flow-text">
+            <b>We needed to incorporate a payment method</b>, which we solved by pretending that Panduro was a partner in the ARG. It was a perfect fit with our target audience!
+          </p>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/unravelarg/title.png">
+            <figcaption>
+              <p class="img-caption center">
+                ARG title
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="Business model canvas with info about the project" class="materialboxed responsive-img projects" src="images/projects/unravelarg/scope.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Business Model
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="Posters in the subway" class="materialboxed responsive-img projects" src="images/projects/unravelarg/poster.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Subway poster
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col s12 m12 l12" id="researching">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="Lightning decision jam" class="materialboxed responsive-img projects" src="images/projects/unravelarg/ldj.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Defining our top challenges
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="Core loop" class="materialboxed responsive-img projects" src="images/projects/unravelarg/core_loop.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Deciding on the core loop
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m12 l6">
+          <h6>2. RESEARCH</h6>   
+          <p class="light flow-text">
+            We research both ARG's, Unravel, and Panduro.
+          </p>
+          <h5 class="header">Learning from past productions</h5>
+          <p class="light flow-text">
+            <b>Getting inspiration from past ARG's</b> allowed us to understand what could result in a successful project. Some key insights were:
+          </p>
+          <ul class="browser-default  flow-text">
+            <li class="bullet">Simple is better than complex</li>
+            <li class="bullet">Don't forget the physical space</li>
+            <li class="bullet">What's the rabbit hole?</li>
+            <li class="bullet">Transmedia storytelling is engaging!</li>
+          </ul>
+          <h5 class="header">Challenges & Core Loop</h5>
+          <p class="light flow-text">
+            During the research sessions we defined our top challenges and the core game loop of the players. We realized that we wanted to put a lot of focus on collaboration and the social aspects of the game.
+          </p>
+        </div>
+
+        <div class="col s12 m12 l12" id="developing">
+          <div class="divider"></div>
+        </div>
+        
+        <div class="col s12 m12 l6">
+          <h6>3. DEVELOPMENT</h6>
+          <p class="light flow-text">
+          During the creation of the ARG, we focused on really defining the main story and coming up with several examples of the core activity.
+          </p>
+          <h5>Concept Gallery</h5>
+          <p class="light flow-text">
+            Everyone in the group presented their ideas after a 4-part-sketching-session, and we voted on the concepts we really thought could fulfill our brief. This gave us both activities and story inspiration! 
+          </p>
+          <h5>User Journey & Storyboard</h5>
+          <p class="light flow-text">
+          After deciding on the concept, we created a user journey in order to visualize how the players would interact with the game. This helped us with the trailer storyboard, since we realized what artifacts we needed to be able to present our concept.
+          </p>
+          <h5>Artifacts</h5>
+          <ul class="browser-default  flow-text">
+            <li class="bullet">App prototype</li>
+            <li class="bullet">Fake receipt</li>
+            <li class="bullet">Fake product with custom label</li>
+            <li class="bullet">Yarny dolls</li>
+            <li class="bullet">Posters and graffiti ads</li>
+          </ul>
+          <h5>Trailer production</h5>
+          <p class="light flow-text">
+            I directed the trailer, and filmed with two team members. We had a really fun time coming up with new ways to share our ARG concept idea! After that I directed the voice over recording, and another team member edited the trailer!
+          </p>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="Concept gallery" class="materialboxed responsive-img projects" src="images/projects/unravelarg/concepts.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Our top voted concepts
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="User journey" class="materialboxed responsive-img projects" src="images/projects/unravelarg/user_journey.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                The user journey
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="Concept gallery" class="materialboxed responsive-img projects" src="images/projects/unravelarg/trailer_storyboard.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Storyboard for our trailer
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="Storyboard" class="materialboxed responsive-img projects" src="images/projects/unravelarg/storyboard.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Visual help for filming
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col s12 m12 l12" id="delivering">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6">
+          <div class="chatbox" style="margin-top: 10px;" type="textarea" >
+            <figure>
+              <p class="bubble you hoverable flow-text">"Fantastic! It made me very happy, it was so nice! I want to play now!"</p>
+              <p class="bubble you hoverable flow-text"> "What a great trailer. It showed that you've worked a lot with the core activity loop. It was very well presented."</p>
+              <figcaption>
+                <p class="bubble-figcaption center">
+                  Feedback
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col s12 m12 l6">
+          <h6>4. DELIVERY</h6>
+          <p class="light flow-text">
+            <b>Our ARG concept was well recieved</b> by both our teachers and classmates! 
+            <br><br>
+            Except delivering a trailer and artifacts, we also wrote a <a href="images/projects/unravelarg/Unravel - the Alternate Reality Game.pdf" download target="_blank">design document</a> which contained information about the trailhead, core experience, physical & virtual design, safety & etics, tradeoffs, and result.
+            <br><br>
+
+          </p>
+        </div>
+        <div class="col s12 m12 l12" id="takeaways">
+          <div class="divider"></div>
+        </div>
+       
+        <div class="col s12 m12 l6">
+          <h6>5. KEY TAKEAWAYS</h6>
+          <ul class="browser-default  flow-text">
+            <li class="bullet">If we had the time, we would test the design & activities more</li>
+            <li class="bullet">Dividing & conquering, then meeting to present the solutions, works very well!</li>
+            <li class="bullet">We don't need to know everything from the beginning - the concept will get clearer as we go</li>
+            <li class="bullet">As long as we have communication and trust in the team, we can do anything!</li>
+           </ul>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="A red yarn doll from the game" class="materialboxed responsive-img projects" src="images/projects/unravelarg/yarny_red.jpg" style="max-width:60%;margin: 0 auto;">
+            <figcaption>
+              <p class="img-caption center">
+                A red Yarny I made
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+          <div id="embedded_prototype">
+            <div class="center col s12 m12 l12">
+              <div class="divider"></div>
+              <h6 class="center" style="margin-bottom:40px;">Trailer & Artifacts</h6>
+            </div>
+            <div class="col s12 m12 l12 center">
+              <div class="center" style="margin-bottom:40px;">
+                <a href="images/projects/unravelarg/Unravel - the Alternate Reality Game.pdf" download target="_blank"  class="btn-large waves-effect waves-light">read design document</a>
+              </div>
+              <div class="center" style="margin-bottom:40px;">
+                <a href="https://www.figma.com/proto/vm1lxpjvwvsAmBSjWVEYJa/Unravel-the-ARG?node-id=11%3A1547&starting-point-node-id=11%3A1547" style="margin-bottom:20px;" target="_blank" class="btn-large waves-effect waves-light">try the prototype</a>
+              </div>
+              <figure>
+                <div style="margin-top:40px;" class="videoContainer">
+                  <iframe src="https://www.youtube.com/embed/PUtjtorJKMA"
+                  frameborder="0" allowfullscreen class="video"></iframe>
+                  </div>
+                <figcaption>
+                  <p class="img-caption center">
+                    Remember that this brief is fake, so neither Unravel or Panduro has anything to do with this ;) 
+                  </p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img alt="Our trailer on a computer" class="materialboxed responsive-img projects" src="images/projects/unravelarg/computer_trailer.png">
+                <figcaption>
+                  <p class="img-caption center">
+                    Trailer mockup
+                  </p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img alt="Our trailer on a laptop" class="materialboxed responsive-img projects" src="images/projects/unravelarg/laptop_trailer.png">
+                <figcaption>
+                  <p class="img-caption center">
+                    Trailer mockup
+                  </p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img alt="An overview of a prototype in Figma" class="materialboxed responsive-img projects" src="images/projects/unravelarg/app.png">
+                <figcaption>
+                  <p class="img-caption center">
+                    Our game app (<a href="https://www.figma.com/proto/vm1lxpjvwvsAmBSjWVEYJa/Unravel-the-ARG?node-id=11%3A1547&starting-point-node-id=11%3A1547" target="_blank">Figma link</a>)
+                  </p>
+                </figcaption>
+              </figure>
+              <div id="embedded_prototype">
+                <div class="col s12 m12 l12 center">
+                  <iframe style="border: 1px solid rgba(0, 0, 0, 0);" width="400" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fvm1lxpjvwvsAmBSjWVEYJa%2FUnravel-the-ARG%3Fnode-id%3D11%253A1547%26starting-point-node-id%3D11%253A1547%26scaling%3Dscale-down" allowfullscreen></iframe>
+                </div>
+              </div>
+              <figure>
+                <img alt="An graffiti yarny and qr code" class="materialboxed responsive-img projects" src="images/projects/unravelarg/stencil01qr.jpg">
+                <figcaption>
+                  <p class="img-caption center">
+                    Example of graffiti marketing with a QR code
+                  </p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img alt="An graffiti yarny and qr code" class="materialboxed responsive-img projects" src="images/projects/unravelarg/stencil02qr.jpg">
+                <figcaption>
+                  <p class="img-caption center">
+                    Example of graffiti marketing with a QR code
+                  </p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img alt="A wire skeleton of a Yarny doll and some tools" class="materialboxed responsive-img projects" src="images/projects/unravelarg/yarny_crafting.jpg" style="max-width:60%;margin: 0 auto;">
+                <figcaption>
+                  <p class="img-caption center">
+                    Crafting a Yarny
+                  </p>
+                </figcaption>
+              </figure>
+              <figure>
+                <img alt="Yarn with custom label and a fake receipt" class="materialboxed responsive-img projects" src="images/projects/unravelarg/yarn.JPG" style="max-width:60%;margin: 0 auto;">
+                <figcaption>
+                  <p class="img-caption center">
+                    Product props
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col s12 m6 offset-m3 l4 offset-l4 center">
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row " style="margin: 0rem;line-height: 2rem;">
+          <div class="col s12 m12 l6">
+            <div class="card-panel hoverable rounded_corners black">
+              <h5 class="center ">Team</h5>
+              <ul class="browser-default light flow-text">
+                <li class="bullet">Amanda Alling Andrén</li>
+                <li class="bullet">Sara De Prado</li>
+                <li class="bullet">Marko Ilic</li>
+                <li class="bullet">Beatrice Ferrera</li>
+                <li class="bullet">Henrik Svensson</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <div class="card-panel hoverable rounded_corners black">
+            <h5 class="center ">Tools</h5>
+            <ul class="browser-default light flow-text">
+              <li><a href="https://miro.com/" target="_blank">Miro</a></li>
+              <li><a href="https://figma.com/" target="_blank">Figma</a></li>
+              <li><a href="https://www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="col s12 m12 l12 center">
+          <div class="divider"></div>
+          <a style="margin:40px;" href="index#projects" class="btn-large waves-effect waves-light">Back to projects</a>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="carousel" id="more_projects">
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Swing Speed Radar</h5>
+                    <p class="flow-text">
+                      Increase the paying customer base & explore the possibility to incorporate gamification.
+                    </p>
+                    <div class="center">
+                      <a href="swingspeedradar" class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Dreams Academy</h5>
+                    <p class="flow-text">
+                     Incorporate education about economics, so that their customers can learn in a pain free way. 
+                    </p>
+                    <div class="center">
+                      <a href="arcade"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Construct & Combat</h5>
+                    <p class="flow-text">
+                      Designing a game that will teach about the consequences of war, with several game modes. 
+                    </p>
+                    <div class="center">
+                      <a href="construct&combat"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card black">
+                  <div class="card-content">
+                    <h5 class="center">Cryptids</h5>
+                    <p class="flow-text">
+                      A first-person horror game created during a game jam. 
+                    </p>
+                    <div class="center">
+                      <a href="cryptids"  class="btn-large waves-effect waves-light">Read Case Study</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Project section end -->
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+</html>
