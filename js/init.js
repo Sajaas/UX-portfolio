@@ -41,40 +41,74 @@ $(document).ready(function(){
         setTimeout(autoplay, 15000);
     }
 
-function readMore() {
-  var placeholder = document.getElementById("placeholder");
-  var moreText = document.getElementById("readMore");
-  var btnText = document.getElementById("readBtn");
-  var arrowBtn = document.getElementById("arrowBtn")
+// function readMore() {
+//   var placeholder = document.getElementById("placeholder");
+//   var moreText = document.getElementById("readMore");
+//   var btnText = document.getElementById("readBtn");
+//   var arrowBtn = document.getElementById("arrowBtn")
 
-  if (placeholder.style.display === "none") {
-    placeholder.style.display = "inline";
-    btnText.innerHTML = "Show favorites";
-    arrowBtn.innerHTML = "keyboard_arrow_down";
+//   if (placeholder.style.display === "none") {
+//     placeholder.style.display = "inline";
+//     btnText.innerHTML = "Show favorites";
+//     arrowBtn.innerHTML = "keyboard_arrow_down";
+//     moreText.style.display = "none";
+//   } else {
+//     placeholder.style.display = "none";
+//     btnText.innerHTML = "Hide favorites";
+//     arrowBtn.innerHTML = "keyboard_arrow_up";
+//     moreText.style.display = "inline";
+//   }
+// }
+
+
+
+// function seeMore() {
+//   var placeholderSometimes = document.getElementById("placeholderSometimes");
+//   var moreText = document.getElementById("seeMore");
+//   var btnText = document.getElementById("seeBtn");
+
+//   if (placeholderSometimes.style.display === "none") {
+//     placeholderSometimes.style.display = "inline";
+//     btnText.innerHTML = "More tools";
+//     moreText.style.display = "none";
+//   } else {
+//     placeholderSometimes.style.display = "none";
+//     btnText.innerHTML = "Hide more tools";
+//     moreText.style.display = "inline";
+//   }
+// }
+
+function myFunction1() {
+  var dots1 = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots1.style.display === "none") {
+    dots1.style.display = "inline";
+    btnText.innerHTML = "Read more";
     moreText.style.display = "none";
   } else {
-    placeholder.style.display = "none";
-    btnText.innerHTML = "Hide favorites";
-    arrowBtn.innerHTML = "keyboard_arrow_up";
+    dots1.style.display = "none";
+    btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
   }
-}
+} 
 
-function seeMore() {
-  var placeholderSometimes = document.getElementById("placeholderSometimes");
-  var moreText = document.getElementById("seeMore");
-  var btnText = document.getElementById("seeBtn");
+function myFunction2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText = document.getElementById("more2");
+  var btnText = document.getElementById("myBtn2");
 
-  if (placeholderSometimes.style.display === "none") {
-    placeholderSometimes.style.display = "inline";
-    btnText.innerHTML = "More tools";
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    btnText.innerHTML = "Read more";
     moreText.style.display = "none";
   } else {
-    placeholderSometimes.style.display = "none";
-    btnText.innerHTML = "Hide more tools";
+    dots2.style.display = "none";
+    btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
   }
-}
+} 
 
 function copyToClipboard(element) {
   var $temp = $("<input>");
