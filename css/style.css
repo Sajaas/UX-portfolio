@@ -609,4 +609,5 @@ p.img-caption {
   border-bottom: 0px;
 }
 
-#more1, #more2 {display: none;}
+#more1 {display: none;} 
+#more2 {display: none;} 
