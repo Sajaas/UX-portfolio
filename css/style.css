@@ -149,9 +149,37 @@ a, #readBtn, h4#link_text {
   height: auto;
   color: rgba(255,255,255,.9);
 }
+
+
   .parallax-container .section {
     width: 100%;
   }
+  
+.divider-block {
+  min-height: 80px;
+  height: auto;
+  background-color: #1b1c1e;
+}
+
+.img-overlay {
+  width: 100%;
+   opacity: 60%;
+}
+
+.card-background {
+  background-color: #131315;
+  opacity: 97%;
+  display: block;
+}
+
+.card.hoverable:hover {
+  background-color: #1b1c1e;
+  opacity: 99%;
+}
+
+.large-screen-margin {
+  margin: 200px 20px 200px 20px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -166,6 +194,9 @@ a, #readBtn, h4#link_text {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  .large-screen-margin{
+    margin:10px;
   }
 }
 
@@ -291,6 +322,12 @@ i.none {
   padding-top: 0;
   color: #f28125;  }
 
+i.small-icon {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 0;
+  color: white;  } 
+
 i.welcome-icons {
   letter-spacing: 0px;
   color:#f28125;
@@ -309,7 +346,8 @@ i.about-icons {
 i.none {
   letter-spacing: 0px;
   color: #f28125;
-  text-align: center; }
+  text-align: center;
+  line-height: 50px; }
 
 .switch label .lever:after {
     background-color: #f28125 !important;
@@ -395,6 +433,11 @@ i.none {
   margin-bottom: 40px;
 }
 
+.img-half-out {
+  margin-top:-50px;
+  max-width: 200px;
+}
+
 /* bubbles */
 
 .chatbox {
@@ -424,6 +467,24 @@ i.none {
     -webkit-transform: rotate( 29deg ) skew( -35deg );
     width:  20px;
 }
+
+.roundbubble{
+  background-color: white;
+  color: black;
+  /* font-weight:600; */
+  border-radius: 5px;
+  /* box-shadow: 0 0 6px #B2B2B2; */
+  display: block;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.small-bubble {
+      float: left;
+      margin: 0px 10px 20px 10px;
+      max-width: 100%;
+}
+
 .you {
     /* float: left; */
     margin: 10px 20px 10px 20px;
