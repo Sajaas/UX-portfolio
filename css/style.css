@@ -156,7 +156,7 @@ a, #readBtn, h4#link_text {
   }
   
 .divider-block {
-  min-height: 80px;
+  min-height: 60px;
   height: auto;
   background-color: #1b1c1e;
 }
@@ -178,7 +178,7 @@ a, #readBtn, h4#link_text {
 }
 
 .large-screen-margin {
-  margin: 200px 20px 200px 20px;
+  margin: 300px 20px 200px 20px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -437,6 +437,10 @@ i.none {
 .flow-text {
   margin-top: 0px;
   margin-bottom: 40px;
+}
+
+.no-margain-bottom {
+  margin-bottom: 0px;
 }
 
 .img-half-out {
