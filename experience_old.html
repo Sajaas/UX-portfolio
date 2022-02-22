@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  <script> 
+  $(function(){
+    $("#header").load("partials/header.html", function onclick(){
+      $('.sidenav').sidenav();
+    }); 
+    $("#fab").load("partials/fab.html", function onclick(){
+      $('.fixed-action-btn').floatingActionButton();
+    }); 
+    $("#footer").load("partials/footer.html"); 
+  });
+  </script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+    <body>
+        <header>
+            <div id="header"></div>
+        </header>
+        <!-- fixed action button FAB-->
+        <div id="fab"></div>
+
+
+        <!-- education section -->
+        <div class="parallax-container">
+          <div class="container">
+
+            <h2 class="center">Education</h2>
+            <div class="row card-background hoverable rounded_corners">
+              <div class="col s12 m12 l6 center">
+                <h5 class="header white-text" style="margin-top:20px;margin-bottom:0px">
+                  2020-2022
+                </h5>
+                <h4 class="header" style="margin-top:0px;">
+                  Experience Designer
+                </h4>
+                <h5 class="header white-text" style="margin-top:0px">
+                  Changemaker Educations
+                </h5>
+                <a href='https://cmeducations.se/utbildningar/program/experience-designer' target='_blank'>
+                  <img class="responsive-img" alt="Changemaker Educations logo" src="images/cme_logo1.png" style="width: 80%;padding-top: 20px;">
+                </a>
+              </div>
+              <div class="col s12 m12 l6" style="padding-left: 30px;">
+                <h5 class="header" style="padding-left: 0;">Course Examples</h5>
+                  <ul class="light flow-text" style="line-height: 2rem;">
+                    <li class="bullet">Game Design</li>
+                    <li class="bullet">Game Psychology & Gamification</li>
+                    <li class="bullet">UX & Game Thinking</li>
+                    <li class="bullet">Alternate Reality Game (ARG)</li>
+                    <li class="bullet">Augmented Reality (AR)</li>
+                    <li class="bullet">Rapid Prototyping</li>
+                    <li class="bullet">User Research</li>
+                    <li class="bullet">User Testing</li>
+                    <li class="bullet">Analytics & Statistics</li>
+                  </ul>
+              </div>
+            </div>
+
+            <div class="row card-background hoverable rounded_corners">
+              <div class="col s12 m12 l6 center">
+                <h5 class="header white-text" style="margin-top:20px;margin-bottom:0px">
+                  2017
+                </h5>
+                <h4 class="header" style="margin-top:0px;">
+                  Certified Full Stack Web Developer
+                </h4>
+                <h5 class="header white-text" style="margin-top:0px">
+                  Craft Academy
+                </h5>
+                <a href='https://craftacademy.se/english/curriculum/' target='_blank'>
+                  <img class="responsive-img" alt="Craft Academy logo" src="images/ca_logo2.png" style="width:80%;padding-top:20px;">
+                </a>
+              </div>
+              <div class="col s12 m12 l6" style="padding-left: 30px;">
+                <h5 class="header" style="padding-left: 0;">Course Examples</h5>
+                <ul class="light flow-text " style="line-height: 2rem;">
+                  <li class="bullet">HTML5</li>
+                  <li class="bullet">CSS3</li>
+                  <li class="bullet">JavaScript</li>
+                  <li class="bullet">Ruby on Rails</li>
+                  <li class="bullet">BDD & TDD</li>
+                  <li class="bullet">Version control</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Work section -->
+            <h2 class="center">Work</h2>
+
+            <div class="row card-background hoverable rounded_corners">
+              <div class="col s12 m12 l6 center">
+                <h5 class="header white-text" style="margin-top:20px;margin-bottom:0px">
+                    2022.01 – 2022.05
+                  </h5>
+                  <h4 class="header" style="margin-top:0px;">
+                    Fast Travel Games
+                  </h4>
+                  <h5 class="header white-text" style="margin-top:0px">
+                    UX Design Intern
+                  </h5>
+                  <!-- <a href='https://sfbok.se' target='_blank'>
+                    <img class="responsive-img" alt="Science Fiction Bokhandeln logo" src="images/sfbok_logo.jpg" style="width:80%;">
+                  </a> -->
+                </div>
+                <div class="col s12 m12 l6" style="padding-left: 30px;">
+                  <h5 class="header" style="padding-left: 0;">Task Examples</h5>
+                  <ul class="light flow-text" style="line-height: 2rem;">
+                    <li class="bullet">Game analysis reports</li>
+                    <li class="bullet">Playtesting</li>
+                    <li class="bullet">Unreal engine</li>
+                  </ul>
+                </div>
+              </div>
+            
+            <div class="row card-background hoverable rounded_corners">
+              <div class="col s12 m12 l6 center">
+                <h5 class="header white-text" style="margin-top:20px;margin-bottom:0px">
+                    2012.08 – ONGOING
+                  </h5>
+                  <h4 class="header" style="margin-top:0px;">
+                    Science Fiction Bokhandeln
+                  </h4>
+                  <h5 class="header white-text" style="margin-top:0px">
+                    Store Employee
+                  </h5>
+                  <!-- <a href='https://sfbok.se' target='_blank'>
+                    <img class="responsive-img" alt="Science Fiction Bokhandeln logo" src="images/sfbok_logo.jpg" style="width:80%;">
+                  </a> -->
+                </div>
+                <div class="col s12 m12 l6" style="padding-left: 30px;">
+                  <h5 class="header" style="padding-left: 0;">Task Examples</h5>
+                  <ul class="light flow-text" style="line-height: 2rem;">
+                    <li class="bullet">Customer service</li>
+                    <li class="bullet">Strategic marketing initiatives</li>
+                    <li class="bullet">Managed corporate promotion events</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="row card-background hoverable rounded_corners">
+                <div class="col s12 m12 l6 center">
+                  <h5 class="header white-text" style="margin-top:20px;margin-bottom:0px">
+                    2017.12 – 2018.03
+                  </h5>
+                  <h4 class="header" style="margin-top:0px;">
+                    Craft Academy
+                  </h4>
+                  <h5 class="header white-text" style="margin-top:0px">
+                    Intern
+                  </h5>
+                  <!-- <a href='https://craftacademy.se/english/curriculum/' target='_blank'>
+                    <img class="responsive-img" alt="Craft Academy logo" src="images/ca_logo2.png" style="width:80%;">
+                  </a> -->
+                </div>
+                <div class="col s12 m12 l6" style="padding-left: 30px;">
+                  <h5 class="header" style="padding-left: 0;">Task Examples</h5>
+                <ul class="light flow-text" style="line-height: 2rem;">
+                  <li class="bullet">Programmed</li>
+                  <li class="bullet">Managed social media, copywriting</li>
+                  <li class="bullet">Managed corporate promotion events</li>
+                </ul>
+              </div>  
+            </div>
+            
+            <div class="row card-background hoverable rounded_corners" style="margin-bottom:40px;">
+              <div class="col s12 m12 l6 center">
+                <h5 class="header white-text" style="margin-top:20px;margin-bottom:0px">
+                  2012.08 – 2017.08
+                </h5>
+                <h4 class="header" style="margin-top:0px;">
+                  CO.Film
+                </h4>
+                <h5 class="header white-text" style="margin-top:0px">
+                  Assistant
+                </h5>
+                <!-- <a href='https://co-film.se' target='_blank'>
+                  <img class="responsive-img" alt="CO.Film logo" src="images/cofilm_logo.png" style="width:50%;">
+                </a> -->
+              </div>
+              <div class="col s12 m12 l6" style="padding-left: 30px;">
+                <h5 class="header" style="padding-left: 0;">Task Examples</h5>
+                <ul class="light flow-text" style="line-height: 2rem;">
+                  <li class="bullet">Created and managed the website</li>
+                  <li class="bullet">Created visual concept</li>
+                  <li class="bullet">Designed posters</li>
+                  <li class="bullet">Researched & provided text materials</li>
+                </ul>
+              </div>  
+             </div>
+              
+            
+
+          </div>
+          <div class="parallax"><img src="images/background.png" alt="background image, pretty much just pixelated gray"></div>
+
+
+          <div class="center" style="margin-bottom:40px;">
+            <!-- <embed src="images/Amanda_Alling_Andren_CV.pdf" width="800px" height="2100px"/> -->
+          <a href="images/Amanda_Alling_Andren_CV.pdf" download target="_blank" class="btn-large waves-effect waves-light">Download CV</a>
+          </div>
+
+          <!-- tools section -->
+          <h2 class="center">Tools</h2>
+          <div class="row container card-background rounded_corners" id="tools" style="margin-bottom:40px;">
+            <div id="show-list">
+              <div class="col s12 m12 l6" style="padding-left: 30px;">
+                <h5 style="padding-top:10px;">UX Methods</h5>
+                <p class="light flow-text" style="margin:0px;;padding:0px;">
+                  Design Thinking
+                <br>Design Sprints
+                <br>Double Diamond
+                <br>User Testing & Interviewing
+                <br>User Research & User Stories
+                <br>Storyboards & User Journeys
+                <br>Wireframing & Prototyping
+                <br>MVP Canvas
+                </p>
+                <h5 style="padding-top:10px">Tools</h5>
+                <p class="light flow-text" style="margin:0px;;padding:0px;">
+                Figma
+                <br>Miro, Trello
+                <br>Microsoft Office
+                <br>Photoshop
+                <br>HTML5
+                <br>CSS3
+                <br>Slack, Discord
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <!-- <div class="col s12">
+                <ul class="tabs">
+                  <li class="tab col s6"><a class="active" href="#icons">Icons</a></li>
+                  <li class="tab col s6"><a href="#list">List</a></li>
+                </ul>
+              </div> -->
+        
+              <div id="icons" class="col s12">
+                <div class="row" id="icons-list">
+            <!-- UX tools -->
+                  <div class="col s12 m12 l6">
+                    <h4 class="center light white-text" style="padding-top:10px;">UX Methods</h4>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-lightbulb none"></i>
+                            <b>Design Thinking</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    Design Thinking
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-running none"></i>
+                            <b>Design Sprints</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    Design Sprints
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-gem none"></i>
+                            <b>Double Diamond</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    Double Diamond
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-vial none"></i>
+                            <b>User Testing</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    User Testing
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-question-circle none"></i>
+                            <b>User Interviews</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    User Interviews
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-search none"></i>
+                            <b>User Research</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    User Research
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-route none"></i>
+                            <b>Storyboards</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    Storyboards
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-briefcase none"></i>
+                            <b>User Journey</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    User Journey
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-id-card none"></i>
+                            <b>User Stories</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    User Stories
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="far fa-newspaper none"></i>
+                            <b>Wireframing</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    Wireframing
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                            <i class="fas fa-tools none"></i>
+                            <b>Prototyping</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    Prototyping
+                    </div>
+                    <div id='icons'>
+                      <div class='showtext-ux'>
+                        <ul>
+                          <li>
+                              <i class="fas fa-money-check none center"></i>
+                            <b>MVP Canvas</b>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div id='language-icons-replacement'>
+                    MVP Canvas
+                    </div>
+                  </div>
+            <!-- Programs and tools -->
+                    <div class="row">
+                      <div class="col s12 m12 l6">
+                        <h4 class="center light white-text" style="padding-top:10px;">Programs & Tools</h4>
+                        <div id='icons'>
+                          <div class='showtext'>
+                            <ul>
+                              <li>
+                                <i class="fab fa-figma none"  style="padding-top:0;"></i>
+                                <b>Figma</b>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id='language-icons-replacement'>
+                        Figma
+                        </div>
+                        <div id='icons'>
+                          <div class='showtext'>
+                            <ul>
+                              <li>
+                                <i class='devicon-photoshop-plain none'></i>
+                                <b>Photoshop</b>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id='language-icons-replacement'>
+                        Photoshop
+                        </div>
+                        <div id='icons'>
+                          <div class='showtext'>
+                            <ul>
+                              <li>
+                                <i class='none'><img alt="Miro logo" src="images/projects/miro_icon.svg" width="50" height="50"/></i>
+                                <b>Miro</b>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id='language-icons-replacement'>
+                          Miro
+                        </div>
+                        <div id='icons'>
+                          <div class='showtext'>
+                            <ul>
+                              <li>
+                                <i class='devicon-trello-plain none'></i>
+                                <b>Trello</b>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id='language-icons-replacement'>
+                        Trello
+                        </div>
+                        <div id='icons'>
+                          <div class='showtext'>
+                            <ul>
+                              <li>
+                                <i class='devicon-html5-plain none'></i>
+                                <b>HTML5</b>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id='language-icons-replacement'>
+                        HTML5
+                        </div>
+                        <div id='icons'>
+                          <div class='showtext'>
+                            <ul>
+                              <li>
+                                <i class='devicon-css3-plain none'></i>
+                                <b>CSS3</b>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id='language-icons-replacement'>
+                        CSS3
+                        </div>
+                        <div id='icons'>
+                          <div id='icons'>
+                            <div class='showtext'>
+                              <ul>
+                                <li>
+                                  <i class='devicon-slack-plain none'></i>
+                                  <b>Slack</b>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div id='language-icons-replacement'>
+                          Slack
+                          </div>
+                          <div id='icons'>
+                            <div class='showtext'>
+                              <ul>
+                                <li>
+                                  <i class='fab fa-discord none' style="padding-top:0;"></i>
+                                  <b>Discord</b>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div id='language-icons-replacement'>
+                          Discord
+                          </div>
+                          <div class='showtext'>
+                            <ul>
+                              <li>
+                                <i class='fab fa-microsoft none' style="padding-top:0;"></i>
+                                <b>Microsoft Office</b>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div id='language-icons-replacement'>
+                        Microsoft Office
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- <div id="list" class="col s12">
+                <div class="col s12 m12 l6">
+                  <h4 class="light white-text" style="padding-top:10px;padding-left:0;">UX Methods</h4>
+                  <p class="light flow-text" style="margin:0px;;padding:0px;">
+                    Design Thinking
+                  <br>Design Sprints
+                  <br>Double Diamond
+                  <br>User Testing & Interviewing
+                  <br>User Research & User Stories
+                  <br>Storyboards & User Journeys
+                  <br>Wireframing & Prototyping
+                  <br>MVP Canvas
+                  </p>
+                </div>
+                <div class="col s12 m12 l6">
+                  <h4 class="light white-text" style="padding-top:10px;padding-left:0;">Programs & Tools</h4>
+                  <p class="light flow-text" style="margin:0px;;padding:0px;">
+                  Figma
+                  <br>Miro, Trello
+                  <br>Microsoft Office
+                  <br>Photoshop
+                  <br>HTML5
+                  <br>CSS3
+                  <br>Slack, Discord
+                  </p>
+                </div>
+              </div> -->
+            </div> 
+          </div>
+
+
+
+        <!-- footer & contact section -->
+        <footer class="page-footer black" id="contact">
+            <div id="footer"></div>
+        </footer>
+    </body>
+</html>
