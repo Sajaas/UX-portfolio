@@ -280,6 +280,9 @@ i.footer:hover, .footer-white-link:hover {
     @media screen and (min-width: 801px) {
       #language-icons-replacement {
         display: none; } }
+      .hide-on-large-screen {
+        display:none;
+      }
     @media screen and (max-width: 800px) {
           #icons, #toggleList, #icons-list, .switch, .tabs {
             display: none; }
@@ -307,6 +310,9 @@ i.footer:hover, .footer-white-link:hover {
           }
           .bubble.you {
             width: 260px;
+        }
+        .hide-on-large-screen {
+          display:block;
         }
       }
     /* end of show/hide section */
