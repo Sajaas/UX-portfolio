@@ -187,6 +187,10 @@ a, #readBtn, h4#link_text {
   margin: 300px 20px 200px 20px;
 }
 
+.medium-screen-margin {
+  margin: 100px 20px 100px 20px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -202,6 +206,9 @@ a, #readBtn, h4#link_text {
     top: 0;
   }
   .large-screen-margin{
+    margin:10px;
+  }
+  .medium-screen-margin{
     margin:10px;
   }
 }
