@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
+  </script> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="header"></div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
+
+  <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+
+      <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="image col s12 m12 l4 offset-l1 center" style="margin-top:40px;">
+          <!-- <img alt="AR game picture" class="materialboxed responsive-img" src="images/projects/arcade/final_game2.PNG" style="padding-top: 1rem;max-width: 80%;padding-bottom: 20px;margin: 0 auto;"> -->
+          <img alt="Fast Travel Games Logo" class="materialboxed responsive-img projects" src="images/projects/ftg/ftg_logo.png" style="max-width:90%;margin: 0 auto;padding-bottom: 20px;">
+          <p class="img-caption">
+            Fast Travel Games logo
+          </p>
+          <!-- <a href="" style="margin-bottom:20px;" target="_blank" class="btn-large waves-effect waves-light">More info</a> -->
+        </div>
+        <div class="col s12 m12 l6" style="padding-top:0px;margin-top:40px;">
+          <!-- <h5 class="header white-text" style="padding-left:10px;">Game examples</h5> -->
+          <h4 class="header" style="margin-top:0px;">Game projects</h4>
+          <p class="light flow-text">
+            While I can't share details of the non-released projects, I can share which announced games I'm working on!
+          </p>
+          <!-- <h5 class="header" style="margin-top:0px;">Table of Content</h5> -->
+          <!-- <ul class=" flow-text" style="padding-left: 10px;">
+            <li class="bullet"><a href="#defining" >1. Defining the Problem</a></li>
+            <li class="bullet"><a href="#research" >2. Research</a></li>
+            <li class="bullet"><a href="#concept" >3. Concept</a></li>
+            <li class="bullet"><a href="#developing" >4. Prototyping & Testings</a></li>
+            <li class="bullet"><a href="#delivering" >5. Delivery</a></li>
+            <li class="bullet"><a href="#takeaways" >6. Key takeaways</a></li>
+            <li class="bullet"><a href="#deliverables" >7. Deliverables & Documents</a></li>
+          </ul> -->
+          <!-- <ul class="collapsible">
+            <li>
+              <div class="collapsible-header black flow-text" style="margin-bottom: 0px;"><a>Case Study Summary</a></div>
+              <div class="collapsible-body"><span>
+                <p class="light flow-text ">
+                  We designed a traversal system for <a href='https://themainframe.com/en/' target='_blank'>Mainframe Industries</a> who are developing an unannounced sandbox MMO.
+                  <br><br> 
+                  Our challenge was to design a solution to make the traversal system more accessible and enjoyable for totally blind individuals.
+                  <br><br>My role was to structure the project, facilitate, book interviews and tests, customer contact, prototype and design visuals.
+                  <br>I collaborated with three other UX designers.
+                </p>
+                </span></div>
+            </li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12" id="cities"> 
+          <div class="divider"></div>
+        </div>
+
+        <div class="col s12 m12 l6">
+          <h6>CITIES: VR</h6>
+          <!-- <h5>The Brief</h5> -->
+          <p class="light flow-text">
+            <a href="https://www.fasttravelgames.com/games/citiesvr" target="_blank">Cities: VR</a> is the live VR port of the <b>city-builder</b> <a href="https://www.paradoxinteractive.com/games/cities-skylines/about" target="_blank">Cities: Skylines</a>.
+            <br><br>
+            <i>
+              Cities: VR brings the definitive city-building experience from Cities: Skylines into VR for the very first time.
+              <br><br>
+              Be the mayor and control every aspect of city planning.
+            </i>
+          </p>
+          </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="logo" class="materialboxed responsive-img projects" src="images/projects/ftg/cities.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Cities: VR logo
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col s12 m12 l12" id="wao">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="logo" class="materialboxed responsive-img projects" src="images/projects/ftg/we_are_one.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                We Are One logo
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m12 l6">
+          <h6>WE ARE ONE</h6>   
+          <p class="light flow-text">
+            <a href="https://www.fasttravelgames.com/games/weareone" target="_blank">We Are One</a> is a We Are One is a <b>puzzle shooter</b> game.
+            <br><br>
+            <i>
+              We Are One is a puzzle shooter that arms you and your better half - your clone!
+              <br><br>
+              Use time loops and guns to solve puzzles and blast your way through action-packed levels filled with mechanical enemies, hellbent on destroying mother nature.
+              <br><br>
+              We Are One provides beginners and the most seasoned VR gamers with endless challenges.
+            </i>
+          </p>
+        </div>
+
+        <div class="col s12 m12 l12" id="everslaught">
+          <div class="divider"></div>
+        </div>
+        
+        <div class="col s12 m12 l6">
+          <h6>EVERSLAUGHT: INVASION</h6>
+          <p class="light flow-text">
+            <a href="https://www.fasttravelgames.com/games/everslaughtinvasion" target="_blank">Everslaught: Invasion</a> is a <b>co-op action</b> game.
+            <br><br>
+            <i>
+              Everslaught: Invasion is a fast-paced VR action game built for 1-2 players. 
+              <br><br>
+              Team up online as one of the unique classes Warrior, Rogue or Vanguard to defeat the evil and ever-expanding faction of the Corrupted.
+            </i>
+          </p>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="logo" class="materialboxed responsive-img projects" src="images/projects/ftg/everslaught.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Everslaught: Invasion logo
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col s12 m12 l12" id="be">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="logo" class="materialboxed responsive-img projects" src="images/projects/ftg/broken_edge.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Broken Edge logo
+              </p>
+            </figcaption>
+          </figure>
+          </div>
+        <div class="col s12 m12 l6">
+          <h6>BROKEN EDGE</h6>
+          <p class="light flow-text">
+            <a href="https://www.fasttravelgames.com/games/brokenedge" target="_blank">Broken Edge</a> is a <b>multiplayer dueling</b> game.
+            <br><br>
+            <i>
+              Broken Edge is a VR multiplayer fantasy dueling game where you embody historical swordfighters. 
+              <br><br>
+              Use their unique techniques and powers combined with cutting-edge fencing mechanics to claim victory against online components and climb the ranks!
+            </i>
+          </p>
+        </div>
+        
+        <div class="col s12 m12 l12" id="more">
+          <div class="divider"></div>
+        </div>
+
+        <div class="col s12 m12 l6">
+          <h6>GHOST SIGNAL: A STELLARIS GAME</h6>
+          <p class="light flow-text">
+            <a href="https://www.fasttravelgames.com/games/ghost-signal" target="_blank">Ghost Signal: A Stellaris Game</a> is a VR <b>roguelite</b> set in the <a href="https://www.paradoxinteractive.com/games/stellaris/about" target="_blank">Stellaris</a> universe.
+            <br>
+            <br>
+            <i>
+              Uncover the wonders of outer space in this VR action roguelite game. 
+              <br><br>
+              Set in the Stellaris universe, captain your ship to battle or befriend a multitude of alien species in your search for the enigmatic Ghost Signal. 
+              <br><br>
+              Partake in dynamic space wars, encounter planet sized creatures, gather valuable loot to conduct research, and more. 
+              <br><br>
+              Every journey offers new possibilities.
+
+            </i>
+          </p>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="logo" class="materialboxed responsive-img projects" src="images/projects/ftg/ghost_signal.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Ghost Signal: A Stellaris Game logo
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col s12 m12 l12" id="more">
+          <div class="divider"></div>
+        </div>
+       
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/ftg/ftg_all_games.png">
+            <figcaption>
+              <p class="img-caption center">
+                All our announced games!
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m12 l6">
+          <h6>... AND MORE!</h6>
+          <p class="light flow-text">
+            More will come! 
+          </p>
+        </div>
+
+
+        <div class="col s12 m12 l12 center">
+          <div class="divider"></div>
+          <a style="margin:40px;" href="index#projects" class="btn-large waves-effect waves-light">Back to projects</a>
+        </div>
+        <!-- These are not automatically imported to the pages -->
+
+<div class="row">
+  <div class="col s12 m12 l12">
+    <div class="carousel" id="more_projects">
+
+      <div class="carousel-item">
+          <div class="card black">
+            <div class="card-content">
+              <h5 class="center">Madshot</h5>
+              <p class="flow-text">
+                Designing a challenge system in a rogue-lite. 
+              </p>
+              <div class="center">
+                <a href="madshot"  class="btn-large waves-effect waves-light">Read Case Study</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="carousel-item">
+          <div class="card black">
+              <div class="card-content">
+              <h5 class="center">ARcade</h5>
+              <p class="flow-text">
+                  Create an engaging AR game filter that enhances the experience of the exhibition Play Beyond Play.
+              </p>
+              <div class="center">
+                  <a href="arcade"  class="btn-large waves-effect waves-light">Read Case Study</a>
+              </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="carousel-item">
+          <div class="card black">
+              <div class="card-content">
+              <h5 class="center">Construct & Combat</h5>
+              <p class="flow-text">
+                  Designing a game that will teach about the consequences of war, with several game modes. 
+              </p>
+              <div class="center">
+                  <a href="construct&combat"  class="btn-large waves-effect waves-light">Read Case Study</a>
+              </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="carousel-item">
+          <div class="card black">
+              <div class="card-content">
+              <h5 class="center">Dreams Academy</h5>
+              <p class="flow-text">
+              Incorporate education about economics, so that their customers can learn in a pain free way. 
+              </p>
+              <div class="center">
+                  <a href="dreamsacademy"  class="btn-large waves-effect waves-light">Read Case Study</a>
+              </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="carousel-item">
+          <div class="card black">
+              <div class="card-content">
+              <h5 class="center">Swing Speed Radar</h5>
+              <p class="flow-text">
+                  Increase the paying customer base & explore the possibility to incorporate gamification.
+              </p>
+              <div class="center">
+                  <a href="swingspeedradar" class="btn-large waves-effect waves-light">Read Case Study</a>
+              </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="carousel-item">
+          <div class="card black">
+            <div class="card-content">
+              <h5 class="center">Cryptids</h5>
+              <p class="flow-text">
+                A first-person horror game created during a game jam. 
+              </p>
+              <div class="center">
+                <a href="cryptids"  class="btn-large waves-effect waves-light">Read Case Study</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  <!-- Project section end -->
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+</html>
