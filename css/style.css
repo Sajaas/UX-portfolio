@@ -508,6 +508,12 @@ i.none {
       max-width: 100%;
 }
 
+.small-bubble-no-margain-bottom {
+  float: left;
+  margin: 0px 10px 0px 0px;
+  max-width: 100%;
+}
+
 .you {
     /* float: left; */
     margin: 10px 20px 10px 20px;
