@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
+  </script> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="header"></div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
+
+  <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+
+      <!-- <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="image col s12 m12 l4 offset-l1 center" style="margin-top:40px;">
+          <img alt="Cities: VR logo" class="materialboxed responsive-img projects" src="images/projects/cities/cities.jpg">
+          <div class="divider"></div>
+            <div class="roundbubble flow-text small-bubble" style="margin-left: 0px;">UX</div>
+            <div class="roundbubble flow-text small-bubble">Prototyping</div>
+            <div class="roundbubble flow-text small-bubble">Project Management</div>
+            <i class='small-bubble'><img alt="Jira logo" src="images/projects/jira_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+            <i class="fab fa-figma small-bubble small-icon" style="padding-top:0;"></i>
+            <i class='small-bubble'><img alt="Miro logo" src="images/projects/miro_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+            <i class='small-bubble'><img alt="Oculus logo" src="images/projects/logo-oculus.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+        </div>
+        <div class="col s12 m12 l6" style="padding-top:0px;margin-top:40px;">
+          <h5 class="header white-text" style="padding-left:10px;">Case Study</h5>
+          <h4 class="header" style="margin-top:0px;">Cities: VR</h4>
+          <p class="light flow-text ">
+            As the UX Designer for <a href="https://www.fasttravelgames.com/games/citiesvr" target="_blank">Cities: VR</a>, a live VR port of the city-building game <a href="https://www.paradoxinteractive.com/games/cities-skylines/about" target="_blank">Cities: Skylines</a>, I have focused on improving the tutorial and onboarding experience through prototyping, testing, and design discussions with the team. 
+            <br><br>
+            Upon joining the project, I identified and addressed various issues including overwhelming instructions, long tutorial duration, multiple prompts at once, difficulty remembering controls, and an intrusive screen that followed the player's face.
+            <br><br>
+            <a href="#detailed" target="_blank">Jump to detailed case study</a>
+          </p>
+        </div>
+      </div> -->
+
+      <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="card card-background hoverable rounded_corners">
+          <div class="card-image center">
+            <img alt="Cities: VR logo" class="materialboxed responsive-img rounded_corners" src="images/projects/guardians/guardians.jpg">
+            <span class="card-title center col l10 offset-l1">
+              <div class="hide-on-small-screen">
+                <div class="roundbubble flow-text small-bubble-no-margain-bottom">Testing</div>
+                <i class='small-bubble-no-margain-bottom'><img alt="Jira logo" src="images/projects/jira_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+                <i class='small-bubble-no-margain-bottom '><img alt="Oculus logo" src="images/projects/logo-oculus.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+              </div>  
+          </span>
+          </div>
+          <div class="col s12 m12 l10 offset-l1" >
+            <h5 class="header white-text">Case Study</h5>
+            <h4 class="header" style="margin-top:0px;">Guardians Frontline</h4>
+            <p class="light flow-text ">
+              As part of the publishing team at Fast Travel Games, I conducted multiple UX tests and reviews for our publishing title <a href="https://www.oculus.com/experiences/quest/5380153758692064/" target="_blank">Guardians Frontline</a>,  a Sci-Fi VR shooter with RTS elements.
+              <Br></Br>I focused on improving the tutorial and onboarding experience through testing and design discussions with the team, as well as test the map editor and review their UI. 
+              <br><br>
+              I identified and suggested solutions to various issues.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12"> 
+          
+          <div class="divider"></div>
+        </div>
+
+        <div class="col s12 m12 l6">
+          <h6>ONBOARDING x2</h6>
+          <p class="light flow-text">
+            Through two UX tests, set months apart, I identified issues and suggested solutions to improve the onboarding experience.
+            <br><br>
+            The first test provided insights gained from research and competitor analysis, as well as testing.
+            <br><br>
+            Top insights and suggestions from the first round of testing include:             
+          </p>
+          <ul class="browser-default flow-text">
+            <li class="bullet">Simplifying the tutorial texts & prompts</li>
+            <li class="bullet">Placing the tutorial in a level</li>
+            <li class="bullet">Improving objective indicators</li>
+            <li class="bullet">Adding contextual reminders</li>
+            <li class="bullet">Identifying enemy attacks more specifically</li>
+            <li class="bullet">Identifying and addressing unclear options in the menu</li>
+            <li class="bullet">Making UI and menu improvements</li>
+            <li class="bullet">Providing comfort options for new players</li>
+          </ul>
+
+          <p class="light flow-text">
+            The second test focuses on testing the improvements made to the onboarding and menu and provides further insights. 
+            <br><br>
+            Many suggestions had been implemented, such as teaching the player through a tutorial level, adding reminders and hints, as well as updating the menus.
+            <br><br>
+            Top insights and suggestions from the second round of testing include:             
+          </p>
+          <ul class="browser-default flow-text">
+            <li class="bullet">The need for a visual low health indicator</li>
+            <li class="bullet">More information about the initial settings</li>
+            <li class="bullet">Introducing tactical view</li>
+            <li class="bullet">Reducing the number of unlocked machines at the start</li>
+            <li class="bullet">Providing clearer mission goals</li>
+            <li class="bullet">Making it easier to control multiple units</li>
+            <li class="bullet">Identifying menu issues, such as players almost exiting the game when trying to return to the Home screen</li>
+          </ul>
+
+        </div>
+
+        <div class="col s12 m12 l6">
+          
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/guardians/guardians_tutorial_1.png">
+            <figcaption>
+              <p class="img-caption center">
+                Overwhelming amount of information and multiple prompts
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/guardians/guardians_menu_1.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Empty main screen and double menus for same options
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/guardians/guardians_menu_1_2.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Quick suggestion for the main menu, updating the icons, plus removing the menus to the left
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/guardians/guardians_test_1.png">
+            <figcaption>
+              <p class="img-caption center">
+                Objective suggestion to help players track the mission goal
+              </p>
+            </figcaption>
+          
+        </div>
+
+        <div class="col s12 m12 l12" id="">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/guardians/mockup.png">
+            <figcaption>
+              <p class="img-caption center">
+                A mockup of a help menu with a controller cheat sheet
+              </p>
+            </figcaption>
+          </figure>
+          
+        </div>
+        <div class="col s12 m12 l6">
+          <h6>MAP EDITOR</h6>
+          <p class="light flow-text">
+            the focus is on understanding the usability of the editor and identifying pain points experienced by players. 
+            The insights obtained from the study included: 
+          </p>
+          <ul class="browser-default flow-text">
+            <li class="bullet">A short introduction to controls could help players stay in the editor</li>
+            <li class="bullet">Tooltips are needed to explain options in menus</li>
+            <li class="bullet">Returning to the editor from play mode is difficult the first time</li>
+            <li class="bullet">Players expressed a desire for help, including a controller cheat sheet and shortcuts, tips, and tricks</li>
+          </ul>   
+        </div>
+
+        <div class="col s12 m12 l12" id="">
+          <div class="divider"></div>
+        </div> 
+
+        <div class="col s12 m12 l8">
+          <h6>KEY TAKEAWAYS</h6>
+          <ul class="browser-default flow-text">
+            <li class="bullet">Players perfer to learn in a level</li>
+            <li class="bullet">VR benefits from contextual reminders and hints</li>
+            <li class="bullet">Players want to find help easily, since googling is harder while playing VR</li>
+            <li class="bullet">Multiple prompts and long texts are not good in VR</li>
+          </ul>
+        </div>
+        <div class="col s12 m12 l4">
+          <figure>
+              <img alt="A drawing of the knight from the game." class="materialboxed responsive-img projects" src="images/projects/guardians/guardian.png">
+              <figcaption>
+                <p class="img-caption center">
+                  Protect the Federation!
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+
+      </div>
+        
+            <div class="col s12 m12 l12 center">
+              <div class="divider"></div>
+              <a style="margin:40px;" href="projects" class="btn-large waves-effect waves-light">Back to projects</a>
+            </div>
+
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="carousel" id="more_projects">
+
+                  <a href="mmo">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Pax Dei logo on top of a screenshot from the game. A woman in medieval clothing is looking out over the forest" class="center" src="images/projects/mmo/pax_dei_2.jpeg">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  <a href="madshot">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Crypids logo" class="center" src="images/projects/madshot/MadShot_Poster.png">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  <a href="cities">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Cities logo over a picture of a city skyline" class="center" src="images/projects/cities/cities.jpg">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </div>
+  <!-- Project section end -->
+        </div>
+      </div>
+
+        
+        <!-- These are not automatically imported to the pages -->
+
+
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+</html>
