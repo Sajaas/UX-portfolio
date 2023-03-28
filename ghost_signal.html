@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
+  </script> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="header"></div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
+
+  <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+
+      <!-- <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="image col s12 m12 l4 offset-l1 center" style="margin-top:40px;">
+          <img alt="Cities: VR logo" class="materialboxed responsive-img projects" src="images/projects/cities/cities.jpg">
+          <div class="divider"></div>
+            <div class="roundbubble flow-text small-bubble" style="margin-left: 0px;">UX</div>
+            <div class="roundbubble flow-text small-bubble">Prototyping</div>
+            <div class="roundbubble flow-text small-bubble">Project Management</div>
+            <i class='small-bubble'><img alt="Jira logo" src="images/projects/jira_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+            <i class="fab fa-figma small-bubble small-icon" style="padding-top:0;"></i>
+            <i class='small-bubble'><img alt="Miro logo" src="images/projects/miro_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+            <i class='small-bubble'><img alt="Oculus logo" src="images/projects/logo-oculus.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+        </div>
+        <div class="col s12 m12 l6" style="padding-top:0px;margin-top:40px;">
+          <h5 class="header white-text" style="padding-left:10px;">Case Study</h5>
+          <h4 class="header" style="margin-top:0px;">Cities: VR</h4>
+          <p class="light flow-text ">
+            As the UX Designer for <a href="https://www.fasttravelgames.com/games/citiesvr" target="_blank">Cities: VR</a>, a live VR port of the city-building game <a href="https://www.paradoxinteractive.com/games/cities-skylines/about" target="_blank">Cities: Skylines</a>, I have focused on improving the tutorial and onboarding experience through prototyping, testing, and design discussions with the team. 
+            <br><br>
+            Upon joining the project, I identified and addressed various issues including overwhelming instructions, long tutorial duration, multiple prompts at once, difficulty remembering controls, and an intrusive screen that followed the player's face.
+            <br><br>
+            <a href="#detailed" target="_blank">Jump to detailed case study</a>
+          </p>
+        </div>
+      </div> -->
+
+      <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="card card-background hoverable rounded_corners">
+          <div class="card-image center">
+            <img alt="" class="materialboxed responsive-img rounded_corners" src="images/projects/ghostsignal/ghost_signal.jpg">
+            <span class="card-title center col l10 offset-l1">
+              <div class="hide-on-small-screen">
+                <div class="roundbubble flow-text small-bubble-no-margain-bottom">Testing</div>
+                <i class='small-bubble-no-margain-bottom'><img alt="Jira logo" src="images/projects/jira_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+                <i class='small-bubble-no-margain-bottom '><img alt="Oculus logo" src="images/projects/logo-oculus.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+              </div>  
+          </span>
+          </div>
+          <div class="col s12 m12 l10 offset-l1" >
+            <h5 class="header white-text">Case Study</h5>
+            <h4 class="header" style="margin-top:0px;">Ghost Signal: A Stellaris Game</h4>
+            <p class="light flow-text ">
+              I conducted multiple UX tests and design reviews for our title <a href="https://www.oculus.com/experiences/quest/4302631119827554/?utm_campaign=ftgwebsite&utm_source=productpage&utm_medium=organic" target="_blank">Ghost Signal</a>,  a Sci-Fi VR action roguelite set in the Stellaris Universe.
+              <Br></Br>In my tests and design discussions, I focused on improving the tutorial and onboarding experience, balancing, UI, and the run feeling. 
+              <br><br>
+              I identified and suggested solutions to various issues.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12"> 
+          
+          <div class="divider"></div>
+        </div>
+
+        <div class="col s12 m12 l6">
+          <h6>RUNS AND BALANCING</h6>
+          <p class="light flow-text">
+            Through several UX tests, ranging from simple feature tests to fully fledged runs, I identified issues and suggested solutions to improve the experience.
+            <br><br>
+            Top insights and solutions from the tests include:             
+          </p>
+          <ul class="browser-default flow-text">
+            <li class="bullet">Moving the ship during battle caused stress, confusion and negative feelings for players. Adding slo-mo while placing waypoints reduced the negative feelings</li>
+            <li class="bullet">Removing the shield encouraged players to learn the movement system</li>
+            <li class="bullet">Using the scanner for different actions was complicated. Removing the need to press several buttons fixed this</li>
+            <li class="bullet">Players wanted a wider enemy variety earlier on</li>
+            <li class="bullet">Players missed notifications. Adding audio cues solved part of the problems</li>
+            <li class="bullet">Identified unnecessary steps in menu navigation and removed these</li>
+            <li class="bullet">Identified unclear aspects of the UI and readability issues and suggested solutions</li>
+            <li class="bullet">Players didn't notice that 3 research trees existed</li>
+            <li class="bullet">Visually differenciating enemies was hard</li>
+            <li class="bullet">Players often accidentally selected buttons</li>
+          </ul>
+        </div>
+
+        <div class="col s12 m12 l6">
+          
+          
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/ghostsignal/ghost_signal_screenshot.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Adding ammo around the crosshair helped players keep track of it
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/ghostsignal/ghost_signal_trader.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Removed unnecessary menu steps, so players could switch between trader and ship menu
+              </p>
+            </figcaption>
+          </figure>
+          
+        </div>
+
+        <div class="col s12 m12 l12" id="">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/ghostsignal/ghost_signal_tutorial.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Allowing players to skip tutorials is key
+              </p>
+            </figcaption>
+          </figure>
+          
+          <figure>
+            <img alt="" class="materialboxed responsive-img projects" src="images/projects/ghostsignal/review.png">
+            <figcaption>
+              <p class="img-caption center">
+                A nice review!
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col s12 m12 l6">
+          <h6>TUTORIAL</h6>
+          <p class="light flow-text">
+            Learning from my earlier experiences with VR tutorials, I advocated for creating an interactive tutorial built like a level, and to add contextual tutorials during the run.
+            <br><br>
+            During the playtest, the tutorial was found to be very helpful in improving game understanding, but there were still some unclear aspects.
+            <br><br>
+            Some insighs and solutions include: 
+          </p>
+          <ul class="browser-default flow-text">
+            <li class="bullet">Missile scarcity is unclear. Fixed by adding reminders and information</li>
+            <li class="bullet">Unclear when to move to next sector. Fixed by audio cue in later build</li>
+            <li class="bullet">Movement tutorial needed to be repeated. Reminders were added to the first sector</li>
+            <li class="bullet">Tutorial taught unwanted behaviors. Removed the issues in a later build</li>
+            <li class="bullet">Identified what was not taught and needed clarification</li>
+          </ul>   
+        </div>
+
+        <div class="col s12 m12 l12" id="">
+          <div class="divider"></div>
+        </div> 
+
+        <div class="col s12 m12 l8">
+          <h6>KEY TAKEAWAYS</h6>
+          <ul class="browser-default flow-text">
+            <li class="bullet">Players want to see buttons on a virtual controller while learning</li>
+            <li class="bullet">Contextual tutorials work best</li>
+          </ul>
+        </div>
+        <div class="col s12 m12 l4">
+          <figure>
+            <img alt="A drawing of the knight from the game." class="materialboxed responsive-img projects" src="images/projects/ghostsignal/VIR.png" style="margin:0;">
+            <figcaption>
+              <p class="img-caption center">
+                VIR, your synthetic intelligence buddy!
+              </p>
+            </figcaption>
+          </figure>
+          </div>
+
+      </div>
+        
+            <div class="col s12 m12 l12 center">
+              <div class="divider"></div>
+              <a style="margin:40px;" href="projects" class="btn-large waves-effect waves-light">Back to projects</a>
+            </div>
+
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="carousel" id="more_projects">
+
+                  <a href="mmo">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Pax Dei logo on top of a screenshot from the game. A woman in medieval clothing is looking out over the forest" class="center" src="images/projects/mmo/pax_dei_2.jpeg">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  <a href="madshot">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Crypids logo" class="center" src="images/projects/madshot/MadShot_Poster.png">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  <a href="cities">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Cities logo over a picture of a city skyline" class="center" src="images/projects/cities/cities.jpg">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </div>
+  <!-- Project section end -->
+        </div>
+      </div>
+
+        
+        <!-- These are not automatically imported to the pages -->
+
+
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+</html>
