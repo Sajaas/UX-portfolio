@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("partials/header.html", function onclick(){
+          $('.sidenav').sidenav();
+        }); 
+        $("#fab").load("partials/fab.html", function onclick(){
+          $('.fixed-action-btn').floatingActionButton();
+        }); 
+        $("#footer").load("partials/footer.html"); 
+      });
+  </script> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="header"></div>
+  </header>
+  
+  <!-- fixed action button -->
+  <div id="fab"></div>
+
+  <!-- Project section -->
+  <div class="parallax-container valign-wrapper" id="projects">
+    <div class="container">
+
+      <!-- <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="image col s12 m12 l4 offset-l1 center" style="margin-top:40px;">
+          <img alt="Cities: VR logo" class="materialboxed responsive-img projects" src="images/projects/cities/cities.jpg">
+          <div class="divider"></div>
+            <div class="roundbubble flow-text small-bubble" style="margin-left: 0px;">UX</div>
+            <div class="roundbubble flow-text small-bubble">Prototyping</div>
+            <div class="roundbubble flow-text small-bubble">Project Management</div>
+            <i class='small-bubble'><img alt="Jira logo" src="images/projects/jira_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+            <i class="fab fa-figma small-bubble small-icon" style="padding-top:0;"></i>
+            <i class='small-bubble'><img alt="Miro logo" src="images/projects/miro_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+            <i class='small-bubble'><img alt="Oculus logo" src="images/projects/logo-oculus.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+        </div>
+        <div class="col s12 m12 l6" style="padding-top:0px;margin-top:40px;">
+          <h5 class="header white-text" style="padding-left:10px;">Case Study</h5>
+          <h4 class="header" style="margin-top:0px;">Cities: VR</h4>
+          <p class="light flow-text ">
+            As the UX Designer for <a href="https://www.fasttravelgames.com/games/citiesvr" target="_blank">Cities: VR</a>, a live VR port of the city-building game <a href="https://www.paradoxinteractive.com/games/cities-skylines/about" target="_blank">Cities: Skylines</a>, I have focused on improving the tutorial and onboarding experience through prototyping, testing, and design discussions with the team. 
+            <br><br>
+            Upon joining the project, I identified and addressed various issues including overwhelming instructions, long tutorial duration, multiple prompts at once, difficulty remembering controls, and an intrusive screen that followed the player's face.
+            <br><br>
+            <a href="#detailed" target="_blank">Jump to detailed case study</a>
+          </p>
+        </div>
+      </div> -->
+
+      <div class="row black rounded_corners" style="margin-top:40px;">
+        <div class="card card-background hoverable rounded_corners">
+          <div class="card-image center">
+            <img alt="Cities: VR logo" class="materialboxed responsive-img rounded_corners" src="images/projects/brokenedge/brokenedge_logo.jpg">
+            <span class="card-title center col l10 offset-l1">
+              <div class="hide-on-small-screen">
+                <div class="roundbubble flow-text small-bubble-no-margain-bottom">Testing</div>
+                <i class='small-bubble-no-margain-bottom'><img alt="Jira logo" src="images/projects/jira_icon_white.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+                <i class='small-bubble-no-margain-bottom '><img alt="Oculus logo" src="images/projects/logo-oculus.svg" width="60" height="60" style="margin-bottom:-3px;" class="none"/></i>
+              </div>  
+          </span>
+          </div>
+          <div class="col s12 m12 l10 offset-l1" >
+            <h5 class="header white-text">Case Study</h5>
+            <h4 class="header" style="margin-top:0px;">Broken Edge</h4>
+            <p class="light flow-text ">
+              As part of the publishing team at Fast Travel Games, I conducted UX testing for our publishing title <a href="https://www.oculus.com/experiences/quest/5136958036416423/?ranking_trace=105380645118255_5136958036416423_SKYLINEWEB_1ff11e9f-2494-495c-a5a8-66c20e7f7892" target="_blank">Broken Edge</a>,  a 1v1 VR fantasy sword dueling game.
+              <Br></Br>I focused on improving the tutorial and onboarding experience through testing and design discussions with the team. 
+              <br><br>
+              I identified and suggested solutions to various issues including unclear instructions, missing feedback, and VR specific issues such as menu options being outside the peripheral.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12"> 
+          
+          <div class="divider"></div>
+        </div>
+        
+        <div class="col s12 m12 l12 center"> 
+          <figure>
+              <img alt="A picture of a review of the game: Getting better!
+
+              Initial version had a very long tutorial and broken electricity routing mechanics that made it hard to get into and honestly not very fun.
+              
+              The latest update fixed all of that and makes it much easier and more immersive to get started.
+              
+              Great job to the developers for continuing to find ways to improve the game!
+              
+              - Review on Oculus, Daniel, Nov 17 2022 at 7:00 PM" class="responsive-img projects" src="images/projects/brokenedge/review_broken_edge.png">
+            <figcaption>
+              <p class="img-caption center">
+                Review which mentions the tutorial
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col s12 m12 l12" id="">
+          <div class="divider"></div>
+        </div>
+
+        <div class="col s12 m12 l6">
+          <h6>IDENTIFYING THE PROBLEMS</h6>
+          <p class="light flow-text">
+            Through testing, I identified issues with the tutorials and onboarding. 
+            <br><br>
+            While players generally understood how to start the game and select menu options, some struggled with both menus and the tutorial information. These issues included:
+            <!-- <br><br>
+            but some had trouble with menu navigation. In the Basic tutorial, players needed more repetition to understand how to win a duel, and the different parts of the gauge were unclear. Some also accidentally continued in the tutorial by cutting candles, missing information. 
+            <br><br>
+            In the Knight & Barbarian tutorials, players struggled with understanding the Awaken and Flow techniques, as well as losing process on the awaken bar several times without understanding why. They also did not understand the difference between flow and awaken, and how to know if the sword was awakened and how long it lasted. 
+            <br><br> -->
+          </p>
+          <ul class="browser-default flow-text">
+            <li class="bullet">Menu options missed due to being outside the peripheral</li>
+            <li class="bullet">Accidentally selecting menu options</li>
+            <li class="bullet">Accidentally moving on in tutorial and missing information</li>
+            <li class="bullet">Not understanding the win condition</li>
+            <li class="bullet">Unclear difference between Flow & Awaken</li>
+            <li class="bullet">Unclear parts of the gauge</li>
+          </ul>
+        </div>
+
+        <div class="col s12 m12 l6">
+          <figure>
+            <img alt="a menu screen with 2 options" class="materialboxed responsive-img projects" src="images/projects/brokenedge/menu.jpg">
+            <figcaption>
+              <p class="img-caption center">
+                Players missed menu options outside their peripheral, thus only saw the Solo and Multiplayer options.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col s12 m12 l12" id="">
+          <div class="divider"></div>
+        </div>
+        <div class="col s12 m12 l6">
+          <!-- <figure>
+            <img alt="Drawing of a purple sword in a stone slab" class="materialboxed responsive-img projects" src="images/projects/brokenedge/sword.png">
+            <figcaption>
+              <p class="img-caption center">
+                Sword in the stone
+              </p>
+            </figcaption>
+          </figure> -->
+          <figure>
+            <img alt="A picture of a review of the game: Great.
+            Great
+            I was part of the beta testing earlier so have spent a lot of time in this game already, trying all the classes and its simply fantastic. I thought it would be a little on the casual side but its really deep in the way you can handle the swords. You cant juts go in an start waving your hand, this game actually rewards skill and I felt really cool when playing although I recommend you have some space in your home if you want to make big swings etc! The tutorial was great as well and with leaderboards and more stuff coming in just a few days I can see myself playing this for a long time.
+            - Review on Oculus, Daniel, Nov 17 2022 at 7:00 PM" class="responsive-img projects" src="images/projects/brokenedge/review_broken_edge.png">
+          <figcaption>
+            <p class="img-caption center">
+              Review which mentions the tutorial
+            </p>
+          </figcaption>
+        </figure>
+        </div>
+        <div class="col s12 m12 l6">
+          <h6>SUGGESTED SOLUTIONS</h6>
+          <p class="light flow-text">
+            Possible solutions included:
+          </p>
+          <ul class="browser-default flow-text">
+            <li class="bullet">Providing more repetition</li>
+            <li class="bullet">Clearer instructions</li>
+            <li class="bullet">More contextual feedback</li>
+            <li class="bullet">Separating the basic and awaken tutorial</li>
+            <li class="bullet">Combining Awaken & Flow into one move</li>
+          </ul>   
+        </div>
+
+        <div class="col s12 m12 l12" id="">
+          <div class="divider"></div>
+        </div> 
+
+        <div class="col s12 m12 l8">
+          <h6>KEY TAKEAWAYS</h6>
+          <!-- <p class="light flow-text">
+            I have gained valuable insights on how to improve the player experience in VR. 
+            Some key takeaways from my work on Cities VR include:
+          </p> -->
+          <ul class="browser-default flow-text">
+            <li class="bullet">Players easily miss options outisde their peripheral</li>
+            <li class="bullet">Players tend to read and understand text less in VR</li>
+            <li class="bullet">Players may ignore on-screen prompts if they obstruct the view</li>
+            <li class="bullet">Players need more contextual feedback and reminders</li>
+          </ul>
+        </div>
+        <div class="col s12 m12 l4">
+          <figure>
+              <img alt="A drawing of the knight from the game." class="materialboxed responsive-img projects" src="images/projects/brokenedge/knight.png">
+              <figcaption>
+                <p class="img-caption center">
+                  Fight me!
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+
+      </div>
+        
+            <div class="col s12 m12 l12 center">
+              <div class="divider"></div>
+              <a style="margin:40px;" href="projects" class="btn-large waves-effect waves-light">Back to projects</a>
+            </div>
+
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="carousel" id="more_projects">
+
+                  <a href="mmo">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Pax Dei logo on top of a screenshot from the game. A woman in medieval clothing is looking out over the forest" class="center" src="images/projects/mmo/pax_dei_2.jpeg">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  <a href="madshot">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Crypids logo" class="center" src="images/projects/madshot/MadShot_Poster.png">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  
+                  <a href="cities">
+                    <div class="carousel-item rounded_corners">
+                      <div class="card card-background hoverable">
+                        <div class="card-image">
+                          <img alt="Cities logo over a picture of a city skyline" class="center" src="images/projects/cities/cities.jpg">
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </div>
+  <!-- Project section end -->
+        </div>
+      </div>
+
+        
+        <!-- These are not automatically imported to the pages -->
+
+
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+</html>
