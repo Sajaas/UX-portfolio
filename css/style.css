@@ -191,6 +191,13 @@ a, #readBtn, h4#link_text {
   margin: 100px 20px 100px 20px;
 }
 
+/* Remove this if it's not working as it should 2023-11-30
+@media only screen and (min-width: 993px) {
+  .row .col.l4 {
+    margin:10px
+  }
+} */
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
