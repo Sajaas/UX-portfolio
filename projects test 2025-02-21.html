@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  <script> 
+  $(function(){
+    $("#header").load("partials/header.html", function onclick(){
+      $('.sidenav').sidenav();
+    }); 
+    $("#fab").load("partials/fab.html", function onclick(){
+      $('.fixed-action-btn').floatingActionButton();
+    }); 
+    $("#footer").load("partials/footer.html"); 
+  });
+  </script>
+   
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+</head>
+<body>
+  <header>
+     <div id="header"></div>
+  </header>
+<!-- fixed action button FAB-->
+<div id="fab"></div>
+
+<!-- new projects section 2023-03 -->
+  <div class="parallax-container" id="projects">
+    <div class="parallax"><img src="images/background.png" alt="background image, pretty much just pixelated gray"></div>
+
+    <!-- <section id="pm" class="container row">
+      <div class="col l10 s12 m12 offset-l1">
+        <h4>Multi-Disciplinary Project Planner</h2>
+          <p class="light flow-text">
+            I’m passionate about problem-solving, structured workflows, and making game development smoother. 
+            With experience in UX, release- and project management, 
+            I enjoy structuring complex processes to ensure clarity and consistency.
+          </p>
+      </div>
+    </section>
+
+    <div class="divider-block">
+    </div> -->
+    
+    <section id="rm" class="container">
+      <div class="row">
+        <div class="col l6 s12 m12">
+          <h4>Release Management</h2>
+            <p class="light flow-text">
+              I manage the full lifecycle of multi-platform game launches, ensuring smooth coordination across teams, storefront compliance, and go-to-market execution. 
+              <br><br>
+              By streamlining workflows and tracking deadlines, I prevent roadblocks and secure releases.
+            </p>
+            <a href="#rm" class="btn-large waves-effect" style="margin-bottom: 20px;">To all RM case studies</a>
+        </div>
+        <div class="col l6 s12 m12">
+          <h4>UX Research & Design</h2>
+          <p class="light flow-text">
+            I lead the end-to-end UX research process, using playtest data and player insights to refine experiences, guide design improvements, and enhance engagement. 
+            <br><br>
+            Through structured research planning, I ensure findings translate into actionable development changes.
+          </p>
+          <a href="#ux" class="btn-large waves-effect">To all UX case studies</a>
+        </div>
+      </div>
+    </section>
+
+      
+    <div class="container">
+
+      <div class="row" style="padding-top:20px">
+        <h4 class="center">Games I worked on</I></h2>
+        <a href="https://www.meta.com/en-gb/experiences/7028027297235918/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/mannequin/mannequin_logo.png" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin-bottom: 0px;">
+                    Mannequin is an up to 2v3 Hide-And-Seek VR FPS multiplayer game. Agents hunt for shape-shifting Mannequins that blend in as human statues.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://store.playstation.com/en-se/concept/10009390/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/midnightwalk/midnightwalk_logo.jpg" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin-bottom: 0px;">
+                    Embark upon The Midnight Walk in this reverent dark fantasy adventure built in clay, from the minds behind Lost in Random and Fe.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://store.playstation.com/en-se/concept/10011305/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/intotheradius/itr_logo.png" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin-bottom: 0px;">
+                    Into the Radius is a single-player survival shooter in VR. Explore the Pechorsk zone filled with surreal landscapes and dangerous anomalies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/action-hero/7021123758002222/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/actionhero/actionhero_logo.png" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin-bottom:0px;">
+                    Punch dinosaurs in the face, battle ninjas with shotguns and chase bad guys on a speeding train in Action Hero, a blockbuster VR FPS with explosive set pieces and cinematic design. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- </a> -->
+
+        <a href="https://store.steampowered.com/app/1995520/Pax_Dei/?l=english" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/paxdei/paxdei_logo.jpeg" alt="Pax Dei logo on top of a screenshot from the game. A woman in medieval clothing is looking out over the forest"/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Welcome to a vast, social sandbox MMO inspired by the legends of the medieval era. Here, myths are real, ghosts exist, and magic is unquestioned.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/1524550/Madshot/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" alt="Madshot logo on top of a concept picture of the main character. A comic book style man with a cthulhu mask, shooting with guns." src="images/projects/madshot/MadShot_Poster.png"/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text"  style="margin: 0px;">
+                    Madshot is a fast-paced, acrobatic, rogue-lite shooter. Survive the ever-changing road through Cthulhu and beyond.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/broken-edge/5136958036416423/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" alt="Broken Edge logo on top of concept art of two fighters in a battle. One knight and one samurai" src="images/projects/brokenedge/brokenedge_logo.jpg"/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Broken Edge is a VR multiplayer fantasy dueling game where you embody historical swordfighters. Use their unique techniques and powers combined with cutting-edge fencing mechanics to claim victory.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+
+        <a href="https://www.meta.com/en-gb/experiences/guardians-frontline/5380153758692064/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/guardians/guardians.jpg" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Guardians Frontline is a VR shooter with strategy elements in a sci-fi setting. Wield powerful weapons and set up both defensive and offensive structures as you fight off enemies in SP, co-op, and PVP modes. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/5288522424560925/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/projectdemigod/projectdemigod_logo.png" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Project Demigod is the ultimate superhero simulator. Set the scene and stage massive comic book battles in a limitless sandbox. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/26019802470968635/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/bandspace/bandspace_logo.png" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Band Space is an online co-op VR rhythm game. You can play drum sets, guitar, keyboard or bass on shining stages.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/cities-vr/4046879905345967/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/cities/cities.jpg" alt="Cities VR logo on top of a picture of a city"/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Cities: VR brings the definitive city-building experience from Cities: Skylines into VR for the very first time. Be the mayor and control every aspect of city planning.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/6571686056219838" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/blackforge/BlackForge_cover.png" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    BlackForge is the ultimate VR weaponsmithing simulator! Become a legendary blacksmith, crafting mighty blades and impeccable tools as you hone your trade in a mystical forge.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/vampire-the-masquerade-justice/6179032068838054/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/vtmjustice/justice.png" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    You are a vampire. You strike from the shadows and drink the blood of both mortal and vampire prey. Explore a dark and mysterious Venice to improve your abilities and become the most powerful vampire. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+
+        <a href="https://www.meta.com/en-gb/experiences/we-are-one/4052099231581371/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/weareone/weareone.jpg" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Team up with your greatest ally - YOURSELF - in this VR puzzle shooter where mind-bending challenges meet action-packed FPS gameplay! Plan ahead and clone versions of yourself that execute your moves in time loops.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.meta.com/en-gb/experiences/ghost-signal-a-stellaris-game/4302631119827554/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/ghostsignal/ghost_signal.jpg" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Uncover the wonders of outer space in this VR action roguelite game. Set in the Stellaris universe, captain your ship to battle or befriend a multitude of alien species in your search for the enigmatic Ghost Signal. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.oculus.com/experiences/quest/5219488324783789/" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/everslaught/everslaught.jpg" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+                    Get ready for the ultimate VR action game with EVERSLAUGHT Invasion! Choose from three unique classes, then team up with a friend online to take on hordes of enemies and defeat the evil Great Corruption.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- <a href="gamevroom.html" target="_blank">
+          <div class="col l6 s12 m12">
+            <div class="img__wrap">
+              <div class="card card-background hoverable rounded_corners">
+                <div class="card-image">
+                  <img class="img__img" src="images/projects/gamevroom/gamevroom.jpg" alt=""/>
+                </div>
+                <div class="img__description_layer">
+                  <p class="img__description flow-text" style="margin: 0px;">
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a> -->
+
+
+      </div> 
+  </div>
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+  </html>

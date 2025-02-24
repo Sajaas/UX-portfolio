@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Amanda Alling Andrén</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+  <script> 
+  $(function(){
+    $("#header").load("partials/header.html", function onclick(){
+      $('.sidenav').sidenav();
+    }); 
+    $("#fab").load("partials/fab.html", function onclick(){
+      $('.fixed-action-btn').floatingActionButton();
+    }); 
+    $("#footer").load("partials/footer.html"); 
+  });
+  </script>
+   
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://kit.fontawesome.com/a98657c293.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YHSY0Z59GP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YHSY0Z59GP');
+  </script>
+
+</head>
+<body>
+  <header>
+     <div id="header"></div>
+  </header>
+<!-- fixed action button FAB-->
+<div id="fab"></div>
+
+<!-- welcome -->
+  <div id="index-banner" class="parallax-container" id="top">
+    <div class="container">
+      <div class="row center">
+        <div class="col hide-on-small-screen m3 l3">
+          <img alt="A picture of me! Red hair, black glasses, big smile" id="my-photo" src="images/amanda1.jpg" style="margin-top:30px" class="circle responsive-img materialboxed">
+        </div>
+        <div class="col s12 m9 l9 center">
+          <h1 id="smaller-header" class="game-header  text-darken-4" >I'm Amanda<span class="blinking-cursor" style="font-size:40px;">|</span></h1>
+          <h1 id="normal-header" class="game-header text-darken-4" style="margin-top:50px;">I'm Amanda<span class="blinking-cursor">|</span></h1>
+          <p class="light flow-text">Welcome! 
+            <br>Select a role or read the introduction below.</p>        
+        </div>
+      </div>
+      <div class="container center row" id="buttons" style="margin-top: 20px;">
+        <div class="col s12 m6">
+          <a href="#rm" class="btn-large waves-effect">Release Manager</a>
+        </div>
+        <div class="col s12 m6">
+          <a href="#ux" class="btn-large waves-effect">UX Researcher</a>
+        </div>
+        <br><a href="#ux" ><i id="link_btn" class="large material-icons">keyboard_arrow_down</i></a>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/background1.png" alt="background image, pretty much just pixelated gray"></div>
+   </div>
+  </div>
+  </div>
+
+<section id="ux" class="container center row">
+  <div class="col l10 s12 m12 offset-l1">
+    <!-- <h4>Cross-Skilled Project Planner & Problem Solver</h2> -->
+    <h4>Multi-Disciplinary Project Planner</h2>
+      <p class="light flow-text">
+        I’m passionate about problem-solving, structured workflows, and making game development smoother. 
+        With experience in UX, release- and project management, 
+        I enjoy structuring complex processes to ensure clarity and consistency.
+        <!-- I turn challenges into organized solutions that keep projects running seamlessly. -->
+      </p>
+  </div>
+</section>
+
+<div class="divider-block">
+</div>
+
+<section id="rm" class="container center">
+  <div class="row">
+    <div class="col l10 s12 m12 offset-l1">
+      <h4>Release Management</h2>
+        <p class="light flow-text">With a knack for project management, I streamline complex game releases, 
+          coordinating teams and balancing multiple projects to ensure smooth launches and post-release success.
+          Managing multi-platform game launches, store compliance, and go-to-market execution.</p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <a href="mannequin.html">
+      <div class="col l6 s12 m12">
+        <div class="img__wrap">
+          <div class="card card-background hoverable rounded_corners">
+            <div class="card-image">
+              <img class="img__img" src="images/projects/mannequin/mannequin_logo.png" alt=""/>
+            </div>
+            <div class="img__description_layer">
+              <p class="img__description flow-text">Oversaw a multi-platform Early Access to release while Meta was transitioning its App Lab into the main store, dealing with policy shifts and backend inconsistencies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <!-- <a href="bandspace"> -->
+      <div class="col l6 s12 m12">
+        <div class="img__wrap">
+          <div class="card card-background hoverable rounded_corners">
+            <div class="card-image">
+              <img class="img__img" src="images/projects/bandspace/bandspace_logo.png" alt=""/>
+            </div>
+            <div class="img__description_layer">
+              <p class="img__description flow-text">
+                Managed a full-cycle release across both Meta and Steam, transitioning from free to play to paid, ensuring synchronization of announcements, pre-orders, launch timing, and post-launch updates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </a> -->
+    </div>
+    <a href="#rm" class="btn-large waves-effect" style="margin-bottom: 20px;">To all RM case studies</a>
+  </div>
+</section>
+
+<div class="divider-block">
+</div>
+
+<section id="ux" class="container center">
+  <div class="row">
+    <div class="col l10 s12 m12 offset-l1">
+      <h4>UX Research & Design</h2>
+      <p class="light flow-text">Leveraging strong analytical skills and playtest data to identify player needs, 
+        refine experiences, and inform design improvements that enhance gameplay. Project planning and ownership over the research process.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+
+    <a href="mannequin.html">
+      <div class="col l6 s12 m12">
+        <div class="img__wrap">
+          <div class="card card-background hoverable rounded_corners">
+            <div class="card-image">
+              <img class="img__img" src="images/projects/mannequin/mannequin_logo.png" alt=""/>
+            </div>
+            <div class="img__description_layer">
+              <p class="img__description flow-text">Quantitative and qualitative playtests, leading beta tests and on to early access. from concept to release, with first impression playtest, group playtest, early access survey playtests in a 3vs2 asymmetrical multiplayer game
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    
+    <a href="paxdei">
+      <div class="col l6 s12 m12">
+        <div class="img__wrap">
+          <div class="card card-background hoverable rounded_corners">
+            <div class="card-image">
+              <img class="img__img" src="images/projects/paxdei/paxdei_logo.jpeg" alt="Pax Dei logo on top of a screenshot from the game. A woman in medieval clothing is looking out over the forest"/>
+            </div>
+            <div class="img__description_layer">
+              <p class="img__description flow-text">Lead a team, designed and tested an accessible MMO traversal system for totally blind players</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="#ux" class="btn-large waves-effect">To all UX case studies</a>
+
+  </div>
+</section>
+
+  <div class="parallax-container hide-on-small-screen">
+    <div class="container">
+      <div class="row">
+        <div class="center">
+          <a href="https://www.linkedin.com/in/amanda-alling-andren/details/recommendations/"><h4 class="hide-on-small-screen">Said about me</h4></a> 
+        </div>
+        <div class="col s12 m12 l10 offset-l1">
+          <div class="carousel carousel-slider" id="reviews">
+            <p class="carousel-item flow-text">
+              "(...) I can’t stress enough how diverse Amanda is. While she is a UX designer by education, she’s also a great researcher 
+              and certainly has a knack for production as she’s one of the most organized people I’ve worked with."
+              <br><span style="float: right">- <a href="https://www.linkedin.com/in/patrickliu/" target="_blank">Patrick Liu</a><br>Head of Publishing at <a href="https://www.fasttravelgames.com/" target="_blank">Fast Travel Games</a></span>
+            </p>
+            <p class="carousel-item flow-text">
+              "(...) Not only did she take her role as UX Designer really seriously and single-handedly drove her initiative to build up and utilize a database of external testers for play-tests, but she also grew and took on new responsibilities with time, such as filling in as Release Manager on our publishing branch. 
+              <br>In short, a delight to work with and a rock-solid recommendation from me!"
+              <br><span style="float: right">- <a href="https://www.linkedin.com/in/robin-lilius-lundmark-144020143/" target="_blank">Robin Lilius-Lundmark</a><br>Lead Game Designer at <a href="https://www.fasttravelgames.com/" target="_blank">Fast Travel Games</a></span>
+            </p>
+            <p class="carousel-item flow-text">
+              "Amanda has exceptional Self Leadership and Team Leadership skills<br> and is an emphatical super talent."
+              <br><span style="float: right">- <a href="https://www.linkedin.com/in/anna-von-walzel/" target="_blank">Anna Von Walzel</a><br>Founder of <a href="ourtech.agency" target="_blank">Ourtech.agency</a></span>
+            </p>
+            <p class="carousel-item flow-text">
+              "(...) Amanda showed an incredible set of skills that include but are not limited to senior level production planning and team organization, expert execution on user research as well as feature development.
+              <br><br>
+              Amanda is a powerhouse, an intuitive and passionate designer that understands experience design at it's core. She naturally takes charge and helps to set up those around her for success, all while keeping the product goals and deliverables on track. I recommend Amanda to anyone that can value and nurture this set of skills and am looking forward to follow her career."
+              Amanda is a powerhouse, an intuitive and passionate designer that understands experience design at it's core. She naturally takes charge and helps to set up those around her for success, all while keeping the product goals and deliverables on track."
+              <br><span style="float: right">- <a href="https://www.linkedin.com/in/jasmin-dahncke-b163824b/" target="_blank">Jasmin Dahncke</a><br>Senior UX Designer at <a href="https://www.mainframeindustries.com/" target="_blank">Mainframe Industries</a></span>
+            </p>
+            <p class="carousel-item flow-text">
+              "Amanda and her team were a joy to work with!
+              <br><br>
+              She had a great structure and the result from the team was fantastic! 
+              <br><br>
+              Would definitely want to work with her and her team again."
+              <br><span style="float: right">- <a href="https://www.linkedin.com/in/jonathan-prytz-02798662/" target="_blank">Jonathan Prytz</a><br>CEO at <a href="https://www.overflowgames.com/" target="_blank">Overflow Games</a></span>
+            </p>
+            <p class="carousel-item flow-text">
+              "(...) Amanda is one in a million. Bright, hard working and skilled. One of the most talented and hard working individuals I have ever come across.
+              <br><br>
+              She brings a problem solving mindset to every challenge she is presented with and leaves no stone unturned. She is curios, positive and has a great team spirit. I recommend Amanda to anyone who is looking for an excellent and competent employee or coworker in the UX or Game industry. Just hire her before anyone else does!"
+              <br><span style="float: right">- <a href="https://www.linkedin.com/in/bidnerdonethat/" target="_blank">Jan Bidner</a><br> at <a href="https://www.bidnerdonethat.se/" target="_blank">Bidnerdonethat</a></span>
+            </p>
+            <p class="carousel-item flow-text">
+              "(...) Amanda is dedicated, displays an intuitive grasp for the intricacies of participatory and immersive design. I would count her as an asset to any design team in related areas."
+              <br><span style="float: right">- <a href="https://www.linkedin.com/in/daniel-sundstr%C3%B6m-060ba530/" target="_blank">Daniel Sundström</a><br>Chief Technology Officer at <a href="https://www.comorning.com/" target="_blank">CO:</a></span>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="parallax"><img src="images/background.png" alt="background image, pretty much just pixelated gray"></div>
+  </div>
+  </div>
+
+  <!-- footer & contact section -->
+  <footer class="page-footer black" id="contact">
+    <div id="footer"></div>
+  </footer>
+  </body>
+  </html>
